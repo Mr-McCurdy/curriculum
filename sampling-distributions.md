@@ -18,7 +18,7 @@ We deal with sampling distributions for both proportions and means in AP Statist
 
 For a categorical variable, we often calculate the sample proportion \( \hat{p} \). The sampling distribution of \( \hat{p} \) provides the distribution of the sample proportions for all possible random samples of a given size from a population with proportion \( p \). The sampling distribution of \( \hat{p} \) has the following characteristics:
 
-- Mean of the sampling distribution of \( \hat{p} \) is \( \mu_{\hat{p}} = p \).
+- Mean of the sampling distribution of $\hat{p}$ is $\mu_{\hat{p}} = p$.
 - Standard deviation of the sampling distribution of \( \hat{p} \) is \( \sigma_{\hat{p}} = \sqrt{\frac{p(1 - p)}{n}} \), where \( n \) is the sample size.
 - The shape of the distribution is approximately normal if the sample size is large enough. Specifically, if \( np \geq 10 \) and \( n(1 - p) \geq 10 \), the sampling distribution of \( \hat{p} \) can be modeled by a normal distribution.
 
