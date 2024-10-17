@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics: Sampling Distributions</title>
+</head>
+<body>
+<h2>2. Applying Set Theory to Probability</h2>
+<h3>2.1. What is Probability?</h3>
+<p>Probability is a measure of how likely an event is to occur. The set of all possible outcomes of an experiment is called the <em>sample space</em>.</p>
+<ul>
+    <li><strong>Sample Space ( \( S \) ):</strong> The set of all possible outcomes. For example, when flipping a coin: <br />\( S = \{\text{Heads, Tails}\} \)</li>
+    <li><strong>Event ( \( A \) ):</strong> A subset of the sample space, representing outcomes of interest. For example, \( A \) could be the event of flipping a heads: <br />\( A = \{\text{Heads}\} \)</li>
+    <li><strong>Probability of an Event ( \( p \) ):</strong> The probability of a specific event occurring is often denoted by the lowercase letter \( p \). For example, if \( p \) is the probability of flipping heads with a fair coin, then \( p = 0.5 \).</li>
+</ul>
+<p><strong>Question 1:</strong> <em>What are elements in a sample space called?</em><br /><strong>Answer:</strong> In the context of probability theory, elements in a sample space are called <em>outcomes</em> or <em>sample points</em>.</p>
+<p><strong>Question 2:</strong> <em>How do we represent an event that includes multiple outcomes?</em><br /><strong>Answer:</strong> An event that includes multiple outcomes is represented as a subset of the sample space. For example, if \( S = \{1, 2, 3, 4, 5, 6\} \) represents the possible outcomes of a die roll, the event \( B \) of rolling an even number could be represented as \( B = \{2, 4, 6\} \).</p>
+<p><strong>Question 3:</strong> <em>Can the sample space contain events that are not equally likely?</em><br /><strong>Answer:</strong> Yes, the sample space can contain events that are not equally likely. For instance, if a die is biased, some numbers may be more likely to occur than others, affecting the probability of each outcome.</p>
+<p><strong>Sample Exercise 1:</strong><br />Consider rolling a standard six-sided die. What is the probability of rolling a number greater than 4?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the sample space \( S \):</strong> \( S = \{1, 2, 3, 4, 5, 6\} \)<br />2. <strong>Define the event \( A \):</strong> Let \( A \) be the event of rolling a number greater than 4, so \( A = \{5, 6\} \).<br />3. <strong>Calculate the probability:</strong> The probability of event \( A \) is the number of favorable outcomes divided by the total number of possible outcomes: \[ P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3} \] <strong>Answer:</strong> The probability of rolling a number greater than 4 is \( \frac{1}{3} \).</p>
+<p><strong>Sample Exercise 2:</strong><br />A bag contains 7 red balls, 5 blue balls, and 3 yellow balls. What is the probability of drawing a yellow ball?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the total number of balls:</strong> \( |S| = 7 + 5 + 3 = 15 \)<br />2. <strong>Define the event \( Y \):</strong> Let \( Y \) be the event of drawing a yellow ball, so \( |Y| = 3 \).<br />3. <strong>Calculate the probability:</strong> \[ P(Y) = \frac{|Y|}{|S|} = \frac{3}{15} = \frac{1}{5} \] <strong>Answer:</strong> The probability of drawing a yellow ball is \( \frac{1}{5} \).</p>
+<p><strong>Sample Exercise 3:</strong><br />A box contains 3 red, 4 blue, and 5 green balls. If you randomly select a ball, what is the probability that it is neither red nor blue?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the total number of balls:</strong> \( |S| = 3 + 4 + 5 = 12 \)<br />2. <strong>Define the event \( G \):</strong> Let \( G \) be the event of drawing a green ball, so \( |G| = 5 \).<br />3. <strong>Calculate the probability:</strong> \[ P(G) = \frac{|G|}{|S|} = \frac{5}{12} \] <strong>Answer:</strong> The probability that the ball is neither red nor blue is \( \frac{5}{12} \).</p>
+<h3>2.2. Probability Function</h3>
+<p>The probability function \( P \) assigns a probability to each event in the sample space. This is often denoted as \( P(A) \), where \( A \) is an event.</p>
+<ul>
+    <li><strong>Lowercase \( p \):</strong> As noted earlier, lowercase \( p \) is commonly used to denote the probability of a specific event occurring, especially in situations involving multiple or repetitive trials, such as in the binomial distribution.</li>
+    <li><strong>Example:</strong> If the event \( A \) is flipping a heads, and we assume the coin is fair, then: <br />\( P(\text{Heads}) = 0.5 \quad \text{or} \quad p = 0.5 \)</li>
+</ul>
+<p><strong>Question 1:</strong> <em>How does \( P \) fit into the context of a function?</em><br /><strong>Answer:</strong> \( P \) is a function that maps events (which are sets of outcomes) to a number between 0 and 1, representing the likelihood of the event occurring. So, \( P: \text{Events} \rightarrow [0, 1] \).</p>
+<p><strong>Question 2:</strong> <em>What is the sum of the probabilities of all possible outcomes in a sample space?</em><br /><strong>Answer:</strong> The sum of the probabilities of all possible outcomes in a sample space is always 1. This is because one of the outcomes must occur, making the total probability 1.</p>
+<p><strong>Question 3:</strong> <em>Can the probability of an event be greater than 1 or less than 0?</em><br /><strong>Answer:</strong> No, the probability of an event must always be between 0 and 1, inclusive. A probability of 0 means the event cannot occur, while a probability of 1 means the event is certain to occur.</p>
+<p><strong>Sample Exercise 1:</strong><br />A jar contains 4 red, 6 blue, and 10 green marbles. What is the probability of drawing a green marble?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the total number of marbles:</strong> \( |S| = 4 + 6 + 10 = 20 \)<br />2. <strong>Define the event \( G \):</strong> Let \( G \) be the event of drawing a green marble, so \( |G| = 10 \).<br />3. <strong>Calculate the probability:</strong> \[ P(G) = \frac{|G|}{|S|} = \frac{10}{20} = \frac{1}{2} \] <strong>Answer:</strong> The probability of drawing a green marble is \( \frac{1}{2} \).</p>
+<p><strong>Sample Exercise 2:</strong><br />If a die is rolled, what is the probability of rolling a number greater than 4?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the sample space \( S \):</strong> \( S = \{1, 2, 3, 4, 5, 6\} \)<br />2. <strong>Define the event \( A \):</strong> Let \( A \) be the event of rolling a number greater than 4, so \( A = \{5, 6\} \).<br />3. <strong>Calculate the probability:</strong> \[ P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3} \] <strong>Answer:</strong> The probability of rolling a number greater than 4 is \( \frac{1}{3} \).</p>
+<p><strong>Sample Exercise 3:</strong><br />In a group of 8 people, what is the probability that at least two of them share the same birthday?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the total number of possible outcomes for each person:</strong> \( |S| = 365^8 \) (assuming a non-leap year with 365 days).<br />2. <strong>Define the event \( A \):</strong> Let \( A \) be the event that at least two people share the same birthday.<br />3. <strong>Use the complement rule:</strong> Calculate the probability that no one shares a birthday and subtract from 1. \[ P(\text{no shared birthday}) = \frac{365}{365} \times \frac{364}{365} \times \dots \times \frac{358}{365} \] \[ P(A) = 1 - P(\text{no shared birthday}) \] <strong>Answer:</strong> The exact probability would require further computation, but \( P(A) \) gives the probability that at least two people share the same birthday.</p>
+<h3>2.3. Probability Rules</h3>
+<h4>2.3.1. Addition Rule and Disjoint Events</h4>
+<p>The addition rule is used to find the probability that at least one of two events occurs.</p>
+<ul>
+    <li><strong>Addition Rule:</strong> If \( A \) and \( B \) are two events in a sample space: \[ P(A \cup B) = P(A) + P(B) - P(A \cap B) \] If \( A \) and \( B \) are disjoint (i.e., mutually exclusive events with no outcomes in common), then: \[ P(A \cup B) = P(A) + P(B) \]</li>
+</ul>
+<p><strong>Question 1:</strong> <em>What is the probability of the union of two disjoint events?</em><br /><strong>Answer:</strong> If two events are disjoint, the probability of their union is the sum of their individual probabilities. For example, if \( A \) and \( B \) are disjoint, then \( P(A \cup B) = P(A) + P(B) \).</p>
+<p><strong>Question 2:</strong> <em>Can the addition rule be used for non-disjoint events?</em><br /><strong>Answer:</strong> Yes, but you must subtract the probability of the intersection \( P(A \cap B) \) to avoid double-counting the overlap.</p>
+<p><strong>Question 3:</strong> <em>What does it mean for two events to be disjoint?</em><br /><strong>Answer:</strong> Two events are disjoint if they have no outcomes in common. For example, in a single roll of a die, the events "rolling a 1" and "rolling a 2" are disjoint.</p>
+<p><strong>Sample Exercise 1:</strong><br />What is the probability of drawing a red or black card from a deck of 52 playing cards?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the events:</strong> Let \( R \) be the event of drawing a red card and \( B \) be the event of drawing a black card.</p>
+<ul>
+    <li>\( |R| = 26 \) (since there are 26 red cards in the deck).</li>
+    <li>\( |B| = 26 \) (since there are 26 black cards in the deck).</li>
+    <li>\( |R \cap B| = 0 \) (red and black are disjoint events).</li>
+</ul>
+<p>2. <strong>Apply the addition rule:</strong> \[ P(R \cup B) = P(R) + P(B) = \frac{26}{52} + \frac{26}{52} = 1 \] <strong>Answer:</strong> The probability of drawing a red or black card is 1 (since all cards are either red or black).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 2:</strong><br />If two dice are rolled, what is the probability of getting a sum of 7 or 11?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the events:</strong> Let \( A \) be the event of getting a sum of 7, and \( B \) be the event of getting a sum of 11.</p>
+<ul>
+    <li>\( |A| = 6 \) (six combinations give a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)).</li>
+    <li>\( |B| = 2 \) (two combinations give a sum of 11: (5,6), (6,5)).</li>
+    <li>\( |A \cap B| = 0 \) (the events are disjoint).</li>
+</ul>
+<p>2. <strong>Apply the addition rule:</strong> \[ P(A \cup B) = P(A) + P(B) = \frac{6}{36} + \frac{2}{36} = \frac{8}{36} = \frac{2}{9} \] <strong>Answer:</strong> The probability of getting a sum of 7 or 11 is \( \frac{2}{9} \).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />A bag contains 4 red, 3 blue, and 2 green marbles. What is the probability of drawing a red or a green marble?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the events:</strong> Let \( R \) be the event of drawing a red marble, and \( G \) be the event of drawing a green marble.</p>
+<ul>
+    <li>\( |R| = 4 \)</li>
+    <li>\( |G| = 2 \)</li>
+    <li>\( |S| = 9 \)</li>
+    <li>\( |R \cap G| = 0 \) (the events are disjoint).</li>
+</ul>
+<p>2. <strong>Apply the addition rule:</strong> \[ P(R \cup G) = P(R) + P(G) = \frac{4}{9} + \frac{2}{9} = \frac{6}{9} = \frac{2}{3} \] <strong>Answer:</strong> The probability of drawing a red or a green marble is \( \frac{2}{3} \).</p>
+<p>&nbsp;</p>
+<h4>2.3.2. Conditional Probability</h4>
+<p>Conditional probability measures the probability of one event occurring given that another event has already occurred.</p>
+<ul>
+    <li><strong>Conditional Probability:</strong> The probability of \( A \) occurring given that \( B \) has occurred: \[ P(A | B) = \frac{P(A \cap B)}{P(B)} \] where \( P(B) &gt; 0 \).</li>
+</ul>
+<p><strong>Question 1:</strong> <em>Why do we need conditional probability?</em><br /><strong>Answer:</strong> Conditional probability allows us to update the probability of an event based on new information, specifically the occurrence of another event.</p>
+<p><strong>Question 2:</strong> <em>What happens if \( P(B) = 0 \) in conditional probability?</em><br /><strong>Answer:</strong> If \( P(B) = 0 \), the conditional probability \( P(A | B) \) is undefined because division by zero is not possible.</p>
+<p><strong>Question 3:</strong> <em>How does conditional probability relate to the concept of independence?</em><br /><strong>Answer:</strong> If two events are independent, the occurrence of one does not affect the probability of the other, so \( P(A | B) = P(A) \).</p>
+<p><strong>Sample Exercise 1:</strong><br />Given that a card drawn from a deck is a king, what is the probability that it is a king of hearts?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong></p>
+<ul>
+    <li>\( K \) is the event of drawing a king.</li>
+    <li>\( H \) is the event that the card is the king of hearts.</li>
+    <li>\( |K| = 4 \) (4 kings in a deck).</li>
+    <li>\( |H \cap K| = 1 \) (only 1 king of hearts).</li>
+</ul>
+<p>2. <strong>Apply the conditional probability formula:</strong> \[ P(H | K) = \frac{P(H \cap K)}{P(K)} = \frac{\frac{1}{52}}{\frac{4}{52}} = \frac{1}{4} \] <strong>Answer:</strong> The probability that the card is the king of hearts, given that it is a king, is \( \frac{1}{4} \).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 2:</strong><br />A bag contains 8 red, 5 green, and 2 blue balls. If a ball is drawn and is known to be red, what is the probability that it is one of the three smallest red balls?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong></p>
+<ul>
+    <li>\( R \) is the event of drawing a red ball.</li>
+    <li>\( S \) is the event of drawing one of the three smallest red balls.</li>
+    <li>\( |R| = 8 \)</li>
+    <li>\( |S \cap R| = 3 \)</li>
+</ul>
+<p>2. <strong>Apply the conditional probability formula:</strong> \[ P(S | R) = \frac{P(S \cap R)}{P(R)} = \frac{3/15}{8/15} = \frac{3}{8} \] <strong>Answer:</strong> The probability that it is one of the three smallest red balls, given that it is red, is \( \frac{3}{8} \).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />In a deck of 52 playing cards, what is the probability of drawing a heart given that the card is red?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong></p>
+<ul>
+    <li>\( R \) is the event of drawing a red card.</li>
+    <li>\( H \) is the event of drawing a heart.</li>
+    <li>\( |R| = 26 \) (since there are 26 red cards).</li>
+    <li>\( |H \cap R| = 13 \) (since all hearts are red).</li>
+</ul>
+<p>2. <strong>Apply the conditional probability formula:</strong> \[ P(H | R) = \frac{P(H \cap R)}{P(R)} = \frac{13/52}{26/52} = \frac{13}{26} = \frac{1}{2} \] <strong>Answer:</strong> The probability of drawing a heart given that the card is red is \( \frac{1}{2} \).</p>
+<p>&nbsp;</p>
+<h4>2.3.3. Multiplication Rule and Independent Events</h4>
+<p>The multiplication rule is used to find the probability of the intersection of two events.</p>
+<ul>
+    <li><strong>Multiplication Rule:</strong> For any two events \( A \) and \( B \), the probability of both events occurring is: \[ P(A \cap B) = P(A | B) \times P(B) \]</li>
+    <li><strong>Independent Events:</strong> Two events \( A \) and \( B \) are independent if the occurrence of one does not affect the probability of the other. Mathematically, \( A \) and \( B \) are independent if: \[ P(A | B) = P(A) \] Substituting this into the multiplication rule gives: \[ P(A \cap B) = P(A) \times P(B) \]</li>
+</ul>
+<p><strong>Question 1:</strong> <em>How do you know if two events are independent?</em><br /><strong>Answer:</strong> Two events are independent if the probability of one event occurring does not change the probability of the other event. This can be tested using the formula \( P(A | B) = P(A) \).</p>
+<p><strong>Question 2:</strong> <em>What is the difference between independent and disjoint events?</em><br /><strong>Answer:</strong> Disjoint events cannot happen at the same time (i.e., they have no outcomes in common), while independent events can occur simultaneously, but the occurrence of one does not affect the occurrence of the other.</p>
+<p><strong>Question 3:</strong> <em>Can the multiplication rule be used for dependent events?</em><br /><strong>Answer:</strong> Yes, but you must use the general multiplication rule \( P(A \cap B) = P(A | B) \times P(B) \), where you account for the dependency by using the conditional probability \( P(A | B) \).</p>
+<p><strong>Sample Exercise 1:</strong><br />If a die is rolled twice, what is the probability of getting a 6 on both rolls?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong> Let \( A \) be the event of rolling a 6 on the first roll, and \( B \) be the event of rolling a 6 on the second roll. Both events are independent.</p>
+<ul>
+    <li>\( P(A) = \frac{1}{6} \)</li>
+    <li>\( P(B) = \frac{1}{6} \)</li>
+</ul>
+<p>2. <strong>Apply the multiplication rule for independent events:</strong> \[ P(A \cap B) = P(A) \times P(B) = \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} \] <strong>Answer:</strong> The probability of getting a 6 on both rolls is \( \frac{1}{36} \).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 2:</strong><br />If a coin is flipped three times, what is the probability of getting heads on all three flips?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong> Let \( H_1 \), \( H_2 \), and \( H_3 \) be the events of getting heads on the first, second, and third flips, respectively. All events are independent.</p>
+<ul>
+    <li>\( P(H_1) = \frac{1}{2} \)</li>
+    <li>\( P(H_2) = \frac{1}{2} \)</li>
+    <li>\( P(H_3) = \frac{1}{2} \)</li>
+</ul>
+<p>2. <strong>Apply the multiplication rule for independent events:</strong> \[ P(H_1 \cap H_2 \cap H_3) = P(H_1) \times P(H_2) \times P(H_3) = \frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} = \frac{1}{8} \] <strong>Answer:</strong> The probability of getting heads on all three flips is \( \frac{1}{8} \).</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />A card is drawn from a deck, and then another card is drawn without replacement. What is the probability that both cards are aces?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the events:</strong> Let \( A_1 \) be the event of drawing an ace on the first draw, and \( A_2 \) be the event of drawing an ace on the second draw.</p>
+<ul>
+    <li>\( P(A_1) = \frac{4}{52} = \frac{1}{13} \)</li>
+    <li>\( P(A_2 | A_1) = \frac{3}{51} \) (since there are now 3 aces left in a deck of 51 cards).</li>
+</ul>
+<p>2. <strong>Apply the multiplication rule:</strong> \[ P(A_1 \cap A_2) = P(A_1) \times P(A_2 | A_1) = \frac{1}{13} \times \frac{3}{51} = \frac{3}{663} = \frac{1}{221} \] <strong>Answer:</strong> The probability that both cards are aces is \( \frac{1}{221} \).</p>
+<p>&nbsp;</p>
+<h3>2.4. Discrete vs. Continuous Events</h3>
+<h4>2.4.1. Discrete Events</h4>
+<p>Discrete events are those where the outcomes can be counted, even if infinite (e.g., rolling a die, flipping a coin).</p>
+<p><strong>Question 1:</strong> <em>What defines a discrete event?</em><br /><strong>Answer:</strong> A discrete event is characterized by a finite or countable set of outcomes. For example, the number of heads in 10 coin flips is a discrete event.</p>
+<p><strong>Question 2:</strong> <em>How does the probability of a discrete event differ from a continuous event?</em><br /><strong>Answer:</strong> The probability of a discrete event is the sum of the probabilities of individual outcomes, while the probability of a continuous event involves integrating the probability density function over a range of values.</p>
+<p><strong>Question 3:</strong> <em>Can a discrete event have an infinite number of outcomes?</em><br /><strong>Answer:</strong> Yes, a discrete event can have an infinite number of outcomes, such as counting the number of trials until the first success in a geometric distribution.</p>
+<p><strong>Sample Exercise 1:</strong><br />What is the probability of rolling a 2 or a 5 on a standard six-sided die?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the sample space \( S \):</strong> \( S = \{1, 2, 3, 4, 5, 6\} \)<br />2. <strong>Define the event \( A \):</strong> Let \( A \) be the event of rolling a 2 or a 5, so \( A = \{2, 5\} \).<br />3. <strong>Calculate the probability:</strong> \[ P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3} \] <strong>Answer:</strong> The probability of rolling a 2 or a 5 is \( \frac{1}{3} \).</p>
+<p><strong>Sample Exercise 2:</strong><br />If a die is rolled four times, what is the probability of getting at least one 6?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the sample space \( S \):</strong> For each roll, \( S = \{1, 2, 3, 4, 5, 6\} \).<br />2. <strong>Use the complement rule:</strong> First, calculate the probability of not getting a 6 in any of the rolls. \[ P(\text{no 6}) = \left(\frac{5}{6}\right)^4 = \frac{625}{1296} \] Then, subtract this from 1 to find the probability of getting at least one 6. \[ P(\text{at least one 6}) = 1 - P(\text{no 6}) = 1 - \frac{625}{1296} = \frac{671}{1296} \] <strong>Answer:</strong> The probability of getting at least one 6 is \( \frac{671}{1296} \).</p>
+<p><strong>Sample Exercise 3:</strong><br />In a lottery where you must choose a number between 1 and 100, what is the probability of selecting a number divisible by 10?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the event \( A \):</strong> \( A \) is the event of selecting a number divisible by 10. The numbers divisible by 10 are \( \{10, 20, 30, \dots, 100\} \).</p>
+<ul>
+    <li>\( |A| = 10 \) (there are 10 numbers divisible by 10 in the range 1 to 100).</li>
+</ul>
+<p>2. <strong>Calculate the probability:</strong> \[ P(A) = \frac{|A|}{|S|} = \frac{10}{100} = \frac{1}{10} \] <strong>Answer:</strong> The probability of selecting a number divisible by 10 is \( \frac{1}{10} \).</p>
+<p>&nbsp;</p>
+<h4>2.4.2. Continuous Events</h4>
+<p>Continuous events are those where the outcomes cannot be counted individually, but rather, they form a continuum (e.g., time, temperature).</p>
+<p><strong>Question 1:</strong> <em>What defines a continuous event?</em><br /><strong>Answer:</strong> A continuous event is characterized by an infinite number of possible outcomes within a given range. For example, the exact time it takes to run a race is a continuous variable.</p>
+<p><strong>Question 2:</strong> <em>How is probability represented in a continuous event?</em><br /><strong>Answer:</strong> In continuous events, probability is represented as the area under the probability density function (PDF) curve within a specific interval.</p>
+<p><strong>Question 3:</strong> <em>Can a continuous event have a probability of zero?</em><br /><strong>Answer:</strong> Yes, in continuous distributions, the probability of any single exact outcome (like \( P(X = a) \)) is zero, but the probability of an interval of outcomes (like \( P(a &lt; X &lt; b) \)) is greater than zero.</p>
+<p><strong>Sample Exercise 1:</strong><br />If the time it takes to complete a task is uniformly distributed between 30 and 60 minutes, what is the probability that the task takes between 40 and 50 minutes?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the interval:</strong> The total interval is [30, 60]. The interval of interest is [40, 50].<br />2. <strong>Calculate the probability:</strong> \[ P(40 \leq X \leq 50) = \frac{50 - 40}{60 - 30} = \frac{10}{30} = \frac{1}{3} \] <strong>Answer:</strong> The probability that the task takes between 40 and 50 minutes is \( \frac{1}{3} \).</p>
+<p><strong>Sample Exercise 2:</strong><br />The weight of a certain fruit is normally distributed with a mean of 200 grams and a standard deviation of 20 grams. What is the probability that a randomly selected fruit weighs more than 240 grams?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the mean and standard deviation:</strong></p>
+<ul>
+    <li>Mean \( \mu = 200 \)</li>
+    <li>Standard deviation \( \sigma = 20 \)</li>
+</ul>
+<p>2. <strong>Calculate the z-score:</strong> \[ z = \frac{240 - 200}{20} = 2 \] 3. <strong>Use the z-table to find the probability:</strong> \[ P(Z &gt; 2) = 1 - P(Z &lt; 2) = 1 - 0.9772 = 0.0228 \] <strong>Answer:</strong> The probability that a randomly selected fruit weighs more than 240 grams is 0.0228.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />The length of time customers spend on a website is exponentially distributed with a mean of 5 minutes. What is the probability that a customer spends more than 10 minutes on the website?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the rate parameter \( \lambda \):</strong> \[ \lambda = \frac{1}{\text{mean}} = \frac{1}{5} = 0.2 \] 2. <strong>Use the exponential distribution formula:</strong> \[ P(X &gt; 10) = e^{-\lambda x} = e^{-0.2 \times 10} = e^{-2} \approx 0.1353 \] <strong>Answer:</strong> The probability that a customer spends more than 10 minutes on the website is approximately 0.1353.</p>
+<h3>2.5. Probability Distributions</h3>
+<h4>2.5.1. Uniform Distribution</h4>
+<p>The uniform distribution is a type of probability distribution where all outcomes are equally likely within a given interval.</p>
+<p><strong>Question 1:</strong> <em>What is a uniform distribution?</em><br /><strong>Answer:</strong> A uniform distribution is one where all outcomes are equally likely within a specified range. The probability of any interval is proportional to its length.</p>
+<p><strong>Question 2:</strong> <em>How do you calculate the probability of an event in a uniform distribution?</em><br /><strong>Answer:</strong> The probability is calculated as the ratio of the length of the desired interval to the length of the total interval.</p>
+<p><strong>Question 3:</strong> <em>Can a uniform distribution be applied to discrete events?</em><br /><strong>Answer:</strong> Yes, a uniform distribution can apply to both discrete and continuous events, depending on whether the outcomes are countable.</p>
+<p><strong>Sample Exercise 1:</strong><br />What is the probability of selecting a random number between 4 and 7 from a uniform distribution on the interval [0, 10]?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the interval:</strong> The total interval is [0, 10]. The interval of interest is [4, 7].<br />2. <strong>Calculate the probability:</strong> \[ P(4 \leq X \leq 7) = \frac{7 - 4}{10 - 0} = \frac{3}{10} = 0.3 \] <strong>Answer:</strong> The probability of selecting a random number between 4 and 7 is 0.3.</p>
+<p><strong>Sample Exercise 2:</strong><br />If a spinner is equally divided into 8 sections, what is the probability of landing on section 3?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the sample space \( S \):</strong> \( S = \{1, 2, 3, 4, 5, 6, 7, 8\} \).<br />2. <strong>Define the event \( A \):</strong> Let \( A \) be the event of landing on section 3.<br />3. <strong>Calculate the probability:</strong> \[ P(A) = \frac{1}{8} \] <strong>Answer:</strong> The probability of landing on section 3 is \( \frac{1}{8} \).</p>
+<p><strong>Sample Exercise 3:</strong><br />In a uniform distribution over the interval [0, 20], what is the probability of selecting a number between 5 and 15?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the interval:</strong> The total interval is [0, 20]. The interval of interest is [5, 15].<br />2. <strong>Calculate the probability:</strong> \[ P(5 \leq X \leq 15) = \frac{15 - 5}{20 - 0} = \frac{10}{20} = \frac{1}{2} \] <strong>Answer:</strong> The probability of selecting a number between 5 and 15 is \( \frac{1}{2} \).</p>
+<h4>2.5.2. Binomial Distribution</h4>
+<p>The binomial distribution is a discrete probability distribution that models the number of successes in a fixed number of independent Bernoulli trials.</p>
+<p><strong>Question 1:</strong> <em>What is the binomial distribution used for?</em><br /><strong>Answer:</strong> The binomial distribution is used to model the number of successes in a fixed number of independent trials, where each trial has two possible outcomes (success or failure).</p>
+<p><strong>Question 2:</strong> <em>How do you calculate binomial probabilities?</em><br /><strong>Answer:</strong> Binomial probabilities are calculated using the formula: \[ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} \] where \( n \) is the number of trials, \( k \) is the number of successes, and \( p \) is the probability of success on each trial.</p>
+<p><strong>Question 3:</strong> <em>Can the binomial distribution be applied to continuous events?</em><br /><strong>Answer:</strong> No, the binomial distribution applies only to discrete events with a fixed number of trials and two possible outcomes per trial.</p>
+<p><strong>Sample Exercise 1:</strong><br />In a batch of 15 light bulbs, 4 are defective. If you randomly select 3 bulbs, what is the probability that exactly 1 is defective?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the parameters:</strong></p>
+<ul>
+    <li>\( n = 3 \) (number of trials)</li>
+    <li>\( p = \frac{4}{15} \) (probability of selecting a defective bulb)</li>
+    <li>\( k = 1 \) (number of successes)</li>
+</ul>
+<p>2. <strong>Apply the binomial formula:</strong> \[ P(X = 1) = \binom{3}{1} \left(\frac{4}{15}\right)^1 \left(\frac{11}{15}\right)^{2} \] \[ P(X = 1) = 3 \times \frac{4}{15} \times \left(\frac{121}{225}\right) = \frac{1452}{3375} \approx 0.43 \] <strong>Answer:</strong> The probability that exactly 1 bulb is defective is approximately 0.43.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 2:</strong><br />If you flip a coin 5 times, what is the probability of getting exactly 3 heads?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the parameters:</strong></p>
+<ul>
+    <li>\( n = 5 \) (number of trials)</li>
+    <li>\( p = \frac{1}{2} \) (probability of getting heads)</li>
+    <li>\( k = 3 \) (number of successes)</li>
+</ul>
+<p>2. <strong>Apply the binomial formula:</strong> \[ P(X = 3) = \binom{5}{3} \left(\frac{1}{2}\right)^3 \left(\frac{1}{2}\right)^{2} \] \[ P(X = 3) = 10 \times \frac{1}{8} \times \frac{1}{4} = \frac{10}{32} = \frac{5}{16} = 0.3125 \] <strong>Answer:</strong> The probability of getting exactly 3 heads is 0.3125.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />A basketball player makes 70% of free throws. What is the probability that she makes exactly 4 out of 6 free throws?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the parameters:</strong></p>
+<ul>
+    <li>\( n = 6 \) (number of trials)</li>
+    <li>\( p = 0.7 \) (probability of success)</li>
+    <li>\( k = 4 \) (number of successes)</li>
+</ul>
+<p>2. <strong>Apply the binomial formula:</strong> \[ P(X = 4) = \binom{6}{4} (0.7)^4 (0.3)^2 \] \[ P(X = 4) = 15 \times 0.2401 \times 0.09 = 0.324135 \approx 0.324 \] <strong>Answer:</strong> The probability that she makes exactly 4 out of 6 free throws is approximately 0.324.</p>
+<p>&nbsp;</p>
+<h4>2.5.3. Normal Distribution</h4>
+<p>The normal distribution is a continuous probability distribution characterized by a symmetric, bell-shaped curve.</p>
+<p><strong>Question 1:</strong> <em>What are the properties of a normal distribution?</em><br /><strong>Answer:</strong> The normal distribution is symmetric around the mean, with the majority of the data falling within one standard deviation of the mean. It is defined by its mean \( \mu \) and standard deviation \( \sigma \).</p>
+<p><strong>Question 2:</strong> <em>How do you calculate probabilities in a normal distribution?</em><br /><strong>Answer:</strong> Probabilities in a normal distribution are calculated using the z-score formula and standard normal distribution tables (z-tables).</p>
+<p><strong>Question 3:</strong> <em>Can the normal distribution be used for discrete events?</em><br /><strong>Answer:</strong> The normal distribution is primarily used for continuous events, but it can approximate certain discrete distributions, like the binomial distribution, under specific conditions (e.g., large sample sizes).</p>
+<p><strong>Sample Exercise 1:</strong><br />Find the probability that a normally distributed variable \( X \) with a mean of 100 and a standard deviation of 20 falls between 90 and 110.</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the distribution:</strong></p>
+<ul>
+    <li>Mean \( \mu = 100 \)</li>
+    <li>Standard deviation \( \sigma = 20 \)</li>
+</ul>
+<p>2. <strong>Calculate the z-scores:</strong></p>
+<ul>
+    <li>For 90: \( z = \frac{90 - 100}{20} = -0.5 \)</li>
+    <li>For 110: \( z = \frac{110 - 100}{20} = 0.5 \)</li>
+</ul>
+<p>3. <strong>Look up the cumulative probability from z-tables:</strong></p>
+<ul>
+    <li>\( P(Z &lt; 0.5) \approx 0.6915 \)</li>
+    <li>\( P(Z &lt; -0.5) \approx 0.3085 \)</li>
+</ul>
+<p>4. <strong>Calculate the probability:</strong> \[ P(90 \leq X \leq 110) = P(Z &lt; 0.5) - P(Z &lt; -0.5) = 0.6915 - 0.3085 = 0.383 \] <strong>Answer:</strong> The probability that \( X \) falls between 90 and 110 is 0.383.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 2:</strong><br />A standardized test has scores that are normally distributed with a mean of 600 and a standard deviation of 100. What is the probability that a student scores between 500 and 700?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the distribution:</strong></p>
+<ul>
+    <li>Mean \( \mu = 600 \)</li>
+    <li>Standard deviation \( \sigma = 100 \)</li>
+</ul>
+<p>2. <strong>Calculate the z-scores:</strong></p>
+<ul>
+    <li>For 500: \( z = \frac{500 - 600}{100} = -1 \)</li>
+    <li>For 700: \( z = \frac{700 - 600}{100} = 1 \)</li>
+</ul>
+<p>3. <strong>Look up the cumulative probability from z-tables:</strong></p>
+<ul>
+    <li>\( P(Z &lt; 1) \approx 0.8413 \)</li>
+    <li>\( P(Z &lt; -1) \approx 0.1587 \)</li>
+</ul>
+<p>4. <strong>Calculate the probability:</strong> \[ P(500 \leq X \leq 700) = P(Z &lt; 1) - P(Z &lt; -1) = 0.8413 - 0.1587 = 0.6826 \] <strong>Answer:</strong> The probability that a student scores between 500 and 700 is 0.6826.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Exercise 3:</strong><br />What is the probability that a normally distributed variable with a mean of 50 and a standard deviation of 10 is greater than 60?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Define the distribution:</strong></p>
+<ul>
+    <li>Mean \( \mu = 50 \)</li>
+    <li>Standard deviation \( \sigma = 10 \)</li>
+</ul>
+<p>2. <strong>Calculate the z-score:</strong> \[ z = \frac{60 - 50}{10} = 1 \] 3. <strong>Look up the cumulative probability from z-tables:</strong> \[ P(Z &lt; 1) \approx 0.8413 \] 4. <strong>Calculate the probability:</strong> \[ P(X &gt; 60) = 1 - P(Z &lt; 1) = 1 - 0.8413 = 0.1587 \] <strong>Answer:</strong> The probability that \( X \) is greater than 60 is 0.1587.</p>
+<p>&nbsp;</p>
+<h4>2.5.4. Geometric Distribution</h4>
+<p>The geometric distribution models the number of trials until the first success in a series of independent Bernoulli trials.</p>
+<p><strong>Question 1:</strong> <em>What is the geometric distribution used for?</em><br /><strong>Answer:</strong> The geometric distribution is used to model the number of trials needed to achieve the first success in a sequence of independent trials with two possible outcomes (success or failure).</p>
+<p><strong>Question 2:</strong> <em>How do you calculate geometric probabilities?</em><br /><strong>Answer:</strong> Geometric probabilities are calculated using the formula: \[ P(X = k) = (1-p)^{k-1} p \] where \( k \) is the trial on which the first success occurs and \( p \) is the probability of success on each trial.</p>
+<p><strong>Question 3:</strong> <em>Can the geometric distribution be applied to continuous events?</em><br /><strong>Answer:</strong> No, the geometric distribution applies only to discrete events where trials continue until the first success.</p>
+<p><strong>Sample Exercise 1:</strong><br />What is the probability that the first success in a series of Bernoulli trials occurs on the 4th trial if the probability of success on each trial is 0.3?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the probability of success \( p = 0.3 \) and failure \( 1 - p = 0.7 \):</strong><br />2. <strong>Apply the geometric formula:</strong> \[ P(X = 4) = (0.7)^{3} \times 0.3 = 0.343 \times 0.3 = 0.1029 \] <strong>Answer:</strong> The probability that the first success occurs on the 4th trial is 0.1029.</p>
+<p><strong>Sample Exercise 2:</strong><br />If the probability of hitting a target is 0.6, what is the probability that the first hit occurs on the 2nd shot?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the probability of success \( p = 0.6 \) and failure \( 1 - p = 0.4 \):</strong><br />2. <strong>Apply the geometric formula:</strong> \[ P(X = 2) = (0.4)^{1} \times 0.6 = 0.4 \times 0.6 = 0.24 \] <strong>Answer:</strong> The probability that the first hit occurs on the 2nd shot is 0.24.</p>
+<p><strong>Sample Exercise 3:</strong><br />A factory tests items for defects with a 10% defect rate. What is the probability that the first defective item is found on the 5th test?</p>
+<p><strong>Step-by-Step Solution:</strong><br />1. <strong>Identify the probability of success \( p = 0.1 \) and failure \( 1 - p = 0.9 \):</strong><br />2. <strong>Apply the geometric formula:</strong> \[ P(X = 5) = (0.9)^{4} \times 0.1 = 0.6561 \times 0.1 = 0.06561 \] <strong>Answer:</strong> The probability that the first defective item is found on the 5th test is 0.06561.</p>
+<h2>2. Exercises</h2>
+<h3>2.1. What is Probability?</h3>
+<ol>
+    <li>A bag contains 5 red, 4 green, and 6 yellow balls. What is the probability of drawing a red or green ball?</li>
+    <li>In a standard deck of cards, what is the probability of drawing an ace or a king?</li>
+    <li>A box contains 3 defective and 7 non-defective light bulbs. What is the probability of randomly selecting a defective bulb?</li>
+    <li>What is the probability of rolling an even number on a six-sided die?</li>
+    <li>A basket contains 8 apples and 4 oranges. What is the probability of randomly selecting an apple?</li>
+    <li>If a number is randomly selected from 1 to 100, what is the probability that it is a multiple of 5?</li>
+    <li>A spinner is divided into 5 equal sections. What is the probability of the spinner landing on section 1 or 2?</li>
+</ol>
+<h3>2.2. Probability Function</h3>
+<ol start="8">
+    <li>In a group of 10 people, what is the probability that at least two people share the same birthday?</li>
+    <li>A die is rolled twice. What is the probability of getting a sum of 8 or more?</li>
+    <li>If a card is drawn from a standard deck, what is the probability of drawing a face card (jack, queen, or king)?</li>
+    <li>A lottery ticket has a 1 in 1000 chance of winning. What is the probability of not winning if you buy one ticket?</li>
+    <li>If two dice are rolled, what is the probability of getting a sum of 4 or 7?</li>
+    <li>In a class of 30 students, what is the probability that at least one student has the same birthday as you?</li>
+    <li>A jar contains 10 blue, 15 red, and 5 green marbles. What is the probability of drawing a blue or green marble?</li>
+</ol>
+<h3>2.3. Probability Rules</h3>
+<h4>2.3.1. Addition Rule and Disjoint Events</h4>
+<ol start="15">
+    <li>What is the probability of drawing a heart or a spade from a deck of cards?</li>
+    <li>A bag contains 3 white, 4 black, and 5 red balls. What is the probability of drawing a white or red ball?</li>
+    <li>If a die is rolled, what is the probability of getting a 3 or a 5?</li>
+    <li>In a class of 25 students with 4 freshman, 6 sophomores, 7 juniors, and the rest seniors, what is the probability that a randomly selected student is either a sophomore or a junior?</li>
+    <li>A coin is flipped twice. What is the probability of getting at least one head?</li>
+    <li>What is the probability of drawing a queen or a king from a deck of cards?</li>
+    <li>A lottery has 10 prizes and 90 blanks. What is the probability of drawing a prize or a blank?</li>
+</ol>
+<h4>2.3.2. Conditional Probability</h4>
+<ol start="22">
+    <li>Given that a card drawn from a deck is a spade, what is the probability that it is the ace of spades?</li>
+    <li>A bag contains 6 black and 4 white balls. If one ball is drawn and it is black, what is the probability that it is the largest black ball?</li>
+    <li>If a card is drawn from a deck and is known to be a face card, what is the probability that it is a queen?</li>
+    <li>A box contains 5 red and 5 blue marbles. If a marble is drawn and is known to be red, what is the probability that it is the smallest red marble?</li>
+    <li>In a deck of 52 cards, what is the probability of drawing a diamond given that the card is red?</li>
+    <li>A bag contains 10 balls numbered 1 to 10. If a ball is drawn and is known to be even, what is the probability that it is a 4?</li>
+    <li>In a class of 30 students, what is the probability that a randomly selected student is a senior given that they are in the top 5 of the class?</li>
+</ol>
+<h4>2.3.3. Multiplication Rule and Independent Events</h4>
+<ol start="29">
+    <li>If a die is rolled twice, what is the probability of getting a 4 on both rolls?</li>
+    <li>A coin is flipped four times. What is the probability of getting heads on all four flips?</li>
+    <li>A card is drawn from a deck, and another card is drawn without replacement. What is the probability that both cards are hearts?</li>
+    <li>A box contains 5 red and 5 green balls. If two balls are drawn with replacement, what is the probability that both are red?</li>
+    <li>In a group of 3 people, what is the probability that all three were born on different days of the week?</li>
+    <li>If a die is rolled twice, what is the probability of getting a sum of 7 on both rolls?</li>
+    <li>A lottery ticket has a 1 in 1000 chance of winning. What is the probability of winning twice if two tickets are purchased?</li>
+</ol>
+<h3>2.4. Discrete vs. Continuous Events</h3>
+<h4>2.4.1. Discrete Events</h4>
+<ol start="36">
+    <li>What is the probability of drawing a red card or a face card from a deck of cards?</li>
+    <li>A die is rolled three times. What is the probability of getting at least one 6?</li>
+    <li>In a lottery where you must choose a number between 1 and 50, what is the probability of selecting a prime number?</li>
+    <li>A box contains 3 defective and 7 non-defective light bulbs. What is the probability of randomly selecting at least one defective bulb?</li>
+    <li>If a coin is flipped five times, what is the probability of getting exactly three heads?</li>
+    <li>A die is rolled twice. What is the probability of getting a sum of 8 or more on both rolls?</li>
+    <li>In a class of 20 students, what is the probability that at least two students share the same birthday?</li>
+</ol>
+<h4>2.4.2. Continuous Events</h4>
+<ol start="43">
+    <li>If the height of students in a school is normally distributed with a mean of 160 cm and a standard deviation of 10 cm, what is the probability that a randomly selected student is taller than 170 cm?</li>
+    <li>The time it takes to complete a task is uniformly distributed between 30 and 90 minutes. What is the probability that the task takes between 50 and 70 minutes?</li>
+    <li>The weight of apples in a basket is normally distributed with a mean of 150 grams and a standard deviation of 20 grams. What is the probability that a randomly selected apple weighs more than 180 grams?</li>
+    <li>The length of time customers spend on a website is exponentially distributed with a mean of 10 minutes. What is the probability that a customer spends more than 20 minutes on the website?</li>
+    <li>If the time taken to answer a question is uniformly distributed between 1 and 5 minutes, what is the probability that the answer is given in less than 2 minutes?</li>
+    <li>The temperature in a city is normally distributed with a mean of 25&deg;C and a standard deviation of 5&deg;C. What is the probability that the temperature is between 20&deg;C and 30&deg;C?</li>
+    <li>The amount of time a student spends on homework each night is normally distributed with a mean of 2 hours and a standard deviation of 30 minutes. What is the probability that a student spends more than 2.5 hours on homework?</li>
+</ol>
+<h3>2.5. Probability Distributions</h3>
+<h4>2.5.1. Uniform Distribution</h4>
+<ol start="50">
+    <li>What is the probability of selecting a number between 3 and 8 from a uniform distribution on the interval [0, 10]?</li>
+    <li>If a spinner is equally divided into 10 sections, what is the probability of landing on section 7?</li>
+    <li>In a uniform distribution over the interval [0, 50], what is the probability of selecting a number between 20 and 30?</li>
+    <li>If the time to complete a task is uniformly distributed between 20 and 60 minutes, what is the probability that the task takes less than 40 minutes?</li>
+    <li>A number is randomly selected from 1 to 100. What is the probability that the number is between 25 and 75?</li>
+    <li>The probability of selecting a random number from 1 to 10 in a uniform distribution is the same for each number. What is the probability of selecting a number greater than 5?</li>
+    <li>In a uniform distribution over the interval [0, 100], what is the probability of selecting a number between 10 and 90?</li>
+</ol>
+<h4>2.5.2. Binomial Distribution</h4>
+<ol start="57">
+    <li>A basketball player makes 80% of free throws. What is the probability that she makes exactly 5 out of 7 free throws?</li>
+    <li>In a class of 20 students, what is the probability that exactly 15 students passed the exam if the probability of passing is 0.75?</li>
+    <li>If you flip a coin 6 times, what is the probability of getting exactly 4 heads?</li>
+    <li>In a batch of 50 light bulbs, 10 are defective. If you randomly select 5 bulbs, what is the probability that exactly 2 are defective?</li>
+    <li>A game has a 1 in 5 chance of winning. What is the probability of winning exactly 3 times out of 10 tries?</li>
+    <li>In a survey, 60% of respondents preferred a particular brand. What is the probability that exactly 8 out of 10 respondents preferred that brand?</li>
+    <li>If you roll a die 10 times, what is the probability of getting exactly 4 sixes?</li>
+</ol>
+<h4>2.5.3. Normal Distribution</h4>
+<ol start="64">
+    <li>The weight of a product is normally distributed with a mean of 50 grams and a standard deviation of 5 grams. What is the probability that a randomly selected product weighs between 45 and 55 grams?</li>
+    <li>A standardized test has scores that are normally distributed with a mean of 500 and a standard deviation of 100. What is the probability that a student scores between 400 and 600?</li>
+    <li>The height of a population is normally distributed with a mean of 170 cm and a standard deviation of 10 cm. What is the probability that a randomly selected person is shorter than 160 cm?</li>
+    <li>In a normal distribution with a mean of 75 and a standard deviation of 15, what is the probability that a value is greater than 90?</li>
+    <li>The IQ scores in a population are normally distributed with a mean of 100 and a standard deviation of 15. What is the probability that a randomly selected person has an IQ between 85 and 115?</li>
+    <li>The time to complete a task is normally distributed with a mean of 30 minutes and a standard deviation of 5 minutes. What is the probability that the task takes more than 35 minutes?</li>
+    <li>A test score is normally distributed with a mean of 70 and a standard deviation of 10. What is the probability that a student scores less than 60?</li>
+</ol>
+<h4>2.5.4. Geometric Distribution</h4>
+<ol start="71">
+    <li>If the probability of success in a trial is 0.25, what is the probability that the first success occurs on the 3rd trial?</li>
+    <li>A factory tests items for defects with a 5% defect rate. What is the probability that the first defective item is found on the 4th test?</li>
+    <li>If the probability of hitting a target is 0.4, what is the probability that the first hit occurs on the 3rd shot?</li>
+    <li>What is the probability that the first success in a series of Bernoulli trials occurs on the 5th trial if the probability of success on each trial is 0.2?</li>
+    <li>A factory has a 2% defect rate. What is the probability that the first defective item is found on the 6th test?</li>
+    <li>If the probability of a machine producing a defective item is 0.1, what is the probability that the first defective item is produced on the 7th trial?</li>
+    <li>In a quality control test, what is the probability that the first defective item is found on the 3rd test if the defect rate is 0.05?</li>
+</ol>
+<h2>Solutions</h2>
+<h3>2.1. What is Probability?</h3>
+<ol>
+    <li>A bag contains 5 red, 4 green, and 6 yellow balls. What is the probability of drawing a red or green ball?:<br />Total number of balls = \( 5 + 4 + 6 = 15 \)<br />Probability of drawing a red or green ball = \( \frac{5 + 4}{15} = \frac{9}{15} = \frac{3}{5} \).</li>
+</ol>
+<ol start="3">
+    <li>A box contains 3 defective and 7 non-defective light bulbs. What is the probability of randomly selecting a defective bulb?:<br />Total number of bulbs = \( 3 + 7 = 10 \)<br />Probability of selecting a defective bulb = \( \frac{3}{10} \).</li>
+</ol>
+<ol start="5">
+    <li>A basket contains 8 apples and 4 oranges. What is the probability of randomly selecting an apple?:<br />Total number of fruits = \( 8 + 4 = 12 \)<br />Probability of selecting an apple = \( \frac{8}{12} = \frac{2}{3} \).</li>
+</ol>
+<ol start="7">
+    <li>A spinner is divided into 5 equal sections. What is the probability of the spinner landing on section 1 or 2?:<br />Total number of sections = 5<br />Probability of landing on section 1 or 2 = \( \frac{2}{5} \).</li>
+</ol>
+<h3>2.2. Probability Function</h3>
+<ol start="8">
+    <li>In a group of 10 people, what is the probability that at least two people share the same birthday?:<br />This is a classic "birthday problem." The probability that at least two people share the same birthday is approximately 0.116 or 11.6%.</li>
+</ol>
+<ol start="10">
+    <li>If a card is drawn from a standard deck, what is the probability of drawing a face card (jack, queen, or king)?:<br />There are 12 face cards in a standard deck of 52 cards.<br />Probability of drawing a face card = \( \frac{12}{52} = \frac{3}{13} \).</li>
+</ol>
+<h3>2.3. Probability Rules</h3>
+<h4>2.3.1. Addition Rule and Disjoint Events</h4>
+<ol start="15">
+    <li>What is the probability of drawing a heart or a spade from a deck of cards?:<br />There are 13 hearts and 13 spades in a deck of 52 cards.<br />Probability of drawing a heart or spade = \( \frac{13 + 13}{52} = \frac{26}{52} = \frac{1}{2} \).</li>
+</ol>
+<ol start="17">
+    <li>If a die is rolled, what is the probability of getting a 3 or a 5?:<br />Probability of getting a 3 or 5 = \( \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3} \).</li>
+</ol>
+<ol start="19">
+    <li>A coin is flipped twice. What is the probability of getting at least one head?:<br />Probability of getting at least one head = 1 - Probability of getting no heads = \( 1 - \left(\frac{1}{2}\times\frac{1}{2}\right) = 1 - \frac{1}{4} = \frac{3}{4} \).</li>
+</ol>
+<h4>2.3.2. Conditional Probability</h4>
+<ol start="22">
+    <li>Given that a card drawn from a deck is a spade, what is the probability that it is the ace of spades?:<br />Probability that it is the ace of spades given it is a spade = \( \frac{1}{13} \).</li>
+</ol>
+<ol start="24">
+    <li>If a card is drawn from a deck and is known to be a face card, what is the probability that it is a queen?:<br />Probability that it is a queen given it is a face card = \( \frac{1}{3} \) (since there are 3 face cards: jack, queen, king).</li>
+</ol>
+<ol start="26">
+    <li>In a deck of 52 cards, what is the probability of drawing a diamond given that the card is red?:<br />Probability that it is a diamond given it is red = \( \frac{13}{26} = \frac{1}{2} \).</li>
+</ol>
+<h4>2.3.3. Multiplication Rule and Independent Events</h4>
+<ol start="29">
+    <li>If a die is rolled twice, what is the probability of getting a 4 on both rolls?:<br />Probability of getting a 4 on both rolls = \( \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} \).</li>
+</ol>
+<ol start="31">
+    <li>A card is drawn from a deck, and another card is drawn without replacement. What is the probability that both cards are hearts?:<br />Probability that both cards are hearts = \( \frac{13}{52} \times \frac{12}{51} = \frac{1}{4} \times \frac{4}{17} = \frac{1}{17} \approx 0.0588 \).</li>
+</ol>
+<ol start="33">
+    <li>If a die is rolled twice, what is the probability of getting a sum of 7 on both rolls?:<br />Probability of getting a sum of 7 on one roll = \( \frac{6}{36} = \frac{1}{6} \)<br />Probability of getting a sum of 7 on both rolls = \( \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} \).</li>
+</ol>
+<h3>2.4. Discrete vs. Continuous Events</h3>
+<h4>2.4.1. Discrete Events</h4>
+<ol start="36">
+    <li>What is the probability of drawing a red card or a face card from a deck of cards?:<br />Probability of drawing a red card or a face card = \( \frac{26 + 12 - 6}{52} = \frac{32}{52} = \frac{8}{13} \).</li>
+</ol>
+<ol start="38">
+    <li>In a lottery where you must choose a number between 1 and 50, what is the probability of selecting a prime number?:<br />There are 15 prime numbers between 1 and 50.<br />Probability of selecting a prime number = \( \frac{15}{50} = \frac{3}{10} \).</li>
+</ol>
+<ol start="40">
+    <li>If a coin is flipped five times, what is the probability of getting exactly three heads?:<br />Probability of getting exactly 3 heads = \( \binom{5}{3} \times \left(\frac{1}{2}\right)^3 \times \left(\frac{1}{2}\right)^2 = 10 \times \frac{1}{32} \times \frac{1}{4} = \frac{10}{32} = \frac{5}{16} = 0.3125 \).</li>
+</ol>
+<h4>2.4.2. Continuous Events</h4>
+<ol start="43">
+    <li>If the height of students in a school is normally distributed with a mean of 160 cm and a standard deviation of 10 cm, what is the probability that a randomly selected student is taller than 170 cm?:<br />Calculate the z-score: \( z = \frac{170 - 160}{10} = 1 \)<br />Use the z-table: \( P(Z &gt; 1) = 1 - 0.8413 = 0.1587 \)<br />So, the probability is approximately 0.1587.</li>
+</ol>
+<ol start="45">
+    <li>The weight of apples in a basket is normally distributed with a mean of 150 grams and a standard deviation of 20 grams. What is the probability that a randomly selected apple weighs more than 180 grams?:<br />Calculate the z-score: \( z = \frac{180 - 150}{20} = 1.5 \)<br />Use the z-table: \( P(Z &gt; 1.5) = 1 - 0.9332 = 0.0668 \)<br />So, the probability is approximately 0.0668.</li>
+</ol>
+<ol start="47">
+    <li>If the time taken to answer a question is uniformly distributed between 1 and 5 minutes, what is the probability that the answer is given in less than 2 minutes?:<br />The interval of interest is [1, 2].<br />Probability = \( \frac{2 - 1}{5 - 1} = \frac{1}{4} = 0.25 \).</li>
+</ol>
+<h3>2.5. Probability Distributions</h3>
+<h4>2.5.1. Uniform Distribution</h4>
+<ol start="50">
+    <li>What is the probability of selecting a number between 3 and 8 from a uniform distribution on the interval [0, 10]?:<br />The interval of interest is [3, 8].<br />Probability = \( \frac{8 - 3}{10 - 0} = \frac{5}{10} = \frac{1}{2} \).</li>
+</ol>
+<ol start="52">
+    <li>In a uniform distribution over the interval [0, 50], what is the probability of selecting a number between 20 and 30?:<br />The interval of interest is [20, 30].<br />Probability = \( \frac{30 - 20}{50 - 0} = \frac{10}{50} = \frac{1}{5} \).</li>
+</ol>
+<ol start="54">
+    <li>A number is randomly selected from 1 to 100. What is the probability that the number is between 25 and 75?:<br />The interval of interest is [25, 75].<br />Probability = \( \frac{75 - 25}{100 - 1} = \frac{50}{99} \approx 0.5051 \).</li>
+</ol>
+<h4>2.5.2. Binomial Distribution</h4>
+<ol start="57">
+    <li>A basketball player makes 80% of free throws. What is the probability that she makes exactly 5 out of 7 free throws?:<br />\( P(X = 5) = \binom{7}{5} \times 0.8^5 \times 0.2^2 \approx 0.2787 \).</li>
+</ol>
+<ol start="59">
+    <li>If you flip a coin 6 times, what is the probability of getting exactly 4 heads?:<br />\( P(X = 4) = \binom{6}{4} \times \left(\frac{1}{2}\right)^4 \times \left(\frac{1}{2}\right)^2 = 15 \times \frac{1}{64} \times \frac{1}{4} = \frac{15}{256} \approx 0.2344 \).</li>
+</ol>
+<ol start="61">
+    <li>A game has a 1 in 5 chance of winning. What is the probability of winning exactly 3 times out of 10 tries?:<br />\( P(X = 3) = \binom{10}{3} \times \left(\frac{1}{5}\right)^3 \times \left(\frac{4}{5}\right)^7 \approx 0.2013 \).</li>
+</ol>
+<h4>2.5.3. Normal Distribution</h4>
+<ol start="64">
+    <li>The weight of a product is normally distributed with a mean of 50 grams and a standard deviation of 5 grams. What is the probability that a randomly selected product weighs between 45 and 55 grams?:<br />Calculate the z-scores: \( z_1 = \frac{45 - 50}{5} = -1 \), \( z_2 = \frac{55 - 50}{5} = 1 \)<br />Use the z-table: \( P(Z &lt; 1) - P(Z &lt; -1) = 0.8413 - 0.1587 = 0.6826 \)<br />So, the probability is approximately 0.6826.</li>
+</ol>
+<ol start="66">
+    <li>The height of a population is normally distributed with a mean of 170 cm and a standard deviation of 10 cm. What is the probability that a randomly selected person is shorter than 160 cm?:<br />Calculate the z-score: \( z = \frac{160 - 170}{10} = -1 \)<br />Use the z-table: \( P(Z &lt; -1) = 0.1587 \)<br />So, the probability is approximately 0.1587.</li>
+</ol>
+<ol start="68">
+    <li>The IQ scores in a population are normally distributed with a mean of 100 and a standard deviation of 15. What is the probability that a randomly selected person has an IQ between 85 and 115?:<br />Calculate the z-scores: \( z_1 = \frac{85 - 100}{15} = -1 \), \( z_2 = \frac{115 - 100}{15} = 1 \)<br />Use the z-table: \( P(Z &lt; 1) - P(Z &lt; -1) = 0.8413 - 0.1587 = 0.6826 \)<br />So, the probability is approximately 0.6826.</li>
+</ol>
+<h4>2.5.4. Geometric Distribution</h4>
+<ol start="71">
+    <li>If the probability of success in a trial is 0.25, what is the probability that the first success occurs on the 3rd trial?:<br />\( P(X = 3) = (1-0.25)^{3-1} \times 0.25 = 0.75^2 \times 0.25 = 0.1406 \).</li>
+</ol>
+<ol start="73">
+    <li>If the probability of hitting a target is 0.4, what is the probability that the first hit occurs on the 3rd shot?:<br />\( P(X = 3) = (0.6)^{2} \times 0.4 = 0.144 \).</li>
+</ol>
+<ol start="75">
+    <li>If the probability of a machine producing a defective item is 0.1, what is the probability that the first defective item is produced on the 7th trial?:<br />\( P(X = 7) = (0.9)^{6} \times 0.1 = 0.531 \times 0.1 = 0.0531 \).</li>
+</ol>
+</body>
