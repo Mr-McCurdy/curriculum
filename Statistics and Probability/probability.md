@@ -4,7 +4,7 @@
 
 Probability is a measure of how likely an event is to occur. The set of all possible outcomes of an experiment is called the *sample space*.
 
-- **Sample Space ( $ S $ ):** The set of all possible outcomes. For example, when flipping a coin:
+- **Sample Space ( $S$ ):** The set of all possible outcomes. For example, when flipping a coin:
 
   $ S = \{\text{Heads, Tails}\} $
 
