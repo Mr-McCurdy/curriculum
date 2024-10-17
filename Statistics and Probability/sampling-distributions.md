@@ -56,7 +56,7 @@ Suppose the mean height of all adult women is $\mu = 64$ inches with a standard 
 
 The mean of the sampling distribution of $\bar{x}$ is $\mu_{\bar{x}} = 64$.
 
-The standard deviation of the sampling distribution is:
+The [standard deviation](https://github.com/Mr-McCurdy/Curriculum/tree/main/APStatistics) of the sampling distribution is:
 
 $$
 \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}} = \frac{3}{\sqrt{50}} \approx 0.424
