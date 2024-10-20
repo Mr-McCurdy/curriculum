@@ -137,6 +137,7 @@ A **reference angle** is the acute angle formed by the terminal side of an angle
 **Solution:**
 
 Using the conversion formula:
+
 $$
 \text{Radians} = \left( \frac{\pi}{180^\circ} \right) \times 150^\circ = \frac{5\pi}{6} \text{ radians}
 $$
@@ -159,11 +160,13 @@ $$
 **Solution:**
 
 First, convert $210^\circ$ to radians:
+
 $$
 \theta = 210^\circ = \left( \frac{\pi}{180^\circ} \right) \times 210^\circ = \frac{7\pi}{6}
 $$
 
 Find the reference angle:
+
 $$
 \theta_{\text{ref}} = 210^\circ - 180^\circ = 30^\circ
 $$
@@ -172,16 +175,19 @@ Compute $\cos \theta$ and $\sin \theta$:
 - Since $210^\circ$ is in Quadrant III, both sine and cosine are negative.
 
 Using known values for $30^\circ$:
+
 $$
 \cos 30^\circ = \frac{\sqrt{3}}{2}, \quad \sin 30^\circ = \frac{1}{2}
 $$
 
 Therefore:
+
 $$
 \cos 210^\circ = -\frac{\sqrt{3}}{2}, \quad \sin 210^\circ = -\frac{1}{2}
 $$
 
 The coordinates are:
+
 $$
 \left( -\frac{\sqrt{3}}{2}, -\frac{1}{2} \right)
 $$
@@ -193,6 +199,7 @@ $$
 **Solution:**
 
 Convert $\theta$ to degrees if necessary:
+
 $$
 \theta = \frac{2\pi}{3} = 120^\circ
 $$
@@ -202,6 +209,7 @@ Determine $\sin \theta$ and $\cos \theta$:
 - $\cos 120^\circ = -\cos 60^\circ = -\frac{1}{2}$
 
 Compute $\tan \theta$:
+
 $$
 \tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{\frac{\sqrt{3}}{2}}{-\frac{1}{2}} = -\sqrt{3}
 $$
@@ -260,6 +268,7 @@ $$
 4. **Coordinates for $\theta = 330^\circ$:**
 
    Reference angle:
+
    $$
    \theta_{\text{ref}} = 360^\circ - 330^\circ = 30^\circ
    $$
@@ -269,9 +278,11 @@ $$
    - $\sin \theta < 0$
 
    Compute:
+
    $$
    \cos 330^\circ = \cos 30^\circ = \frac{\sqrt{3}}{2}
    $$
+
    $$
    \sin 330^\circ = -\sin 30^\circ = -\frac{1}{2}
    $$
@@ -290,6 +301,7 @@ $$
 6. **Reference angle for $\theta = 240^\circ$:**
 
    Since $180^\circ < 240^\circ < 270^\circ$, subtract $180^\circ$:
+
    $$
    \theta_{\text{ref}} = 240^\circ - 180^\circ = 60^\circ
    $$
@@ -303,11 +315,13 @@ $$
 8. **Find $\sin \theta$ and $\cos \theta$ for $\theta = \frac{7\pi}{4}$:**
 
    Convert to degrees:
+
    $$
    \theta = \frac{7\pi}{4} \times \left( \frac{180^\circ}{\pi} \right) = 315^\circ
    $$
 
    Reference angle:
+
    $$
    \theta_{\text{ref}} = 360^\circ - 315^\circ = 45^\circ
    $$
@@ -317,9 +331,11 @@ $$
    - $\sin \theta < 0$
 
    Compute:
+
    $$
    \cos \theta = \cos 45^\circ = \frac{\sqrt{2}}{2}
    $$
+
    $$
    \sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}
    $$
@@ -357,6 +373,7 @@ $$
 14. **Determine $\cos \left( \frac{2\pi}{3} \right)$:**
 
     Convert to degrees:
+
     $$
     \frac{2\pi}{3} = 120^\circ
     $$
@@ -365,11 +382,13 @@ $$
     - $\cos \theta < 0$
 
     Reference angle:
+
     $$
     \theta_{\text{ref}} = 180^\circ - 120^\circ = 60^\circ
     $$
 
     Compute:
+
     $$
     \cos \theta = -\cos 60^\circ = -\frac{1}{2}
     $$
@@ -377,6 +396,7 @@ $$
 15. **Coordinates for $\theta = 150^\circ$:**
 
     Reference angle:
+
     $$
     \theta_{\text{ref}} = 180^\circ - 150^\circ = 30^\circ
     $$
@@ -386,9 +406,11 @@ $$
     - $\sin \theta > 0$
 
     Compute:
+
     $$
     \cos 150^\circ = -\cos 30^\circ = -\frac{\sqrt{3}}{2}
     $$
+
     $$
     \sin 150^\circ = \sin 30^\circ = \frac{1}{2}
     $$
@@ -451,6 +473,3 @@ $$
     \sin 90^\circ = 1, \quad \cos 90^\circ = 0
     $$
 
----
-
-*Note: The placeholder image above represents where a unit circle diagram should be inserted, illustrating angles in both degrees and radians, and showing the coordinates of key points on the circle.*
