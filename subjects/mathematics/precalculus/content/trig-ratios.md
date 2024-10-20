@@ -1,3 +1,6 @@
+# 4. Trigonometric Ratios
+---
+
 ## Introduction
 
 Trigonometry, derived from the Greek words *trigonon* (triangle) and *metron* (measure), deals with the relationships between the sides and angles of triangles. It was initially developed in ancient Greece and India to study astronomy and geometry. Today, trigonometric ratios are fundamental in various fields such as engineering, physics, and computer science. The three primary trigonometric functions — sine (sin), cosine (cos), and tangent (tan) — help us understand the relationship between the angles and sides of right triangles. These ratios, along with their reciprocals — cosecant (csc), secant (sec), and cotangent (cot) — form the basis of much of trigonometry.
