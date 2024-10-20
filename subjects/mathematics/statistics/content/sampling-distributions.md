@@ -76,7 +76,7 @@ For numerical data, the sample mean $\bar{x}$ is of interest. The sampling distr
 
 The Central Limit Theorem is one of the most important concepts in statistics. It states that, regardless of the shape of the population distribution, the sampling distribution of the sample mean $\bar{x}$ will become approximately normal as the sample size increases.
 
-Mathematically, for a population with mean $\mu$ and finite standard deviation $\sigma$, the sampling distribution of $\bar{x}$ approaches a normal distribution with mean $\mu$ and standard deviation $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$ as $n$ becomes large.
+Mathematically, for a population with mean $\mu$ and finite standard deviation $\sigma$, the sampling distribution of $\bar{x}$ approaches a normal distribution with mean $\mu$ and standard deviation $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$ as $n$ becomes large ($n \geq 30$).
 
 ## Law of Large Numbers
 
