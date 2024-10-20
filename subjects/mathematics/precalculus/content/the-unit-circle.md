@@ -82,13 +82,13 @@ Some commonly used angles and their coordinates on the unit circle:
 **$0^\circ$ or $0$ radians:**
 
 $$
-(\cos 0, \sin 0) = (1, 0)
+(\cos{0}, \sin{0}) = (1, 0)
 $$
 
 **$90^\circ$ or $\frac{\pi}{2}$ radians:**
 
 $$
-\left( \cos \frac{\pi}{2}, \sin \frac{\pi}{2} \right) = (0, 1)
+(\cos{\frac{\pi}{2}}, \sin{\frac{\pi}{2}}) = (0, 1)
 $$
 
 **$180^\circ$ or $\pi$ radians:**
