@@ -38,11 +38,7 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 - **Coordinates on the Unit Circle:**
   Any point on the unit circle can be defined using an angle $\theta$ from the positive x-axis:
 
-  $$
-
-  (\cos \theta, \sin \theta)
-  
-  $$
+  $$(\cos \theta, \sin \theta)$$
 
   This means that for any angle $\theta$, the x-coordinate is $\cos \theta$, and the y-coordinate is $\sin \theta$.
 
