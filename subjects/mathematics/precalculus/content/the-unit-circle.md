@@ -35,7 +35,7 @@ $$
 
 The **unit circle** is a circle with a radius of 1 unit, centered at the origin (0, 0) in the Cartesian coordinate system. It is a crucial tool for defining trigonometric functions for all real numbers.
 
-####Coordinates on the Unit Circle
+#### Coordinates on the Unit Circle
 
 Any point on the unit circle can be defined using an angle $\theta$ from the positive x-axis:
 
@@ -61,46 +61,46 @@ This means that for any angle $\theta$, the x-coordinate is $\cos \theta$,and th
 
 ### Trigonometric Functions on the Unit Circle
 
-- **Sine Function ($\sin \theta$):**
-  Represents the y-coordinate of the point on the unit circle corresponding to angle $\theta$.
+**Sine Function ($\sin \theta$):**
+Represents the y-coordinate of the point on the unit circle corresponding to angle $\theta$.
 
-- **Cosine Function ($\cos \theta$):**
-  Represents the x-coordinate of the point on the unit circle corresponding to angle $\theta$.
+**Cosine Function ($\cos \theta$):**
+Represents the x-coordinate of the point on the unit circle corresponding to angle $\theta$.
 
-- **Tangent Function ($\tan \theta$):**
-  Defined as the ratio of the sine and cosine functions:
+**Tangent Function ($\tan \theta$):**
+Defined as the ratio of the sine and cosine functions 
 
-  $$
-  \tan \theta = \frac{\sin \theta}{\cos \theta}
-  $$
+$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}
+$$
 
 ### Special Angles and Their Coordinates
 
 Some commonly used angles and their coordinates on the unit circle:
 
-- **$0^\circ$ or $0$ radians:**
+**$0^\circ$ or $0$ radians:**
 
-  $$
-  (\cos 0, \sin 0) = (1, 0)
-  $$
+$$
+(\cos 0, \sin 0) = (1, 0)
+$$
 
-- **$90^\circ$ or $\frac{\pi}{2}$ radians:**
+**$90^\circ$ or $\frac{\pi}{2}$ radians:**
 
-  $$
-  \left( \cos \frac{\pi}{2}, \sin \frac{\pi}{2} \right) = (0, 1)
-  $$
+$$
+\left( \cos \frac{\pi}{2}, \sin \frac{\pi}{2} \right) = (0, 1)
+$$
 
-- **$180^\circ$ or $\pi$ radians:**
+**$180^\circ$ or $\pi$ radians:**
 
-  $$
-  (\cos \pi, \sin \pi) = (-1, 0)
-  $$
+$$
+(\cos \pi, \sin \pi) = (-1, 0)
+$$
 
-- **$270^\circ$ or $\frac{3\pi}{2}$ radians:**
+**$270^\circ$ or $\frac{3\pi}{2}$ radians:**
 
-  $$
-  \left( \cos \frac{3\pi}{2}, \sin \frac{3\pi}{2} \right) = (0, -1)
-  $$
+$$
+\left( \cos \frac{3\pi}{2}, \sin \frac{3\pi}{2} \right) = (0, -1)
+$$
 
 ### Quadrants and Sign of Trigonometric Functions
 
