@@ -257,19 +257,19 @@ $$
 \theta = 225^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{5\pi}{4} \text{ radians}
 $$
 
-2. **Convert $\frac{5\pi}{4}$ radians to degrees:**
+2. Convert $\frac{5\pi}{4}$ radians to degrees:
 
    $$
    \theta = \frac{5\pi}{4} \times \left( \frac{180^\circ}{\pi} \right) = 225^\circ
    $$
 
-3. **Find $\sin 60^\circ$ and $\cos 60^\circ$:**
+3. Find $\sin 60^\circ$ and $\cos 60^\circ$:
 
    $$
    \sin 60^\circ = \frac{\sqrt{3}}{2}, \quad \cos 60^\circ = \frac{1}{2}
    $$
 
-4. **Coordinates for $\theta = 330^\circ$:**
+4. Coordinates for $\theta = 330^\circ$:
 
    Reference angle:
 
@@ -296,13 +296,13 @@ $$
    \left( \frac{\sqrt{3}}{2}, -\frac{1}{2} \right)
    $$
 
-5. **Calculate $\tan \frac{\pi}{6}$:**
+5. Calculate $\tan \frac{\pi}{6}$:
 
    $$
    \tan \frac{\pi}{6} = \tan 30^\circ = \frac{\sqrt{3}}{3}
    $$
 
-6. **Reference angle for $\theta = 240^\circ$:**
+6. Reference angle for $\theta = 240^\circ$:
 
    Since $180^\circ < 240^\circ < 270^\circ$, subtract $180^\circ$:
 
@@ -310,13 +310,13 @@ $$
    \theta_{\text{ref}} = 240^\circ - 180^\circ = 60^\circ
    $$
 
-7. **Convert $-90^\circ$ to radians:**
+7. Convert $-90^\circ$ to radians:
 
    $$
    \theta = -90^\circ \times \left( \frac{\pi}{180^\circ} \right) = -\frac{\pi}{2}
    $$
 
-8. **Find $\sin \theta$ and $\cos \theta$ for $\theta = \frac{7\pi}{4}$:**
+8. Find $\sin \theta$ and $\cos \theta$ for $\theta = \frac{7\pi}{4}$:
 
    Convert to degrees:
 
@@ -344,37 +344,37 @@ $$
    \sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}
    $$
 
-9. **Quadrant and signs for $\theta = 135^\circ$:**
+9. Quadrant and signs for $\theta = 135^\circ$:
 
    - Quadrant II (between $90^\circ$ and $180^\circ$)
    - $\sin \theta > 0$
    - $\cos \theta < 0$
 
-10. **Find $\cos 270^\circ$:**
+10. Find $\cos 270^\circ$:
 
     $$
     \cos 270^\circ = 0
     $$
 
-11. **What is $\sin \frac{3\pi}{2}$:**
+11. What is $\sin \frac{3\pi}{2}$:
 
     $$
     \sin \frac{3\pi}{2} = \sin 270^\circ = -1
     $$
 
-12. **Convert $300^\circ$ to radians:**
+12. Convert $300^\circ$ to radians:
 
     $$
     \theta = 300^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{5\pi}{3}
     $$
 
-13. **Calculate $\tan 45^\circ$:**
+13. Calculate $\tan 45^\circ$:
 
     $$
     \tan 45^\circ = 1
     $$
 
-14. **Determine $\cos \left( \frac{2\pi}{3} \right)$:**
+14. Determine $\cos \left( \frac{2\pi}{3} \right)$:
 
     Convert to degrees:
 
@@ -397,7 +397,7 @@ $$
     \cos \theta = -\cos 60^\circ = -\frac{1}{2}
     $$
 
-15. **Coordinates for $\theta = 150^\circ$:**
+15. Coordinates for $\theta = 150^\circ$:
 
     Reference angle:
 
@@ -424,54 +424,54 @@ $$
     \left( -\frac{\sqrt{3}}{2}, \frac{1}{2} \right)
     $$
 
-16. **Reference angle for $\theta = 315^\circ$:**
+16. Reference angle for $\theta = 315^\circ$:
 
     $$
     \theta_{\text{ref}} = 360^\circ - 315^\circ = 45^\circ
     $$
 
-17. **Convert $540^\circ$ to radians:**
+17. Convert $540^\circ$ to radians:
 
     $$
     \theta = 540^\circ \times \left( \frac{\pi}{180^\circ} \right) = 3\pi \text{ radians}
     $$
 
-18. **Find $\sin \left( -\frac{\pi}{4} \right)$:**
+18. Find $\sin \left( -\frac{\pi}{4} \right)$:
 
     $$
     \sin \left( -\frac{\pi}{4} \right) = -\sin \frac{\pi}{4} = -\frac{\sqrt{2}}{2}
     $$
 
-19. **Signs in Quadrant IV:**
+19. Signs in Quadrant IV:
 
     - $\cos \theta > 0$
     - $\sin \theta < 0$
 
-20. **Find $\theta$ if $\cos \theta = \frac{1}{2}$ in Quadrant I:**
+20. Find $\theta$ if $\cos \theta = \frac{1}{2}$ in Quadrant I:
 
     $$
     \cos \theta = \frac{1}{2} \implies \theta = 60^\circ
     $$
 
-21. **Convert $-\frac{\pi}{6}$ to degrees:**
+21. Convert $-\frac{\pi}{6}$ to degrees:
 
     $$
     \theta = -\frac{\pi}{6} \times \left( \frac{180^\circ}{\pi} \right) = -30^\circ
     $$
 
-22. **Calculate $\tan 180^\circ$:**
+22. Calculate $\tan 180^\circ$:
 
     $$
     \tan 180^\circ = 0
     $$
 
-23. **Coordinates at $\theta = 0$:**
+23. Coordinates at $\theta = 0$:
 
     $$
     (\cos 0, \sin 0) = (1, 0)
     $$
 
-24. **Find $\sin 90^\circ$ and $\cos 90^\circ$:**
+24. Find $\sin 90^\circ$ and $\cos 90^\circ$:
 
     $$
     \sin 90^\circ = 1, \quad \cos 90^\circ = 0
