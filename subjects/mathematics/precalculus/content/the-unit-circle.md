@@ -14,14 +14,19 @@ The unit circle fundamental concepts in trigonometry and mathematics as a whole.
 A **radian** is an alternative unit of measuring angles, defined based on the radius of a circle. One radian is the angle created when the arc length is equal to the radius of the circle.
 
 - **Radians and Degrees Conversion:**
+
   $$
   360^\circ = 2\pi \text{ radians}
   $$
+
   Therefore, to convert degrees to radians:
+
   $$
   \text{Radians} = \left( \frac{\pi}{180^\circ} \right) \times \text{Degrees}
   $$
+
   And to convert radians to degrees:
+
   $$
   \text{Degrees} = \left( \frac{180^\circ}{\pi} \right) \times \text{Radians}
   $$
@@ -32,17 +37,22 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 
 - **Coordinates on the Unit Circle:**
   Any point on the unit circle can be defined using an angle $\theta$ from the positive x-axis:
+
   $$
   (\cos \theta, \sin \theta)
   $$
+
   This means that for any angle $\theta$, the x-coordinate is $\cos \theta$, and the y-coordinate is $\sin \theta$.
 
 ---
 
 <!-- Placeholder for the Unit Circle image -->
 
-![Unit Circle Diagram](../assets/unit-circle.png)
 
+<!-- Centered and resized image using HTML tags -->
+<p align="center">
+  <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="400">
+</p>
 *Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.*
 
 ---
@@ -57,6 +67,7 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 
 - **Tangent Function ($\tan \theta$):**
   Defined as the ratio of the sine and cosine functions:
+
   $$
   \tan \theta = \frac{\sin \theta}{\cos \theta}
   $$
@@ -66,21 +77,25 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 Some commonly used angles and their coordinates on the unit circle:
 
 - **$0^\circ$ or $0$ radians:**
+
   $$
   (\cos 0, \sin 0) = (1, 0)
   $$
 
 - **$90^\circ$ or $\frac{\pi}{2}$ radians:**
+
   $$
   \left( \cos \frac{\pi}{2}, \sin \frac{\pi}{2} \right) = (0, 1)
   $$
 
 - **$180^\circ$ or $\pi$ radians:**
+
   $$
   (\cos \pi, \sin \pi) = (-1, 0)
   $$
 
 - **$270^\circ$ or $\frac{3\pi}{2}$ radians:**
+
   $$
   \left( \cos \frac{3\pi}{2}, \sin \frac{3\pi}{2} \right) = (0, -1)
   $$
