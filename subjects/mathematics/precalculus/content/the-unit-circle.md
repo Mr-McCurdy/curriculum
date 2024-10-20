@@ -51,7 +51,7 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 
 <!-- Centered and resized image using HTML tags -->
 <p align="center">
-  <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="400">
+  <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="600">
 </p>
 *Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.*
 
