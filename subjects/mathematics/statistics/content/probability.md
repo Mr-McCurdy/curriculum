@@ -8,11 +8,11 @@ Probability is a measure of how likely an event is to occur. The set of all poss
 
   $S = \{\text{Heads, Tails}\}$
 
-- **Event ( $A$ ):** A subset of the sample space, representing outcomes of interest. For example, $ A $ could be the event of flipping a heads:
+- **Event ( $A$ ):** A subset of the sample space, representing outcomes of interest. For example, $A$ could be the event of flipping a heads:
 
   $A = \{\text{Heads}\}$
 
-- **Probability of an Event ( $p$ ):** The probability of a specific event occurring is often denoted by the lowercase letter $ p $. For example, if $p$ is the probability of flipping heads with a fair coin, then $p = 0.5$.
+- **Probability of an Event ( $p$ ):** The probability of a specific event occurring is often denoted by the lowercase letter $p$. For example, if $p$ is the probability of flipping heads with a fair coin, then $p = 0.5$.
 
 **Question 1:** *What are elements in a sample space called?*
 
