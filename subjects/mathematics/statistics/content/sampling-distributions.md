@@ -60,7 +60,7 @@ For a categorical variable, we often calculate the sample proportion $\hat{p}$. 
 
 ### 2. Sampling Distribution for Sample Means
 
-For numerical data, the sample mean $\bar{x} $ is of interest. The sampling distribution of $\bar{x}$ gives the distribution of the sample means for all possible random samples of a given size from a population with mean $\mu$ and standard deviation $\sigma$. The characteristics of the sampling distribution for the sample mean are as follows:
+For numerical data, the sample mean $\bar{x}$ is of interest. The sampling distribution of $\bar{x}$ gives the distribution of the sample means for all possible random samples of a given size from a population with mean $\mu$ and standard deviation $\sigma$. The characteristics of the sampling distribution for the sample mean are as follows:
 
 - Mean of the sampling distribution of $\bar{x}$ is $\mu_{\bar{x}} = \mu$.
 - Standard deviation of the sampling distribution of $\bar{x}$ is $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$, where $n$ is the sample size.
@@ -432,7 +432,7 @@ Since the sample size is small ($n = 5$), and the population distribution is not
 
     So, there's approximately a 14.92% chance that the sample mean assembly time is more than 31 minutes.
 
-22. Yes, according to the Central Limit Theorem, for large sample sizes (usually $n \geq 30$), the sampling distribution of $ \bar{x} $ will be approximately normal regardless of the shape of the population distribution. So with $n = 100$, we can assume the sampling distribution is approximately normal.
+22. Yes, according to the Central Limit Theorem, for large sample sizes (usually $n \geq 30$), the sampling distribution of $\bar{x}$ will be approximately normal regardless of the shape of the population distribution. So with $n = 100$, we can assume the sampling distribution is approximately normal.
 
 23. The shape of the population distribution affects the sampling distribution of $\bar{x}$ especially when the sample size is small. If the population is normal, the sampling distribution of $\bar{x}$ is normal regardless of sample size. If the population is skewed or has heavy tails, the sampling distribution will reflect that skewness or kurtosis unless the sample size is large enough for the Central Limit Theorem to apply. With small sample sizes, the sampling distribution will more closely resemble the population distribution.
 
