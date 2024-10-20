@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="qti_import" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" 
+  xmlns:imsqti="http://www.imsglobal.org/xsd/ims_qtiasiv1p2">
+  <resources>
+    <resource identifier="qti_assessment" type="imsqti_item_xmlv2p1" href="question-bank-test.xml">
+      <file href="question-bank-test.xml"/>
+    </resource>
+  </resources>
+</manifest>

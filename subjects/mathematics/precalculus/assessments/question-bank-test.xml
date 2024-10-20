@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2">
+  <assessment ident="question_bank" title="Extracted Question Bank">
+    <section ident="root_section">
+        <item ident="bc34ee16cf6da9f351c19ee651eb42d8" title="Elements of Set A">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>ffb78fd1-40f6-447c-904d-de6b58bb5791,6625ee1a-c7c1-4829-a3e7-f974e73b938e,561640be-3f63-46b0-a4ca-22f7bd2040d7,4397b269-43c1-4683-9bec-7a30ed466b85</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>5277d3709e8b4e47121a2670b0d8136c</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>calculator_type</fieldlabel>
+              <fieldentry>none</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;List all the elements of the set \( A = \{x \mid x \text{ is a positive even number less than 12}\} \).&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="ffb78fd1-40f6-447c-904d-de6b58bb5791">
+                <material>
+                  <mattext texttype="text/html">\( \{2, 4, 6, 8, 10\} \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6625ee1a-c7c1-4829-a3e7-f974e73b938e">
+                <material>
+                  <mattext texttype="text/html">\( \{2, 4, 6, 8, 10, 12\} \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="561640be-3f63-46b0-a4ca-22f7bd2040d7">
+                <material>
+                  <mattext texttype="text/html">\( \{1, 2, 3, 4, 5, 6\} \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4397b269-43c1-4683-9bec-7a30ed466b85">
+                <material>
+                  <mattext texttype="text/html">\( \{2, 3, 5, 7, 11\} \)</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">ffb78fd1-40f6-447c-904d-de6b58bb5791</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

@@ -6,13 +6,13 @@ Probability is a measure of how likely an event is to occur. The set of all poss
 
 - **Sample Space ( $S$ ):** The set of all possible outcomes. For example, when flipping a coin:
 
-  $ S = \{\text{Heads, Tails}\} $
+  $S = \{\text{Heads, Tails}\}$
 
-- **Event ( $ A $ ):** A subset of the sample space, representing outcomes of interest. For example, $ A $ could be the event of flipping a heads:
+- **Event ( $A$ ):** A subset of the sample space, representing outcomes of interest. For example, $ A $ could be the event of flipping a heads:
 
-  $ A = \{\text{Heads}\} $
+  $A = \{\text{Heads}\}$
 
-- **Probability of an Event ( $ p $ ):** The probability of a specific event occurring is often denoted by the lowercase letter $ p $. For example, if $ p $ is the probability of flipping heads with a fair coin, then $ p = 0.5 $.
+- **Probability of an Event ( $p$ ):** The probability of a specific event occurring is often denoted by the lowercase letter $ p $. For example, if $ p $ is the probability of flipping heads with a fair coin, then $p = 0.5$.
 
 **Question 1:** *What are elements in a sample space called?*
 
@@ -20,7 +20,7 @@ Probability is a measure of how likely an event is to occur. The set of all poss
 
 **Question 2:** *How do we represent an event that includes multiple outcomes?*
 
-**Answer:** An event that includes multiple outcomes is represented as a subset of the sample space. For example, if $ S = \{1, 2, 3, 4, 5, 6\} $ represents the possible outcomes of a die roll, the event $ B $ of rolling an even number could be represented as $ B = \{2, 4, 6\} $.
+**Answer:** An event that includes multiple outcomes is represented as a subset of the sample space. For example, if $S = \{1, 2, 3, 4, 5, 6\}$ represents the possible outcomes of a die roll, the event $ B $ of rolling an even number could be represented as $B = \{2, 4, 6\}$.
 
 **Question 3:** *Can the sample space contain events that are not equally likely?*
 
@@ -36,11 +36,11 @@ Consider rolling a standard six-sided die. What is the probability of rolling a 
 
 1. **Identify the sample space $ S $:**
 
-   $ S = \{1, 2, 3, 4, 5, 6\} $
+   $S = \{1, 2, 3, 4, 5, 6\}$
 
 2. **Define the event $ A $:**
 
-   Let $ A $ be the event of rolling a number greater than 4, so $ A = \{5, 6\} $.
+   Let $A$ be the event of rolling a number greater than 4, so $A = \{5, 6\}$.
 
 3. **Calculate the probability:**
 
@@ -48,7 +48,7 @@ Consider rolling a standard six-sided die. What is the probability of rolling a 
    P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3}
    $$
 
-**Answer:** The probability of rolling a number greater than 4 is $ \frac{1}{3} $.
+**Answer:** The probability of rolling a number greater than 4 is $\frac{1}{3}$.
 
 ---
 
@@ -60,11 +60,11 @@ A bag contains 7 red balls, 5 blue balls, and 3 yellow balls. What is the probab
 
 1. **Identify the total number of balls:**
 
-   $ |S| = 7 + 5 + 3 = 15 $
+   $|S| = 7 + 5 + 3 = 15$
 
 2. **Define the event $ Y $:**
 
-   Let $ Y $ be the event of drawing a yellow ball, so $ |Y| = 3 $.
+   Let $Y$ be the event of drawing a yellow ball, so $|Y| = 3$.
 
 3. **Calculate the probability:**
 
@@ -72,7 +72,7 @@ A bag contains 7 red balls, 5 blue balls, and 3 yellow balls. What is the probab
    P(Y) = \frac{|Y|}{|S|} = \frac{3}{15} = \frac{1}{5}
    $$
 
-**Answer:** The probability of drawing a yellow ball is $ \frac{1}{5} $.
+**Answer:** The probability of drawing a yellow ball is $\frac{1}{5}$.
 
 ---
 
@@ -84,11 +84,11 @@ A box contains 3 red, 4 blue, and 5 green balls. If you randomly select a ball, 
 
 1. **Identify the total number of balls:**
 
-   $ |S| = 3 + 4 + 5 = 12 $
+   $|S| = 3 + 4 + 5 = 12$
 
 2. **Define the event $ G $:**
 
-   Let $ G $ be the event of drawing a green ball, so $ |G| = 5 $.
+   Let $G$ be the event of drawing a green ball, so $|G| = 5$.
 
 3. **Calculate the probability:**
 
@@ -96,23 +96,23 @@ A box contains 3 red, 4 blue, and 5 green balls. If you randomly select a ball, 
    P(G) = \frac{|G|}{|S|} = \frac{5}{12}
    $$
 
-**Answer:** The probability that the ball is neither red nor blue is $ \frac{5}{12} $.
+**Answer:** The probability that the ball is neither red nor blue is $\frac{5}{12}$.
 
 ---
 
 ## 2.2. Probability Function
 
-The probability function $ P $ assigns a probability to each event in the sample space. This is often denoted as $ P(A) $, where $ A $ is an event.
+The probability function $P$ assigns a probability to each event in the sample space. This is often denoted as $P(A)$, where $A$ is an event.
 
-- **Lowercase $ p $:** As noted earlier, lowercase $ p $ is commonly used to denote the probability of a specific event occurring, especially in situations involving multiple or repetitive trials, such as in the binomial distribution.
+- **Lowercase $p$:** As noted earlier, lowercase $p$ is commonly used to denote the probability of a specific event occurring, especially in situations involving multiple or repetitive trials, such as in the binomial distribution.
 
-- **Example:** If the event $ A $ is flipping a heads, and we assume the coin is fair, then:
+- **Example:** If the event $A$ is flipping a heads, and we assume the coin is fair, then:
 
-  $ P(\text{Heads}) = 0.5 \quad \text{or} \quad p = 0.5 $
+  $P(\text{Heads}) = 0.5 \quad \text{or} \quad p = 0.5$
 
 **Question 1:** *How does $ P $ fit into the context of a function?*
 
-**Answer:** $ P $ is a function that maps events (which are sets of outcomes) to a number between 0 and 1, representing the likelihood of the event occurring. So, $ P: \text{Events} \rightarrow [0, 1] $.
+**Answer:** $P$ is a function that maps events (which are sets of outcomes) to a number between 0 and 1, representing the likelihood of the event occurring. So, $P: \text{Events} \rightarrow [0, 1]$.
 
 **Question 2:** *What is the sum of the probabilities of all possible outcomes in a sample space?*
 
@@ -132,11 +132,11 @@ A jar contains 4 red, 6 blue, and 10 green marbles. What is the probability of d
 
 1. **Identify the total number of marbles:**
 
-   $ |S| = 4 + 6 + 10 = 20 $
+   $|S| = 4 + 6 + 10 = 20$
 
 2. **Define the event $ G $:**
 
-   Let $ G $ be the event of drawing a green marble, so $ |G| = 10 $.
+   Let $G$ be the event of drawing a green marble, so $|G| = 10$.
 
 3. **Calculate the probability:**
 
@@ -144,7 +144,7 @@ A jar contains 4 red, 6 blue, and 10 green marbles. What is the probability of d
    P(G) = \frac{|G|}{|S|} = \frac{10}{20} = \frac{1}{2}
    $$
 
-**Answer:** The probability of drawing a green marble is $ \frac{1}{2} $.
+**Answer:** The probability of drawing a green marble is $\frac{1}{2}$.
 
 ---
 
@@ -154,13 +154,13 @@ If a die is rolled, what is the probability of rolling a number greater than 4?
 
 **Step-by-Step Solution:**
 
-1. **Identify the sample space $ S $:**
+1. **Identify the sample space $S$:**
 
-   $ S = \{1, 2, 3, 4, 5, 6\} $
+   $S = \{1, 2, 3, 4, 5, 6\}$
 
 2. **Define the event $ A $:**
 
-   Let $ A $ be the event of rolling a number greater than 4, so $ A = \{5, 6\} $.
+   Let $A$ be the event of rolling a number greater than 4, so $A = \{5, 6\}$.
 
 3. **Calculate the probability:**
 
@@ -168,7 +168,7 @@ If a die is rolled, what is the probability of rolling a number greater than 4?
    P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3}
    $$
 
-**Answer:** The probability of rolling a number greater than 4 is $ \frac{1}{3} $.
+**Answer:** The probability of rolling a number greater than 4 is $\frac{1}{3}$.
 
 ---
 
@@ -180,11 +180,11 @@ In a group of 8 people, what is the probability that at least two of them share 
 
 1. **Identify the total number of possible outcomes for each person:**
 
-   $ |S| = 365^8 $ (assuming a non-leap year with 365 days).
+   $|S| = 365^8$ (assuming a non-leap year with 365 days).
 
 2. **Define the event $ A $:**
 
-   Let $ A $ be the event that at least two people share the same birthday.
+   Let $A$ be the event that at least two people share the same birthday.
 
 3. **Use the complement rule:**
 
@@ -198,7 +198,7 @@ In a group of 8 people, what is the probability that at least two of them share 
    P(A) = 1 - P(\text{no shared birthday})
    $$
 
-**Answer:** The exact probability would require further computation, but $ P(A) $ gives the probability that at least two people share the same birthday.
+**Answer:** The exact probability would require further computation, but $P(A)$ gives the probability that at least two people share the same birthday.
 
 ---
 
@@ -208,13 +208,13 @@ In a group of 8 people, what is the probability that at least two of them share 
 
 The addition rule is used to find the probability that at least one of two events occurs.
 
-- **Addition Rule:** If $ A $ and $ B $ are two events in a sample space:
+- **Addition Rule:** If $A$ and $B$ are two events in a sample space:
 
   $$
   P(A \cup B) = P(A) + P(B) - P(A \cap B)
   $$
 
-  If $ A $ and $ B $ are disjoint (i.e., mutually exclusive events with no outcomes in common), then:
+  If $A$ and $B$ are disjoint (i.e., mutually exclusive events with no outcomes in common), then:
 
   $$
   P(A \cup B) = P(A) + P(B)
@@ -222,7 +222,7 @@ The addition rule is used to find the probability that at least one of two event
 
 **Question 1:** *What is the probability of the union of two disjoint events?*
 
-**Answer:** If two events are disjoint, the probability of their union is the sum of their individual probabilities. For example, if $ A $ and $ B $ are disjoint, then $ P(A \cup B) = P(A) + P(B) $.
+**Answer:** If two events are disjoint, the probability of their union is the sum of their individual probabilities. For example, if $A$ and $B$ are disjoint, then $P(A \cup B) = P(A) + P(B)$.
 
 **Question 2:** *Can the addition rule be used for non-disjoint events?*
 
@@ -244,9 +244,9 @@ What is the probability of drawing a red or black card from a deck of 52 playing
 
    Let $ R $ be the event of drawing a red card and $ B $ be the event of drawing a black card.
 
-   - $ |R| = 26 $ (since there are 26 red cards).
-   - $ |B| = 26 $ (since there are 26 black cards).
-   - $ |R \cap B| = 0 $ (red and black are disjoint).
+   - $|R| = 26$ (since there are 26 red cards).
+   - $|B| = 26$ (since there are 26 black cards).
+   - $|R \cap B| = 0$ (red and black are disjoint).
 
 2. **Apply the addition rule:**
 
@@ -268,9 +268,9 @@ If two dice are rolled, what is the probability of getting a sum of 7 or 11?
 
    Let $ A $ be the event of getting a sum of 7, and $ B $ be the event of getting a sum of 11.
 
-   - $ |A| = 6 $ (combinations: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)).
-   - $ |B| = 2 $ (combinations: (5,6), (6,5)).
-   - $ |A \cap B| = 0 $ (events are disjoint).
+   - $|A| = 6$ (combinations: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)).
+   - $|B| = 2$ (combinations: (5,6), (6,5)).
+   - $|A \cap B| = 0$ (events are disjoint).
 
 2. **Apply the addition rule:**
 
@@ -290,10 +290,10 @@ A bag contains 4 red, 3 blue, and 2 green marbles. What is the probability of dr
 
 1. **Define the events:**
 
-   - Let $ R $ be the event of drawing a red marble: $ |R| = 4 $.
-   - Let $ G $ be the event of drawing a green marble: $ |G| = 2 $.
+   - Let $R$ be the event of drawing a red marble: $|R| = 4$.
+   - Let $G$ be the event of drawing a green marble: $|G| = 2$.
    - Total marbles: $ |S| = 9 $.
-   - $ R $ and $ G $ are disjoint.
+   - $R$ and $G$ are disjoint.
 
 2. **Apply the addition rule:**
 
@@ -301,7 +301,7 @@ A bag contains 4 red, 3 blue, and 2 green marbles. What is the probability of dr
    P(R \cup G) = P(R) + P(G) = \frac{4}{9} + \frac{2}{9} = \frac{6}{9} = \frac{2}{3}
    $$
 
-**Answer:** The probability of drawing a red or a green marble is $ \frac{2}{3} $.
+**Answer:** The probability of drawing a red or a green marble is $\frac{2}{3}$.
 
 ---
 
@@ -309,13 +309,13 @@ A bag contains 4 red, 3 blue, and 2 green marbles. What is the probability of dr
 
 Conditional probability measures the probability of one event occurring given that another event has already occurred.
 
-- **Conditional Probability:** The probability of $ A $ occurring given that $ B $ has occurred:
+- **Conditional Probability:** The probability of $A$ occurring given that $B$ has occurred:
 
   $$
   P(A | B) = \frac{P(A \cap B)}{P(B)}
   $$
 
-  where $ P(B) > 0 $.
+  where $P(B) > 0$.
 
 **Question 1:** *Why do we need conditional probability?*
 
@@ -323,11 +323,11 @@ Conditional probability measures the probability of one event occurring given th
 
 **Question 2:** *What happens if $ P(B) = 0 $ in conditional probability?*
 
-**Answer:** If $ P(B) = 0 $, the conditional probability $ P(A | B) $ is undefined because division by zero is not possible.
+**Answer:** If $P(B) = 0$, the conditional probability $P(A | B)$ is undefined because division by zero is not possible.
 
 **Question 3:** *How does conditional probability relate to the concept of independence?*
 
-**Answer:** If two events are independent, the occurrence of one does not affect the probability of the other, so $ P(A | B) = P(A) $.
+**Answer:** If two events are independent, the occurrence of one does not affect the probability of the other, so $P(A | B) = P(A)$.
 
 ---
 
@@ -339,9 +339,9 @@ Given that a card drawn from a deck is a king, what is the probability that it i
 
 1. **Identify the events:**
 
-   - $ K $: drawing a king ($ |K| = 4 $).
-   - $ H $: the king of hearts ($ |H| = 1 $).
-   - $ H \cap K $: the king of hearts ($ |H \cap K| = 1 $).
+   - $K$: drawing a king ($|K| = 4$).
+   - $H$: the king of hearts ($|H| = 1$).
+   - $H \cap K$: the king of hearts ($|H \cap K| = 1$).
 
 2. **Apply the conditional probability formula:**
 
@@ -349,7 +349,7 @@ Given that a card drawn from a deck is a king, what is the probability that it i
    P(H | K) = \frac{P(H \cap K)}{P(K)} = \frac{\frac{1}{52}}{\frac{4}{52}} = \frac{1}{4}
    $$
 
-**Answer:** The probability that the card is the king of hearts, given that it is a king, is $ \frac{1}{4} $.
+**Answer:** The probability that the card is the king of hearts, given that it is a king, is $\frac{1}{4}$.
 
 ---
 
@@ -361,8 +361,8 @@ A bag contains 8 red, 5 green, and 2 blue balls. If a ball is drawn and is known
 
 1. **Identify the events:**
 
-   - $ R $: drawing a red ball ($ |R| = 8 $).
-   - $ S $: drawing one of the three smallest red balls ($ |S \cap R| = 3 $).
+   - $R$: drawing a red ball ($|R| = 8$).
+   - $S$: drawing one of the three smallest red balls ($|S \cap R| = 3$).
 
 2. **Apply the conditional probability formula:**
 
@@ -370,7 +370,7 @@ A bag contains 8 red, 5 green, and 2 blue balls. If a ball is drawn and is known
    P(S | R) = \frac{P(S \cap R)}{P(R)} = \frac{\frac{3}{15}}{\frac{8}{15}} = \frac{3}{8}
    $$
 
-**Answer:** The probability that it is one of the three smallest red balls, given that it is red, is $ \frac{3}{8} $.
+**Answer:** The probability that it is one of the three smallest red balls, given that it is red, is $\frac{3}{8}$.
 
 ---
 
@@ -382,8 +382,8 @@ In a deck of 52 playing cards, what is the probability of drawing a heart given 
 
 1. **Identify the events:**
 
-   - $ R $: drawing a red card ($ |R| = 26 $).
-   - $ H $: drawing a heart ($ |H \cap R| = 13 $).
+   - $R$: drawing a red card ($|R| = 26$).
+   - $H$: drawing a heart ($|H \cap R| = 13$).
 
 2. **Apply the conditional probability formula:**
 
@@ -391,7 +391,7 @@ In a deck of 52 playing cards, what is the probability of drawing a heart given 
    P(H | R) = \frac{P(H \cap R)}{P(R)} = \frac{\frac{13}{52}}{\frac{26}{52}} = \frac{13}{26} = \frac{1}{2}
    $$
 
-**Answer:** The probability of drawing a heart given that the card is red is $ \frac{1}{2} $.
+**Answer:** The probability of drawing a heart given that the card is red is $\frac{1}{2}$.
 
 ---
 
@@ -399,13 +399,13 @@ In a deck of 52 playing cards, what is the probability of drawing a heart given 
 
 The multiplication rule is used to find the probability of the intersection of two events.
 
-- **Multiplication Rule:** For any two events $ A $ and $ B $, the probability of both events occurring is:
+- **Multiplication Rule:** For any two events $A$ and $B$, the probability of both events occurring is:
 
   $$
   P(A \cap B) = P(A | B) \times P(B)
   $$
 
-- **Independent Events:** Two events $ A $ and $ B $ are independent if the occurrence of one does not affect the probability of the other. Mathematically, $ A $ and $ B $ are independent if:
+- **Independent Events:** Two events $A$ and $B$ are independent if the occurrence of one does not affect the probability of the other. Mathematically, $A$ and $B$ are independent if:
 
   $$
   P(A | B) = P(A)
@@ -419,7 +419,7 @@ The multiplication rule is used to find the probability of the intersection of t
 
 **Question 1:** *How do you know if two events are independent?*
 
-**Answer:** Two events are independent if the probability of one event occurring does not change the probability of the other event. This can be tested using the formula $ P(A | B) = P(A) $.
+**Answer:** Two events are independent if the probability of one event occurring does not change the probability of the other event. This can be tested using the formula $P(A | B) = P(A)$.
 
 **Question 2:** *What is the difference between independent and disjoint events?*
 
@@ -427,7 +427,7 @@ The multiplication rule is used to find the probability of the intersection of t
 
 **Question 3:** *Can the multiplication rule be used for dependent events?*
 
-**Answer:** Yes, but you must use the general multiplication rule $ P(A \cap B) = P(A | B) \times P(B) $, where you account for the dependency by using the conditional probability $ P(A | B) $.
+**Answer:** Yes, but you must use the general multiplication rule $P(A \cap B) = P(A | B) \times P(B)$, where you account for the dependency by using the conditional probability $P(A | B)$.
 
 ---
 
@@ -439,9 +439,9 @@ If a die is rolled twice, what is the probability of getting a 6 on both rolls?
 
 1. **Identify the events:**
 
-   - $ A $: rolling a 6 on the first roll ($ P(A) = \frac{1}{6} $).
-   - $ B $: rolling a 6 on the second roll ($ P(B) = \frac{1}{6} $).
-   - $ A $ and $ B $ are independent.
+   - $A$: rolling a 6 on the first roll ($P(A) = \frac{1}{6}$).
+   - $B$: rolling a 6 on the second roll ($P(B) = \frac{1}{6}$).
+   - $A$ and $B$ are independent.
 
 2. **Apply the multiplication rule:**
 
@@ -449,7 +449,7 @@ If a die is rolled twice, what is the probability of getting a 6 on both rolls?
    P(A \cap B) = P(A) \times P(B) = \frac{1}{6} \times \frac{1}{6} = \frac{1}{36}
    $$
 
-**Answer:** The probability of getting a 6 on both rolls is $ \frac{1}{36} $.
+**Answer:** The probability of getting a 6 on both rolls is $\frac{1}{36}$.
 
 ---
 
@@ -461,9 +461,9 @@ If a coin is flipped three times, what is the probability of getting heads on al
 
 1. **Identify the events:**
 
-   - $ H_1 $: heads on first flip ($ P(H_1) = \frac{1}{2} $).
-   - $ H_2 $: heads on second flip ($ P(H_2) = \frac{1}{2} $).
-   - $ H_3 $: heads on third flip ($ P(H_3) = \frac{1}{2} $).
+   - $H_1$: heads on first flip ($P(H_1) = \frac{1}{2}$).
+   - $H_2$: heads on second flip ($P(H_2) = \frac{1}{2}$).
+   - $H_3$: heads on third flip ($P(H_3) = \frac{1}{2}$).
    - Events are independent.
 
 2. **Apply the multiplication rule:**
@@ -472,7 +472,7 @@ If a coin is flipped three times, what is the probability of getting heads on al
    P(H_1 \cap H_2 \cap H_3) = P(H_1) \times P(H_2) \times P(H_3) = \left( \frac{1}{2} \right)^3 = \frac{1}{8}
    $$
 
-**Answer:** The probability of getting heads on all three flips is $ \frac{1}{8} $.
+**Answer:** The probability of getting heads on all three flips is $\frac{1}{8}$.
 
 ---
 
@@ -484,8 +484,8 @@ A card is drawn from a deck, and then another card is drawn without replacement.
 
 1. **Identify the events:**
 
-   - $ A_1 $: first card is an ace ($ P(A_1) = \frac{4}{52} = \frac{1}{13} $).
-   - $ A_2 $: second card is an ace given the first was an ace ($ P(A_2 | A_1) = \frac{3}{51} $).
+   - $A_1$: first card is an ace ($P(A_1) = \frac{4}{52} = \frac{1}{13}$).
+   - $A_2$: second card is an ace given the first was an ace ($P(A_2 | A_1) = \frac{3}{51}$).
 
 2. **Apply the multiplication rule:**
 
@@ -493,7 +493,7 @@ A card is drawn from a deck, and then another card is drawn without replacement.
    P(A_1 \cap A_2) = P(A_1) \times P(A_2 | A_1) = \frac{1}{13} \times \frac{3}{51} = \frac{3}{663} = \frac{1}{221}
    $$
 
-**Answer:** The probability that both cards are aces is $ \frac{1}{221} $.
+**Answer:** The probability that both cards are aces is $\frac{1}{221}$.
 
 ---
 
@@ -525,11 +525,11 @@ What is the probability of rolling a 2 or a 5 on a standard six-sided die?
 
 1. **Identify the sample space $ S $:**
 
-   $ S = \{1, 2, 3, 4, 5, 6\} $
+   $S = \{1, 2, 3, 4, 5, 6\}$
 
 2. **Define the event $ A $:**
 
-   $ A = \{2, 5\} $
+   $A = \{2, 5\}$
 
 3. **Calculate the probability:**
 
@@ -537,7 +537,7 @@ What is the probability of rolling a 2 or a 5 on a standard six-sided die?
    P(A) = \frac{|A|}{|S|} = \frac{2}{6} = \frac{1}{3}
    $$
 
-**Answer:** The probability of rolling a 2 or a 5 is $ \frac{1}{3} $.
+**Answer:** The probability of rolling a 2 or a 5 is $\frac{1}{3}$.
 
 ---
 
@@ -563,7 +563,7 @@ If a die is rolled four times, what is the probability of getting at least one 6
    P(\text{at least one 6}) = 1 - P(\text{no 6 in four rolls}) = 1 - \left( \frac{5}{6} \right)^4 \approx 1 - 0.4823 = 0.5177
    $$
 
-**Answer:** The probability of getting at least one 6 is approximately $ 0.5177 $.
+**Answer:** The probability of getting at least one 6 is approximately $0.5177$.
 
 ---
 
@@ -575,9 +575,9 @@ In a lottery where you must choose a number between 1 and 100, what is the proba
 
 1. **Identify the numbers divisible by 10:**
 
-   $ A = \{10, 20, 30, \dots, 100\} $
+   $A = \{10, 20, 30, \dots, 100\}$
 
-   Total numbers divisible by 10: $ |A| = 10 $
+   Total numbers divisible by 10: $|A| = 10$
 
 2. **Calculate the probability:**
 
@@ -585,7 +585,7 @@ In a lottery where you must choose a number between 1 and 100, what is the proba
    P(A) = \frac{|A|}{|S|} = \frac{10}{100} = \frac{1}{10}
    $$
 
-**Answer:** The probability of selecting a number divisible by 10 is $ \frac{1}{10} $.
+**Answer:** The probability of selecting a number divisible by 10 is $\frac{1}{10}$.
 
 ---
 
@@ -603,7 +603,7 @@ Continuous events are those where the outcomes cannot be counted individually, b
 
 **Question 3:** *Can a continuous event have a probability of zero?*
 
-**Answer:** Yes, in continuous distributions, the probability of any single exact outcome (like $ P(X = a) $) is zero, but the probability of an interval of outcomes (like $ P(a < X < b) $) is greater than zero.
+**Answer:** Yes, in continuous distributions, the probability of any single exact outcome (like $P(X = a)$) is zero, but the probability of an interval of outcomes (like $P(a < X < b)$) is greater than zero.
 
 ---
 
@@ -615,8 +615,8 @@ If the time it takes to complete a task is uniformly distributed between 30 and 
 
 1. **Identify the interval:**
 
-   - Total interval: $ [30, 60] $.
-   - Interval of interest: $ [40, 50] $.
+   - Total interval: $[30, 60]$.
+   - Interval of interest: $[40, 50]$.
 
 2. **Calculate the probability:**
 
@@ -624,7 +624,7 @@ If the time it takes to complete a task is uniformly distributed between 30 and 
    P(40 \leq X \leq 50) = \frac{50 - 40}{60 - 30} = \frac{10}{30} = \frac{1}{3}
    $$
 
-**Answer:** The probability that the task takes between 40 and 50 minutes is $ \frac{1}{3} $.
+**Answer:** The probability that the task takes between 40 and 50 minutes is $\frac{1}{3}$.
 
 ---
 
@@ -648,7 +648,7 @@ The weight of a certain fruit is normally distributed with a mean of 200 grams a
    P(Z > 2) = 1 - P(Z < 2) = 1 - 0.9772 = 0.0228
    $$
 
-**Answer:** The probability that a randomly selected fruit weighs more than 240 grams is approximately $ 0.0228 $.
+**Answer:** The probability that a randomly selected fruit weighs more than 240 grams is approximately $0.0228$.
 
 ---
 
@@ -670,7 +670,7 @@ The length of time customers spend on a website is exponentially distributed wit
    P(X > 10) = e^{-\lambda x} = e^{-0.2 \times 10} = e^{-2} \approx 0.1353
    $$
 
-**Answer:** The probability that a customer spends more than 10 minutes on the website is approximately $ 0.1353 $.
+**Answer:** The probability that a customer spends more than 10 minutes on the website is approximately $0.1353$.
 
 ---
 
@@ -696,14 +696,14 @@ The uniform distribution is a type of probability distribution where all outcome
 
 **Sample Exercise 1:**
 
-What is the probability of selecting a number between 4 and 7 from a uniform distribution on the interval [0, 10]?
+What is the probability of selecting a number between 4 and 7 from a uniform distribution on the interval $[0, 10]$?
 
 **Step-by-Step Solution:**
 
 1. **Identify the interval:**
 
-   - Total interval: $ [0, 10] $.
-   - Interval of interest: $ [4, 7] $.
+   - Total interval: $[0, 10]$.
+   - Interval of interest: $[4, 7]$.
 
 2. **Calculate the probability:**
 
@@ -711,7 +711,7 @@ What is the probability of selecting a number between 4 and 7 from a uniform dis
    P(4 \leq X \leq 7) = \frac{7 - 4}{10 - 0} = \frac{3}{10} = 0.3
    $$
 
-**Answer:** The probability of selecting a number between 4 and 7 is $ 0.3 $.
+**Answer:** The probability of selecting a number between 4 and 7 is $0.3$.
 
 ---
 
@@ -723,7 +723,7 @@ If a spinner is equally divided into 8 sections, what is the probability of land
 
 1. **Total sections:**
 
-   $ |S| = 8 $
+   $|S| = 8$
 
 2. **Probability:**
 
@@ -731,20 +731,20 @@ If a spinner is equally divided into 8 sections, what is the probability of land
    P(\text{section 3}) = \frac{1}{8}
    $$
 
-**Answer:** The probability of landing on section 3 is $ \frac{1}{8} $.
+**Answer:** The probability of landing on section 3 is $\frac{1}{8}$.
 
 ---
 
 **Sample Exercise 3:**
 
-In a uniform distribution over the interval [0, 20], what is the probability of selecting a number between 5 and 15?
+In a uniform distribution over the interval $[0, 20]$, what is the probability of selecting a number between 5 and 15?
 
 **Step-by-Step Solution:**
 
 1. **Identify the interval:**
 
-   - Total interval: $ [0, 20] $.
-   - Interval of interest: $ [5, 15] $.
+   - Total interval: $[0, 20]$.
+   - Interval of interest: $[5, 15]$.
 
 2. **Calculate the probability:**
 
@@ -752,7 +752,7 @@ In a uniform distribution over the interval [0, 20], what is the probability of 
    P(5 \leq X \leq 15) = \frac{15 - 5}{20 - 0} = \frac{10}{20} = \frac{1}{2}
    $$
 
-**Answer:** The probability of selecting a number between 5 and 15 is $ \frac{1}{2} $.
+**Answer:** The probability of selecting a number between 5 and 15 is $\frac{1}{2}$.
 
 ---
 
@@ -772,7 +772,7 @@ $$
 P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
 $$
 
-where $ n $ is the number of trials, $ k $ is the number of successes, and $ p $ is the probability of success on each trial.
+where $n$ is the number of trials, $k$ is the number of successes, and $p$ is the probability of success on each trial.
 
 **Question 3:** *Can the binomial distribution be applied to continuous events?*
 
@@ -788,10 +788,10 @@ In a batch of 15 light bulbs, 4 are defective. If you randomly select 3 bulbs, w
 
 1. **Parameters:**
 
-   - $ n = 3 $
-   - $ k = 1 $
-   - $ p = \frac{4}{15} $
-   - $ q = 1 - p = \frac{11}{15} $
+   - $n = 3$
+   - $k = 1$
+   - $p = \frac{4}{15}$
+   - $q = 1 - p = \frac{11}{15}$
 
 2. **Calculate probability:**
 
@@ -799,7 +799,7 @@ In a batch of 15 light bulbs, 4 are defective. If you randomly select 3 bulbs, w
    P(X = 1) = \binom{3}{1} \left( \frac{4}{15} \right)^1 \left( \frac{11}{15} \right)^{2} = 3 \times \frac{4}{15} \times \left( \frac{121}{225} \right) \approx 0.43
    $$
 
-**Answer:** The probability that exactly 1 bulb is defective is approximately $ 0.43 $.
+**Answer:** The probability that exactly 1 bulb is defective is approximately $0.43$.
 
 ---
 
@@ -811,9 +811,9 @@ If you flip a coin 5 times, what is the probability of getting exactly 3 heads?
 
 1. **Parameters:**
 
-   - $ n = 5 $
-   - $ k = 3 $
-   - $ p = 0.5 $
+   - $n = 5$
+   - $k = 3$
+   - $p = 0.5$
 
 2. **Calculate probability:**
 
@@ -821,7 +821,7 @@ If you flip a coin 5 times, what is the probability of getting exactly 3 heads?
    P(X = 3) = \binom{5}{3} (0.5)^3 (0.5)^{2} = 10 \times 0.125 \times 0.25 = 0.3125
    $$
 
-**Answer:** The probability of getting exactly 3 heads is $ 0.3125 $.
+**Answer:** The probability of getting exactly 3 heads is $0.3125$.
 
 ---
 
@@ -833,10 +833,10 @@ A basketball player makes 70% of free throws. What is the probability that she m
 
 1. **Parameters:**
 
-   - $ n = 6 $
-   - $ k = 4 $
-   - $ p = 0.7 $
-   - $ q = 0.3 $
+   - $n = 6$
+   - $k = 4$
+   - $p = 0.7$
+   - $q = 0.3$
 
 2. **Calculate probability:**
 
@@ -854,7 +854,7 @@ The normal distribution is a continuous probability distribution characterized b
 
 **Question 1:** *What are the properties of a normal distribution?*
 
-**Answer:** The normal distribution is symmetric around the mean, with the majority of the data falling within one standard deviation of the mean. It is defined by its mean $ \mu $ and standard deviation $ \sigma $.
+**Answer:** The normal distribution is symmetric around the mean, with the majority of the data falling within one standard deviation of the mean. It is defined by its mean $\mu$ and standard deviation $\sigma$.
 
 **Question 2:** *How do you calculate probabilities in a normal distribution?*
 
@@ -878,13 +878,13 @@ Find the probability that a normally distributed variable $ X $ with a mean of 1
 
 1. **Calculate z-scores:**
 
-   - For $ X = 90 $:
+   - For $X = 90$:
 
      $$
      z_1 = \frac{90 - 100}{20} = -0.5
      $$
 
-   - For $ X = 110 $:
+   - For $X = 110$:
 
      $$
      z_2 = \frac{110 - 100}{20} = 0.5
@@ -892,8 +892,8 @@ Find the probability that a normally distributed variable $ X $ with a mean of 1
 
 2. **Find probabilities:**
 
-   - $ P(Z < 0.5) \approx 0.6915 $
-   - $ P(Z < -0.5) \approx 0.3085 $
+   - $P(Z < 0.5) \approx 0.6915$
+   - $P(Z < -0.5) \approx 0.3085$
 
 3. **Calculate the probability:**
 
@@ -901,7 +901,7 @@ Find the probability that a normally distributed variable $ X $ with a mean of 1
    P(90 \leq X \leq 110) = P(Z < 0.5) - P(Z < -0.5) = 0.6915 - 0.3085 = 0.383
    $$
 
-**Answer:** The probability that $ X $ falls between 90 and 110 is $ 0.383 $.
+**Answer:** The probability that $ X $ falls between 90 and 110 is $0.383$.
 
 ---
 
@@ -913,13 +913,13 @@ A standardized test has scores that are normally distributed with a mean of 600 
 
 1. **Calculate z-scores:**
 
-   - For $ X = 500 $:
+   - For $X = 500$:
 
      $$
      z_1 = \frac{500 - 600}{100} = -1
      $$
 
-   - For $ X = 700 $:
+   - For $X = 700$:
 
      $$
      z_2 = \frac{700 - 600}{100} = 1
@@ -927,8 +927,8 @@ A standardized test has scores that are normally distributed with a mean of 600 
 
 2. **Find probabilities:**
 
-   - $ P(Z < 1) \approx 0.8413 $
-   - $ P(Z < -1) \approx 0.1587 $
+   - $P(Z < 1) \approx 0.8413$
+   - $P(Z < -1) \approx 0.1587$
 
 3. **Calculate the probability:**
 
@@ -936,7 +936,7 @@ A standardized test has scores that are normally distributed with a mean of 600 
    P(500 \leq X \leq 700) = P(Z < 1) - P(Z < -1) = 0.8413 - 0.1587 = 0.6826
    $$
 
-**Answer:** The probability that a student scores between 500 and 700 is $ 0.6826 $.
+**Answer:** The probability that a student scores between 500 and 700 is $0.6826$.
 
 ---
 
@@ -958,7 +958,7 @@ What is the probability that a normally distributed variable with a mean of 50 a
    P(X > 60) = 1 - P(Z < 1) = 1 - 0.8413 = 0.1587
    $$
 
-**Answer:** The probability that $ X $ is greater than 60 is $ 0.1587 $.
+**Answer:** The probability that $ X $ is greater than 60 is $0.1587$.
 
 ---
 
