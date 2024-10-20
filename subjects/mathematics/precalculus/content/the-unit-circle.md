@@ -149,6 +149,7 @@ $$
 **Solution:**
 
 For $\theta = \frac{\pi}{4}$ (which is $45^\circ$):
+
 $$
 \sin \frac{\pi}{4} = \frac{\sqrt{2}}{2}, \quad \cos \frac{\pi}{4} = \frac{\sqrt{2}}{2}
 $$
