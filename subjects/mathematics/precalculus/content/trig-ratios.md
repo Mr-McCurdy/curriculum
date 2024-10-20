@@ -115,7 +115,7 @@ $$
 21. If $\sin \theta = \frac{5}{13}$, find the other trigonometric ratios.
 22. In a right triangle with a hypotenuse of 10 and one side of 6, find $\tan \theta$.
 23. If $\tan \theta = 1$, what is $\theta$ in degrees?
-24. If $\sin \theta \approx 0.6$ and $\cos \theta \approx 0.8$, what is $\tan \theta$?
+24. If $\sin \theta = 0.6$ and $\cos \theta = 0.8$, what is $\tan \theta$?
 
 ---
 
