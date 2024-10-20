@@ -282,15 +282,15 @@ $$\sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}$$
 
 13. $$\tan 45^\circ = 1$$
 
-14. $$\cos \theta = -\cos 60^\circ = -\frac{1}{2}$$
+14. $$-\frac{1}{2}$$
 
 15. $$\left( -\frac{\sqrt{3}}{2}, \frac{1}{2} \right)$$
 
-16. $$\theta_{\text{ref}} = 360^\circ - 315^\circ = 45^\circ$$
+16. $$45^\circ$$
 
-17. $$\theta = 540^\circ \times \left( \frac{\pi}{180^\circ} \right) = 3\pi\text{ radians}$$
+17. $$3\pi\text{radians}$$
 
-18. $$\sin \left( -\frac{\pi}{4} \right) = -\sin \frac{\pi}{4} = -\frac{\sqrt{2}}{2}$$
+18. $$-\frac{\sqrt{2}}{2}$$
 
 19. Signs in Quadrant IV:
 
