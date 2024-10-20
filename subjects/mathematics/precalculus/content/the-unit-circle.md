@@ -41,7 +41,7 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 
 <!-- Placeholder for the Unit Circle image -->
 
-![Unit Circle Diagram](curriculum/subjects/mathematics/precalculus/assets/unit-circle.png)
+![Unit Circle Diagram](../assets/unit-circle.png)
 
 *Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.*
 
