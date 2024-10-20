@@ -55,7 +55,8 @@ This means that for any angle $\theta$, the x-coordinate is $\cos \theta$,and th
   <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="600">
 </p>
 
-*Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.*
+<!-- Centered caption -->
+<p align="center"><em>Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.</em></p>
 
 ---
 
