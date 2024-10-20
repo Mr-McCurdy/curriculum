@@ -1,4 +1,4 @@
-# 4. Trigonometric Ratios
+# Trigonometric Ratios
 ---
 
 ## Introduction
