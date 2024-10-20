@@ -13,23 +13,23 @@ The unit circle fundamental concepts in trigonometry and mathematics as a whole.
 
 A **radian** is an alternative unit of measuring angles, defined based on the radius of a circle. One radian is the angle created when the arc length is equal to the radius of the circle.
 
-- **Radians and Degrees Conversion:**
+#### Radians and Degrees Conversion
 
-  $$
-  360^\circ = 2\pi \text{ radians}
-  $$
+$$
+360^\circ = 2\pi \text{ radians}
+$$
 
-  Therefore, to convert degrees to radians:
+Therefore, to convert degrees to radians:
 
-  $$
-  \text{Radians} = \left( \frac{\pi}{180^\circ} \right) \times \text{Degrees}
-  $$
+$$
+\text{Radians} = \left( \frac{\pi}{180^\circ} \right) \times \text{Degrees}
+$$
 
-  And to convert radians to degrees:
+And to convert radians to degrees:
 
-  $$
-  \text{Degrees} = \left( \frac{180^\circ}{\pi} \right) \times \text{Radians}
-  $$
+$$
+\text{Degrees} = \left( \frac{180^\circ}{\pi} \right) \times \text{Radians}
+$$
 
 ### The Unit Circle
 
@@ -53,6 +53,7 @@ The **unit circle** is a circle with a radius of 1 unit, centered at the origin 
 <p align="center">
   <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="600">
 </p>
+
 *Figure 1: The Unit Circle illustrating angles in radians and degrees, with coordinates of key points.*
 
 ---
