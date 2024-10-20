@@ -263,7 +263,7 @@ $$
 
 6. $$\theta_{\text{ref}} = 240^\circ - 180^\circ = 60^\circ$$
 
-7. $$\theta = -90^\circ \times \left( \frac{\pi}{180^\circ} \right) = -\fra{\pi}{2}$$
+7. $$\theta = -90^\circ \times \left( \frac{\pi}{180^\circ} \right) = -\frac{\pi}{2}$$
 
 8. $$\cos \theta = \cos 45^\circ = \frac{\sqrt{2}}{2}$$
 $$\sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}$$
@@ -278,7 +278,7 @@ $$\sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}$$
 
 11. $$\sin \frac{3\pi}{2} = \sin 270^\circ = -1$$
 
-12. $$\theta = 300^\circ \times \left( \frac{\pi}{180^\circ} \right) = \fra{5\pi}{3}$$
+12. $$\theta = 300^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{5\pi}{3}$$
 
 13. $$\tan 45^\circ = 1$$
 
