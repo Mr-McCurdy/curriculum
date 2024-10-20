@@ -61,9 +61,11 @@ In a right-angled triangle, if $\tan \theta = 2$, find $\sin \theta$ and $\cos \
 
 **Solution:**  
 We know:  
+
 $$
 \tan \theta = \frac{\text{opposite}}{\text{adjacent}} = 2
 $$ 
+
 Let the adjacent side be $k$, so the opposite side is $2k$. The hypotenuse is:  
 $$
 \text{hypotenuse} = \sqrt{(2k)^2 + k^2} = \sqrt{4k^2 + k^2} = \sqrt{5k^2} = k\sqrt{5}
