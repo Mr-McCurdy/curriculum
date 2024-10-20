@@ -288,7 +288,7 @@ $$\sin \theta = -\sin 45^\circ = -\frac{\sqrt{2}}{2}$$
 
 16. $$45^\circ$$
 
-17. $$3\pi\text{radians}$$
+17. $$3\pi$$ radians
 
 18. $$-\frac{\sqrt{2}}{2}$$
 
