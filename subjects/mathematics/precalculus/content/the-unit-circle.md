@@ -253,9 +253,9 @@ $$
 
 1. **Convert $225^\circ$ to radians:**
 
-   $$
-   \theta = 225^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{5\pi}{4} \text{ radians}
-   $$
+$$
+\theta = 225^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{5\pi}{4} \text{ radians}
+$$
 
 2. **Convert $\frac{5\pi}{4}$ radians to degrees:**
 
