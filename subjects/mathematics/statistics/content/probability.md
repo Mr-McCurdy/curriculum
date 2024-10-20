@@ -12,7 +12,7 @@ Probability is a measure of how likely an event is to occur. The set of all poss
 
   $A = \{\text{Heads}\}$
 
-- **Probability of an Event ( $p$ ):** The probability of a specific event occurring is often denoted by the lowercase letter $ p $. For example, if $ p $ is the probability of flipping heads with a fair coin, then $p = 0.5$.
+- **Probability of an Event ( $p$ ):** The probability of a specific event occurring is often denoted by the lowercase letter $ p $. For example, if $p$ is the probability of flipping heads with a fair coin, then $p = 0.5$.
 
 **Question 1:** *What are elements in a sample space called?*
 
@@ -34,11 +34,11 @@ Consider rolling a standard six-sided die. What is the probability of rolling a 
 
 **Step-by-Step Solution:**
 
-1. **Identify the sample space $ S $:**
+1. **Identify the sample space $S$:**
 
    $S = \{1, 2, 3, 4, 5, 6\}$
 
-2. **Define the event $ A $:**
+2. **Define the event $A$:**
 
    Let $A$ be the event of rolling a number greater than 4, so $A = \{5, 6\}$.
 
@@ -62,7 +62,7 @@ A bag contains 7 red balls, 5 blue balls, and 3 yellow balls. What is the probab
 
    $|S| = 7 + 5 + 3 = 15$
 
-2. **Define the event $ Y $:**
+2. **Define the event $Y$:**
 
    Let $Y$ be the event of drawing a yellow ball, so $|Y| = 3$.
 
@@ -86,7 +86,7 @@ A box contains 3 red, 4 blue, and 5 green balls. If you randomly select a ball, 
 
    $|S| = 3 + 4 + 5 = 12$
 
-2. **Define the event $ G $:**
+2. **Define the event $G$:**
 
    Let $G$ be the event of drawing a green ball, so $|G| = 5$.
 
@@ -110,7 +110,7 @@ The probability function $P$ assigns a probability to each event in the sample s
 
   $P(\text{Heads}) = 0.5 \quad \text{or} \quad p = 0.5$
 
-**Question 1:** *How does $ P $ fit into the context of a function?*
+**Question 1:** *How does $P$ fit into the context of a function?*
 
 **Answer:** $P$ is a function that maps events (which are sets of outcomes) to a number between 0 and 1, representing the likelihood of the event occurring. So, $P: \text{Events} \rightarrow [0, 1]$.
 
@@ -134,7 +134,7 @@ A jar contains 4 red, 6 blue, and 10 green marbles. What is the probability of d
 
    $|S| = 4 + 6 + 10 = 20$
 
-2. **Define the event $ G $:**
+2. **Define the event $G$:**
 
    Let $G$ be the event of drawing a green marble, so $|G| = 10$.
 
@@ -158,7 +158,7 @@ If a die is rolled, what is the probability of rolling a number greater than 4?
 
    $S = \{1, 2, 3, 4, 5, 6\}$
 
-2. **Define the event $ A $:**
+2. **Define the event $A$:**
 
    Let $A$ be the event of rolling a number greater than 4, so $A = \{5, 6\}$.
 
@@ -182,7 +182,7 @@ In a group of 8 people, what is the probability that at least two of them share 
 
    $|S| = 365^8$ (assuming a non-leap year with 365 days).
 
-2. **Define the event $ A $:**
+2. **Define the event $A$:**
 
    Let $A$ be the event that at least two people share the same birthday.
 
@@ -226,7 +226,7 @@ The addition rule is used to find the probability that at least one of two event
 
 **Question 2:** *Can the addition rule be used for non-disjoint events?*
 
-**Answer:** Yes, but you must subtract the probability of the intersection $ P(A \cap B) $ to avoid double-counting the overlap.
+**Answer:** Yes, but you must subtract the probability of the intersection $P(A \cap B)$ to avoid double-counting the overlap.
 
 **Question 3:** *What does it mean for two events to be disjoint?*
 
@@ -242,7 +242,7 @@ What is the probability of drawing a red or black card from a deck of 52 playing
 
 1. **Define the events:**
 
-   Let $ R $ be the event of drawing a red card and $ B $ be the event of drawing a black card.
+   Let $R$ be the event of drawing a red card and $B$ be the event of drawing a black card.
 
    - $|R| = 26$ (since there are 26 red cards).
    - $|B| = 26$ (since there are 26 black cards).
@@ -266,7 +266,7 @@ If two dice are rolled, what is the probability of getting a sum of 7 or 11?
 
 1. **Define the events:**
 
-   Let $ A $ be the event of getting a sum of 7, and $ B $ be the event of getting a sum of 11.
+   Let $A$ be the event of getting a sum of 7, and $B$ be the event of getting a sum of 11.
 
    - $|A| = 6$ (combinations: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)).
    - $|B| = 2$ (combinations: (5,6), (6,5)).
@@ -278,7 +278,7 @@ If two dice are rolled, what is the probability of getting a sum of 7 or 11?
    P(A \cup B) = P(A) + P(B) = \frac{6}{36} + \frac{2}{36} = \frac{8}{36} = \frac{2}{9}
    $$
 
-**Answer:** The probability of getting a sum of 7 or 11 is $ \frac{2}{9} $.
+**Answer:** The probability of getting a sum of 7 or 11 is $\frac{2}{9}$.
 
 ---
 
@@ -292,7 +292,7 @@ A bag contains 4 red, 3 blue, and 2 green marbles. What is the probability of dr
 
    - Let $R$ be the event of drawing a red marble: $|R| = 4$.
    - Let $G$ be the event of drawing a green marble: $|G| = 2$.
-   - Total marbles: $ |S| = 9 $.
+   - Total marbles: $|S| = 9$.
    - $R$ and $G$ are disjoint.
 
 2. **Apply the addition rule:**
@@ -321,7 +321,7 @@ Conditional probability measures the probability of one event occurring given th
 
 **Answer:** Conditional probability allows us to update the probability of an event based on new information, specifically the occurrence of another event.
 
-**Question 2:** *What happens if $ P(B) = 0 $ in conditional probability?*
+**Question 2:** *What happens if $P(B) = 0$ in conditional probability?*
 
 **Answer:** If $P(B) = 0$, the conditional probability $P(A | B)$ is undefined because division by zero is not possible.
 
@@ -523,11 +523,11 @@ What is the probability of rolling a 2 or a 5 on a standard six-sided die?
 
 **Step-by-Step Solution:**
 
-1. **Identify the sample space $ S $:**
+1. **Identify the sample space $S$:**
 
    $S = \{1, 2, 3, 4, 5, 6\}$
 
-2. **Define the event $ A $:**
+2. **Define the event $A$:**
 
    $A = \{2, 5\}$
 
@@ -844,7 +844,7 @@ A basketball player makes 70% of free throws. What is the probability that she m
    P(X = 4) = \binom{6}{4} (0.7)^4 (0.3)^2 = 15 \times 0.2401 \times 0.09 \approx 0.324
    $$
 
-**Answer:** The probability that she makes exactly 4 out of 6 free throws is approximately $ 0.324 $.
+**Answer:** The probability that she makes exactly 4 out of 6 free throws is approximately $0.324$.
 
 ---
 
@@ -901,7 +901,7 @@ Find the probability that a normally distributed variable $ X $ with a mean of 1
    P(90 \leq X \leq 110) = P(Z < 0.5) - P(Z < -0.5) = 0.6915 - 0.3085 = 0.383
    $$
 
-**Answer:** The probability that $ X $ falls between 90 and 110 is $0.383$.
+**Answer:** The probability that $X$ falls between 90 and 110 is $0.383$.
 
 ---
 
@@ -958,7 +958,7 @@ What is the probability that a normally distributed variable with a mean of 50 a
    P(X > 60) = 1 - P(Z < 1) = 1 - 0.8413 = 0.1587
    $$
 
-**Answer:** The probability that $ X $ is greater than 60 is $0.1587$.
+**Answer:** The probability that $X$ is greater than 60 is $0.1587$.
 
 ---
 
@@ -978,7 +978,7 @@ $$
 P(X = k) = (1 - p)^{k - 1} p
 $$
 
-where $ k $ is the trial number of the first success, and $ p $ is the probability of success.
+where $k$ is the trial number of the first success, and $p$ is the probability of success.
 
 **Question 3:** *Can the geometric distribution be applied to continuous events?*
 
@@ -994,9 +994,9 @@ What is the probability that the first success occurs on the 4th trial if the pr
 
 1. **Parameters:**
 
-   - $ p = 0.3 $
-   - $ q = 1 - p = 0.7 $
-   - $ k = 4 $
+   - $p = 0.3$
+   - $q = 1 - p = 0.7$
+   - $k = 4$
 
 2. **Calculate probability:**
 
@@ -1004,7 +1004,7 @@ What is the probability that the first success occurs on the 4th trial if the pr
    P(X = 4) = (0.7)^{3} \times 0.3 = 0.343 \times 0.3 = 0.1029
    $$
 
-**Answer:** The probability that the first success occurs on the 4th trial is $ 0.1029 $.
+**Answer:** The probability that the first success occurs on the 4th trial is $0.1029$.
 
 ---
 
@@ -1016,9 +1016,9 @@ If the probability of hitting a target is 0.6, what is the probability that the 
 
 1. **Parameters:**
 
-   - $ p = 0.6 $
-   - $ q = 0.4 $
-   - $ k = 2 $
+   - $p = 0.6$
+   - $q = 0.4$
+   - $k = 2$
 
 2. **Calculate probability:**
 
@@ -1038,9 +1038,9 @@ A factory tests items for defects with a 10% defect rate. What is the probabilit
 
 1. **Parameters:**
 
-   - $ p = 0.1 $
-   - $ q = 0.9 $
-   - $ k = 5 $
+   - $p = 0.1$
+   - $q = 0.9$
+   - $k = 5$
 
 2. **Calculate probability:**
 
@@ -1048,7 +1048,7 @@ A factory tests items for defects with a 10% defect rate. What is the probabilit
    P(X = 5) = (0.9)^{4} \times 0.1 = 0.6561 \times 0.1 = 0.06561
    $$
 
-**Answer:** The probability that the first defective item is found on the 5th test is $ 0.06561 $.
+**Answer:** The probability that the first defective item is found on the 5th test is $0.06561$.
 
 ---
 
@@ -2177,9 +2177,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 160 cm
-- Standard deviation ($ \sigma $): 10 cm
-- We need $ P(X > 170) $
+- Mean (\m$): 160 cm
+- Standard deviation (\sigm$): 10 cm
+- We need P(X > 170$
 
 Calculate z-score:
 
@@ -2211,9 +2211,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 150 grams
-- Standard deviation ($ \sigma $): 20 grams
-- We need $ P(X > 180) $
+- Mean ($\mu$): 150 grams
+- Standard deviation ($\sigma$): 20 grams
+- We need $P(X > 180)$
 
 Calculate z-score:
 
@@ -2231,7 +2231,7 @@ $$
 
 **46.** **Solution:**
 
-Exponential distribution with mean ($ \mu $) = 10 minutes.
+Exponential distribution with mean ($\mu$) = 10 minutes.
 
 Rate parameter:
 
@@ -2263,9 +2263,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 25°C
-- Standard deviation ($ \sigma $): 5°C
-- We need $ P(20 \leq X \leq 30) $
+- Mean ($\mu$): 25°C
+- Standard deviation ($\sigma$): 5°C
+- We need $P(20 \leq X \leq 30)$
 
 Calculate z-scores:
 
@@ -2293,9 +2293,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 2 hours
-- Standard deviation ($ \sigma $): 30 minutes = 0.5 hours
-- We need $ P(X > 2.5) $
+- Mean ($\mu$): 2 hours
+- Standard deviation ($\sigma$): 30 minutes = 0.5 hours
+- We need $P(X > 2.5)$
 
 Calculate z-score:
 
@@ -2411,10 +2411,10 @@ $$
 
 Parameters:
 
-- $ n = 7 $
-- $ k = 5 $
-- $ p = 0.8 $
-- $ q = 1 - p = 0.2 $
+- $n = 7$
+- $k = 5 $
+- $p = 0.8$
+- $q = 1 - p = 0.2$
 
 Using binomial formula:
 
@@ -2428,10 +2428,10 @@ $$
 
 Parameters:
 
-- $ n = 20 $
-- $ k = 15 $
-- $ p = 0.75 $
-- $ q = 0.25 $
+- $n = 20$
+- $k = 15$
+- $p = 0.75$
+- $q = 0.25$
 
 Using binomial formula:
 
@@ -2451,9 +2451,9 @@ $$
 
 Parameters:
 
-- $ n = 6 $
-- $ k = 4 $
-- $ p = 0.5 $
+- $n = 6$
+- $k = 4$
+- $p = 0.5$
 
 Using binomial formula:
 
@@ -2471,9 +2471,9 @@ However, if we approximate using binomial:
 
 Parameters:
 
-- $ n = 5 $
-- $ k = 2 $
-- $ p = \frac{10}{50} = 0.2 $
+- $n = 5$
+- $k = 2$
+- $p = \frac{10}{50} = 0.2$
 
 Using binomial formula:
 
@@ -2487,9 +2487,9 @@ $$
 
 Parameters:
 
-- $ n = 10 $
-- $ k = 3 $
-- $ p = \frac{1}{5} = 0.2 $
+- $n = 10$
+- $k = 3$
+- $p = \frac{1}{5} = 0.2$
 
 Using binomial formula:
 
@@ -2503,9 +2503,9 @@ $$
 
 Parameters:
 
-- $ n = 10 $
-- $ k = 8 $
-- $ p = 0.6 $
+- $n = 10$
+- $k = 8$
+- $p = 0.6$
 
 Using binomial formula:
 
@@ -2519,9 +2519,9 @@ $$
 
 Parameters:
 
-- $ n = 10 $
-- $ k = 4 $
-- $ p = \frac{1}{6} $
+- $n = 10$
+- $k = 4$
+- $p = \frac{1}{6}$
 
 Using binomial formula:
 
@@ -2537,9 +2537,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 50 grams
-- Standard deviation ($ \sigma $): 5 grams
-- Need $ P(45 \leq X \leq 55) $
+- Mean ($\mu$): 50 grams
+- Standard deviation ($\sigma$): 5 grams
+- Need $P(45 \leq X \leq 55)$
 
 Calculate z-scores:
 
@@ -2567,9 +2567,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 500
-- Standard deviation ($ \sigma $): 100
-- Need $ P(400 \leq X \leq 600) $
+- Mean ($\mu$): 500
+- Standard deviation ($\sigma$): 100
+- Need $P(400 \leq X \leq 600)$
 
 Calculate z-scores:
 
@@ -2597,9 +2597,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 170 cm
-- Standard deviation ($ \sigma $): 10 cm
-- Need $ P(X < 160) $
+- Mean ($\mu$): 170 cm
+- Standard deviation ($\sigma$): 10 cm
+- Need $P(X < 160)$
 
 Calculate z-score:
 
@@ -2619,9 +2619,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 75
-- Standard deviation ($ \sigma $): 15
-- Need $ P(X > 90) $
+- Mean ($\mu$): 75
+- Standard deviation ($\sigma$): 15
+- Need $P(X > 90)$
 
 Calculate z-score:
 
@@ -2641,9 +2641,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 100
-- Standard deviation ($ \sigma $): 15
-- Need $ P(85 \leq X \leq 115) $
+- Mean ($\mu$): 100
+- Standard deviation ($\sigma$): 15
+- Need $P(85 \leq X \leq 115)$
 
 Calculate z-scores:
 
@@ -2671,9 +2671,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 30 minutes
-- Standard deviation ($ \sigma $): 5 minutes
-- Need $ P(X > 35) $
+- Mean ($\mu$): 30 minutes
+- Standard deviation ($\sigma$): 5 minutes
+- Need $P(X > 35)$
 
 Calculate z-score:
 
@@ -2693,9 +2693,9 @@ $$
 
 Given:
 
-- Mean ($ \mu $): 70
-- Standard deviation ($ \sigma $): 10
-- Need $ P(X < 60) $
+- Mean ($\mu$): 70
+- Standard deviation ($\sigma$): 10
+- Need $P(X < 60)$
 
 Calculate z-score:
 
@@ -2717,9 +2717,9 @@ $$
 
 Given:
 
-- $ p = 0.25 $
-- $ q = 1 - p = 0.75 $
-- $ k = 3 $
+- $p = 0.25$
+- $q = 1 - p = 0.75$
+- $k = 3$
 
 Probability:
 
@@ -2733,9 +2733,9 @@ $$
 
 Given:
 
-- $ p = 0.05 $
-- $ q = 0.95 $
-- $ k = 4 $
+- $p = 0.05$
+- $q = 0.95$
+- $k = 4$
 
 Probability:
 
@@ -2749,9 +2749,9 @@ $$
 
 Given:
 
-- $ p = 0.4 $
-- $ q = 0.6 $
-- $ k = 3 $
+- $p = 0.4$
+- $q = 0.6$
+- $k = 3$
 
 Probability:
 
@@ -2765,9 +2765,9 @@ $$
 
 Given:
 
-- $ p = 0.2 $
-- $ q = 0.8 $
-- $ k = 5 $
+- $p = 0.2$
+- $q = 0.8$
+- $k = 5$
 
 Probability:
 
@@ -2781,9 +2781,9 @@ $$
 
 Given:
 
-- $ p = 0.02 $
-- $ q = 0.98 $
-- $ k = 6 $
+- $p = 0.02$
+- $q = 0.98$
+- $k = 6$
 
 Probability:
 
@@ -2797,9 +2797,9 @@ $$
 
 Given:
 
-- $ p = 0.1 $
-- $ q = 0.9 $
-- $ k = 7 $
+- $p = 0.1$
+- $q = 0.9$
+- $k = 7$
 
 Probability:
 
@@ -2813,9 +2813,9 @@ $$
 
 Given:
 
-- $ p = 0.05 $
-- $ q = 0.95 $
-- $ k = 3 $
+- $p = 0.05$
+- $q = 0.95$
+- $k = 3$
 
 Probability:
 
