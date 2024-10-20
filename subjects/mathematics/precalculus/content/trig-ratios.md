@@ -38,22 +38,22 @@ Given a right-angled triangle where the opposite side to the angle θ is 3 and t
 
 **Solution:**  
 Using Pythagoras’ theorem, the adjacent side is calculated as:  
-$
+$$
 \text{adjacent} = \sqrt{5^2 - 3^2} = \sqrt{25 - 9} = \sqrt{16} = 4
-$  
+$$  
 Now we can find the trigonometric ratios:  
-$
+$$
 \sin \theta = \frac{3}{5}, \quad \cos \theta = \frac{4}{5}, \quad \tan \theta = \frac{3}{4}
-$
+$$
 
 ### Example 2
 
 Find the reciprocal ratios for θ in the previous example.
 
 **Solution:**  
-$
+$$
 \csc \theta = \frac{5}{3}, \quad \sec \theta = \frac{5}{4}, \quad \cot \theta = \frac{4}{3}
-$
+$$
 
 ### Example 3
 
@@ -61,21 +61,21 @@ In a right-angled triangle, if $\tan \theta = 2$, find $\sin \theta$ and $\cos \
 
 **Solution:**  
 We know:  
-$
+$$
 \tan \theta = \frac{\text{opposite}}{\text{adjacent}} = 2
-$  
+$$ 
 Let the adjacent side be $k$, so the opposite side is $2k$. The hypotenuse is:  
-$
+$$
 \text{hypotenuse} = \sqrt{(2k)^2 + k^2} = \sqrt{4k^2 + k^2} = \sqrt{5k^2} = k\sqrt{5}
-$  
+$$  
 Therefore:  
-$
+$$
 \sin \theta = \frac{2k}{k\sqrt{5}} = \frac{2}{\sqrt{5}}, \quad \cos \theta = \frac{k}{k\sqrt{5}} = \frac{1}{\sqrt{5}}
-$  
+$$  
 Rationalizing the denominators:  
-$
+$$
 \sin \theta = \frac{2\sqrt{5}}{5}, \quad \cos \theta = \frac{\sqrt{5}}{5}
-$
+$$
 
 ---
 
