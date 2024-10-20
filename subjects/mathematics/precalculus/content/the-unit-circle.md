@@ -271,17 +271,17 @@ $$
 
 4. Coordinates for $\theta = 330^\circ$:
 
-Reference angle:
+    Reference angle:
 
 $$
 \theta_{\text{ref}} = 360^\circ - 330^\circ = 30^\circ
 $$
 
-Since $\theta$ is in Quadrant IV:
-- $\cos \theta > 0$
-- $\sin \theta < 0$
+    Since $\theta$ is in Quadrant IV:
+    - $\cos \theta > 0$
+    - $\sin \theta < 0$
 
-Compute:
+    Compute:
 
 $$
 \cos 330^\circ = \cos 30^\circ = \frac{\sqrt{3}}{2}
@@ -291,7 +291,8 @@ $$
 \sin 330^\circ = -\sin 30^\circ = -\frac{1}{2}
 $$
 
-Coordinates:
+    Coordinates:
+
 $$
 \left( \frac{\sqrt{3}}{2}, -\frac{1}{2} \right)
 $$
@@ -304,7 +305,7 @@ $$
 
 6. Reference angle for $\theta = 240^\circ$:
 
-Since $180^\circ < 240^\circ < 270^\circ$, subtract $180^\circ$:
+    Since $180^\circ < 240^\circ < 270^\circ$, subtract $180^\circ$:
 
 $$
 \theta_{\text{ref}} = 240^\circ - 180^\circ = 60^\circ
@@ -318,23 +319,23 @@ $$
 
 8. Find $\sin \theta$ and $\cos \theta$ for $\theta = \frac{7\pi}{4}$:
 
-Convert to degrees:
+    Convert to degrees:
 
 $$
 \theta = \frac{7\pi}{4} \times \left( \frac{180^\circ}{\pi} \right) =315^\circ
 $$
 
-Reference angle:
+    Reference angle:
 
 $$
 \theta_{\text{ref}} = 360^\circ - 315^\circ = 45^\circ
 $$
 
-Since $\theta$ is in Quadrant IV:
-- $\cos \theta > 0$
-- $\sin \theta < 0$
+    Since $\theta$ is in Quadrant IV:
+    - $\cos \theta > 0$
+    - $\sin \theta < 0$
 
-Compute:
+    Compute:
 
 $$
 \cos \theta = \cos 45^\circ = \frac{\sqrt{2}}{2}
@@ -346,9 +347,9 @@ $$
 
 9. Quadrant and signs for $\theta = 135^\circ$:
 
-- Quadrant II (between $90^\circ$ and $180^\circ$)
-- $\sin \theta > 0$
-- $\cos \theta < 0$
+    - Quadrant II (between $90^\circ$ and $180^\circ$)
+    - $\sin \theta > 0$
+    - $\cos \theta < 0$
 
 10. Find $\cos 270^\circ$:
 
@@ -376,22 +377,22 @@ $$
 
 14. Determine $\cos \left( \frac{2\pi}{3} \right)$:
 
-Convert to degrees:
+    Convert to degrees:
 
 $$
 \frac{2\pi}{3} = 120^\circ
 $$
 
-Since $\theta$ is in Quadrant II:
-- $\cos \theta < 0$
+    Since $\theta$ is in Quadrant II:
+    - $\cos \theta < 0$
 
-Reference angle:
+    Reference angle:
 
 $$
 \theta_{\text{ref}} = 180^\circ - 120^\circ = 60^\circ
 $$
 
-Compute:
+    Compute:
 
 $$
 \cos \theta = -\cos 60^\circ = -\frac{1}{2}
@@ -399,17 +400,17 @@ $$
 
 15. Coordinates for $\theta = 150^\circ$:
 
-Reference angle:
+    Reference angle:
 
 $$
 \theta_{\text{ref}} = 180^\circ - 150^\circ = 30^\circ
 $$
 
-Since $\theta$ is in Quadrant II:
-- $\cos \theta < 0$
-- $\sin \theta > 0$
+    Since $\theta$ is in Quadrant II:
+    - $\cos \theta < 0$
+    - $\sin \theta > 0$
 
-Compute:
+    Compute:
 
 $$
 \cos 150^\circ = -\cos 30^\circ = -\frac{\sqrt{3}}{2}
@@ -419,7 +420,8 @@ $$
 \sin 150^\circ = \sin 30^\circ = \frac{1}{2}
 $$
 
-Coordinates:
+    Coordinates:
+
 $$
 \left( -\frac{\sqrt{3}}{2}, \frac{1}{2} \right)
 $$
@@ -439,13 +441,13 @@ $$
 18. Find $\sin \left( -\frac{\pi}{4} \right)$:
 
 $$
-\sin \left( -\frac{\pi}{4} \right) = -\sin \frac{\pi}{4} = -\frac{\sqr{2}}{2}
+\sin \left( -\frac{\pi}{4} \right) = -\sin \frac{\pi}{4} = -\frac{\sqrt{2}}{2}
 $$
 
 19. Signs in Quadrant IV:
 
-- $\cos \theta > 0$
-- $\sin \theta < 0$
+    - $\cos \theta > 0$
+    - $\sin \theta < 0$
 
 20. Find $\theta$ if $\cos \theta = \frac{1}{2}$ in Quadrant I:
 
