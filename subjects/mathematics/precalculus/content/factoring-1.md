@@ -69,6 +69,7 @@ Solve the quadratic equation $$6x^2 + 5x - 6 = 0$$ by factoring by grouping.
    $$2x + 3 = 0$$ leads to $$x = -\frac{3}{2}$$
 
 Solutions:  
+
 $$
 x = \frac{2}{3} \quad \text{and} \quad x = -\frac{3}{2}
 $$
@@ -127,7 +128,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 6:** Factor out the common binomial: $$(2x + 1)(x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$2x + 1 = 0$$ gives $$x = -\frac{1}{2}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
    Solutions:  
-   
+
    $$
    x = -\frac{1}{2}, \quad x = -3
    $$
