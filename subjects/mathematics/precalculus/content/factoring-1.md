@@ -127,11 +127,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(2x^2 + 6x) + (x + 3) = 0$$. Factor out the GCF: $$2x(x + 3) + 1(x + 3) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(2x + 1)(x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$2x + 1 = 0$$ gives $$x = -\frac{1}{2}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{1}{2}, \quad x = -3
-   $$
+   Solutions:  $$x = -\frac{1}{2}, \quad x = -3$$
 
 3. **Solve the quadratic equation $$4x^2 + 11x + 6 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -141,11 +137,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(4x^2 + 8x) + (3x + 6) = 0$$. Factor out the GCF: $$4x(x + 2) + 3(x + 2) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(4x + 3)(x + 2) = 0$$.  
    **Step 7:** Solve for $$x$$: $$4x + 3 = 0$$ gives $$x = -\frac{3}{4}$$ and $$x + 2 = 0$$ gives $$x = -2$$.  
-   Solutions: 
-
-   $$
-   x = -\frac{3}{4}, \quad x = -2
-   $$
+   Solutions: $$x = -\frac{3}{4}, \quad x = -2$$
 
 5. **Solve the quadratic equation $$2x^2 + 9x + 4 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -155,11 +147,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(2x^2 + 8x) + (x + 4) = 0$$. Factor out the GCF: $$2x(x + 4) + 1(x + 4) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(2x + 1)(x + 4) = 0$$.  
    **Step 7:** Solve for $$x$$: $$2x + 1 = 0$$ gives $$x = -\frac{1}{2}$$ and $$x + 4 = 0$$ gives $$x = -4$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{1}{2}, \quad x = -4
-   $$
+   Solutions: $$x = -\frac{1}{2}, \quad x = -4$$
 
 ### Medium
 
@@ -171,11 +159,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(6x^2 + 9x) - (4x + 6) = 0$$. Factor out the GCF: $$3x(2x + 3) - 2(2x + 3) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(3x - 2)(2x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$3x - 2 = 0$$ gives $$x = \frac{2}{3}$$ and $$2x + 3 = 0$$ gives $$x = -\frac{3}{2}$$.  
-   Solutions:
-
-   $$
-   x = \frac{2}{3}, \quad x = -\frac{3}{2}
-   $$
+   Solutions: $$x = \frac{2}{3}, \quad x = -\frac{3}{2}$$
 
 9. **Solve the quadratic equation $$5x^2 + 19x + 12 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -185,11 +169,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(5x^2 + 15x) + (4x + 12) = 0$$. Factor out the GCF: $$5x(x + 3) + 4(x + 3) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(5x + 4)(x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$5x + 4 = 0$$ gives $$x = -\frac{4}{5}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{4}{5}, \quad x = -3
-   $$
+   Solutions:  $$x = -\frac{4}{5}, \quad x = -3$$
 
 11. **Solve the quadratic equation $$9x^2 + 18x + 4 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -199,11 +179,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(9x^2 + 12x) + (6x + 4) = 0$$. Factor out the GCF: $$3x(3x + 4) + 2(3x + 4) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(3x + 2)(3x + 4) = 0$$.  
    **Step 7:** Solve for $$x$$: $$3x + 2 = 0$$ gives $$x = -\frac{2}{3}$$ and $$3x + 4 = 0$$ gives $$x = -\frac{4}{3}$$.  
-   Solutions: 
-
-   $$
-   x = -\frac{2}{3}, \quad x = -\frac{4}{3}
-   $$
+   Solutions: $$x = -\frac{2}{3}, \quad x = -\frac{4}{3}$$
 
 13. **Solve the quadratic equation $$7x^2 + 27x + 12 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -213,11 +189,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(7x^2 + 21x) + (6x + 12) = 0$$. Factor out the GCF: $$7x(x + 3) + 2(3x + 6) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(7x + 6)(x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$7x + 6 = 0$$ gives $$x = -\frac{6}{7}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{6}{7}, \quad x = -3
-   $$
+   Solutions:  $$x = -\frac{6}{7}, \quad x = -3$$
 
 15. **Solve the quadratic equation $$8x^2 + 26x + 9 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -227,11 +199,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(8x^2 + 18x) + (8x + 9) = 0$$. Factor out the GCF: $$2x(4x + 9) + 1(4x + 9) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(2x + 1)(4x + 9) = 0$$.  
    **Step 7:** Solve for $$x$$: $$2x + 1 = 0$$ gives $$x = -\frac{1}{2}$$ and $$4x + 9 = 0$$ gives $$x = -\frac{9}{4}$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{1}{2}, \quad x = -\frac{9}{4}
-   $$
+   Solutions: $$x = -\frac{1}{2}, \quad x = -\frac{9}{4}$$
 
 17. **Solve the quadratic equation $$5x^2 + 16x + 3 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -241,11 +209,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(5x^2 + 15x) + (x + 3) = 0$$. Factor out the GCF: $$5x(x + 3) + 1(x + 3) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(5x + 1)(x + 3) = 0$$.  
    **Step 7:** Solve for $$x$$: $$5x + 1 = 0$$ gives $$x = -\frac{1}{5}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{1}{5}, \quad x = -3
-   $$
+   Solutions: $$x = -\frac{1}{5}, \quad x = -3$$
 
 ### Hard
 
@@ -257,11 +221,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(12x^2 + 20x) + (9x + 10) = 0$$. Factor out the GCF: $$4x(3x + 5) + 1(3x + 5) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(4x + 1)(3x + 5) = 0$$.  
    **Step 7:** Solve for $$x$$: $$4x + 1 = 0$$ gives $$x = -\frac{1}{4}$$ and $$3x + 5 = 0$$ gives $$x = -\frac{5}{3}$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{1}{4}, \quad x = -\frac{5}{3}
-   $$
+   Solutions: $$x = -\frac{1}{4}, \quad x = -\frac{5}{3}$$
 
 21. **Solve the quadratic equation $$20x^2 + 39x + 18 = 0$$ by factoring by grouping:**  
    **Step 1:** The equation is already in standard form.  
@@ -271,8 +231,4 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 5:** Group and factor: $$(20x^2 + 30x) + (9x + 18) = 0$$. Factor out the GCF: $$10x(2x + 3) + 3(2x + 6) = 0$$.  
    **Step 6:** Factor out the common binomial: $$(10x + 3)(2x + 6) = 0$$.  
    **Step 7:** Solve for $$x$$: $$10x + 3 = 0$$ gives $$x = -\frac{3}{10}$$ and $$2x + 6 = 0$$ gives $$x = -3$$.  
-   Solutions:  
-
-   $$
-   x = -\frac{3}{10}, \quad x = -3
-   $$
+   Solutions: $$x = -\frac{3}{10}, \quad x = -3$$
