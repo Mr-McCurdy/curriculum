@@ -129,14 +129,14 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 7:** Solve for $$x$$: $$2x + 1 = 0$$ gives $$x = -\frac{1}{2}$$ and $$x + 3 = 0$$ gives $$x = -3$$.  
    Solutions:  $$x = -\frac{1}{2}, \quad x = -3$$
 
-3. **Solve the quadratic equation $$4x^2 + 11x + 6 = 0$$ by factoring by grouping:**  
-   **Step 1:** The equation is already in standard form.  
-   **Step 2:** Multiply $$a$$ and $$c$$: $$4 \times 6 = 24$$.  
-   **Step 3:** Find two numbers that multiply to 24 and add to 11: $$8 \times 3 = 24$$ and $$8 + 3 = 11$$.  
-   **Step 4:** Rewrite the middle term: $$4x^2 + 8x + 3x + 6 = 0$$.  
-   **Step 5:** Group and factor: $$(4x^2 + 8x) + (3x + 6) = 0$$. Factor out the GCF: $$4x(x + 2) + 3(x + 2) = 0$$.  
-   **Step 6:** Factor out the common binomial: $$(4x + 3)(x + 2) = 0$$.  
-   **Step 7:** Solve for $$x$$: $$4x + 3 = 0$$ gives $$x = -\frac{3}{4}$$ and $$x + 2 = 0$$ gives $$x = -2$$.  
+3. Solve the quadratic equation $$4x^2 + 11x + 6 = 0$$ by factoring by grouping: 
+   Step 1: The equation is already in standard form.  
+   Step 2: Multiply $$a$$ and $$c$$: $$4 \times 6 = 24$$.  
+   Step 3: Find two numbers that multiply to 24 and add to 11: $$8 \times 3 = 24$$ and $$8 + 3 = 11$$.  
+   Step 4: Rewrite the middle term: $$4x^2 + 8x + 3x + 6 = 0$$.  
+   Step 5: Group and factor: $$(4x^2 + 8x) + (3x + 6) = 0$$. Factor out the GCF: $$4x(x + 2) + 3(x + 2) = 0$$.  
+   Step 6: Factor out the common binomial: $$(4x + 3)(x + 2) = 0$$.  
+   Step 7: Solve for $$x$$: $$4x + 3 = 0$$ gives $$x = -\frac{3}{4}$$ and $$x + 2 = 0$$ gives $$x = -2$$.  
    Solutions: $$x = -\frac{3}{4}, \quad x = -2$$
 
 5. **Solve the quadratic equation $$2x^2 + 9x + 4 = 0$$ by factoring by grouping:**  
