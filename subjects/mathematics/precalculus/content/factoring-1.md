@@ -261,6 +261,7 @@ Factoring by grouping can initially seem less straightforward for quadratics, as
    **Step 6:** Factor out the common binomial: $$(10x + 3)(2x + 6) = 0$$.  
    **Step 7:** Solve for $$x$$: $$10x + 3 = 0$$ gives $$x = -\frac{3}{10}$$ and $$2x + 6 = 0$$ gives $$x = -3$$.  
    Solutions:  
+   
    $$
    x = -\frac{3}{10}, \quad x = -3
    $$
