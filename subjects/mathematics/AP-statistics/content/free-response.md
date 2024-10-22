@@ -39,10 +39,8 @@ To determine the probability that a randomly selected cork has a diameter betwee
 
 2. Standardize the Values:
    We convert the raw scores to **z-scores** using the formula:
-   
-   $$
-   z = \frac{X - \mu}{\sigma}
-   $$
+
+   $$z = \frac{X - \mu}{\sigma}$$
    
    - For **X = 0.99 inches**:
     $$
