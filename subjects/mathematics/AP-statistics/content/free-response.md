@@ -37,11 +37,11 @@ To determine the probability that a randomly selected cork has a diameter betwee
    - Let **X** be the diameter of a randomly selected cork.
    - **X** is normally distributed: $$X \sim N(\mu = 1.00, \sigma = 0.05)$$.
 
-2. **Standardize the Values:**
+2. Standardize the Values:
    We convert the raw scores to **z-scores** using the formula:
-  $$
+   $$
    z = \frac{X - \mu}{\sigma}
-  $$
+   $$
    
    - For **X = 0.99 inches**:
     $$
