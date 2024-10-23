@@ -121,14 +121,11 @@ The probability that at least 19 corks provide an acceptable fit is approximatel
 
 3. **Calculate $$P(W \leq 2)$$:**
    
-   - $P(W = 1) = p = 0.70$
+   $P(W = 1) = p = 0.70$
    
-   - $P(W = 2) = q \times p = 0.30 \times 0.70 = 0.21$
+   $P(W = 2) = q \times p = 0.30 \times 0.70 = 0.21$
    
-   - **Sum the Probabilities:**
-    $$
-     P(W \leq 2) = P(W = 1) + P(W = 2) = 0.70 + 0.21 = 0.91
-    $$
+   $P(W \leq 2) = P(W = 1) + P(W = 2) = 0.70 + 0.21 = 0.91$
 
 4. **Interpret the Result:**
    
@@ -137,14 +134,15 @@ The probability that at least 19 corks provide an acceptable fit is approximatel
 **Answer:**  
 The probability that $$W$$ is less than or equal to 2 is **0.91** or **91%**.
 
----
-
 ### **Summary of Answers**
 
-- **(a)** Probability = **0.3050** or **30.50%**
-- **(b)(i)** $$X \sim \text{Binomial}(20, 0.70)$$
-- **(b)(ii)** Probability = **0.005346** or **0.5346%**
-- **(c)** Probability = **0.91** or **91%**
+   **1.a** Probability = **0.3050** or **30.50%**
+
+   **1.b.i** $$X \sim \text{Binomial}(20, 0.70)$$
+
+   **1.b.ii** Probability = **0.005346** or **0.5346%**
+   
+   **1.c** Probability = **0.91** or **91%**
 
 ---
 
