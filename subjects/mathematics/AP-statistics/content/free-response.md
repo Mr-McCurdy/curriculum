@@ -117,19 +117,13 @@ The probability that at least 19 corks provide an acceptable fit is approximatel
 
 2. **Understand the Probability Asked:**
    
-   - $$P(W \leq 2)$$ is the probability that the first acceptable cork is found on the **first** or **second** inspection.
+   $$P(W \leq 2)$$ is the probability that the first acceptable cork is found on the **first** or **second** inspection.
 
 3. **Calculate $$P(W \leq 2)$$:**
    
-   - **Case 1:** First inspection is acceptable.
-    $$
-     P(W = 1) = p = 0.70
-    $$
+   - $P(W = 1) = p = 0.70$
    
-   - **Case 2:** First inspection is unacceptable, and the second is acceptable.
-    $$
-     P(W = 2) = q \times p = 0.30 \times 0.70 = 0.21
-    $$
+   - $P(W = 2) = q \times p = 0.30 \times 0.70 = 0.21$
    
    - **Sum the Probabilities:**
     $$
