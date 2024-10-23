@@ -13,6 +13,7 @@ ___
 
 ***
 
+<hr style="border: none; border-top: 1px solid #ccc;" />
 
 A farm manager decides to purchase the corks from a new supplier. Seventy percent of corks produced by the new supplier have a diameter with an acceptable fit.
 
