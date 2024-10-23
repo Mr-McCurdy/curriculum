@@ -1,4 +1,6 @@
-## Problem 1. Random Variables
+# I. Probability and Random Variables
+
+## 1. Random Variables
 
 Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.
 
@@ -16,21 +18,12 @@ Define the random variable of interest and state how the random variable is dist
 ##### 1.b.ii 
 What is the probability that **at least 19** of the corks will provide an acceptable fit for the bottle? Show your work.
 
-### (c) 
+### 1.c
 Suppose corks are inspected one at a time until an acceptable fit is found. Let the random variable $W$ represent the number of corks inspected. What is the probability that $W$ is less than or equal to 2? Show your work.
 
-### **Problem 1 Solution**
+### **Solution**
 
-A farm produces olive oil bottles sealed with corks. The acceptable cork diameter ranges from **0.99 inch** to **1.03 inches**. Cork diameters are normally distributed with a mean (**μ**) of **1.00 inch** and a standard deviation (**σ**) of **0.05 inch**.
-
----
-
-#### **(a) Probability of Selecting an Acceptable Cork**
-
-**Question:**  
-If one cork is selected at random, what is the probability that the cork selected will provide an acceptable fit for the bottle?
-
-**Solution:**
+### 1.a
 
 To determine the probability that a randomly selected cork has a diameter between **0.99 inch** and **1.03 inches**, we can use the properties of the normal distribution.
 
@@ -46,14 +39,16 @@ z = \frac{X - \mu}{\sigma}
 $$
    
    - For **X = 0.99 inches**:
-    $$
-     z_1 = \frac{0.99 - 1.00}{0.05} = \frac{-0.01}{0.05} = -0.2
-    $$
+
+$$
+z_1 = \frac{0.99 - 1.00}{0.05} = \frac{-0.01}{0.05} = -0.2
+$$
    
    - For **X = 1.03 inches**:
-    $$
-     z_2 = \frac{1.03 - 1.00}{0.05} = \frac{0.03}{0.05} = 0.6
-    $$
+
+$$
+z_2 = \frac{1.03 - 1.00}{0.05} = \frac{0.03}{0.05} = 0.6
+$$
 
 3. **Find the Probabilities Using the Standard Normal Distribution Table:**
    
@@ -64,9 +59,10 @@ $$
      From the z-table, $$P(Z < -0.2) \approx 0.4207$$.
    
    - **Probability Between Z = -0.2 and Z = 0.6:**
-    $$
-     P(-0.2 < Z < 0.6) = P(Z < 0.6) - P(Z < -0.2) = 0.7257 - 0.4207 = 0.3050
-    $$
+    
+$$
+P(-0.2 < Z < 0.6) = P(Z < 0.6) - P(Z < -0.2) = 0.7257 - 0.4207 = 0.3050
+$$
    
 4. **Interpret the Result:**
    
