@@ -143,8 +143,6 @@ The probability that $$W$$ is less than or equal to 2 is **0.91** or **91%**.
    **1.b.ii:** Probability = **0.005346** or **0.5346%**
 
    **1.c:** Probability = **0.91** or **91%**
-
----
-
+   
 **Note:**  
 All calculations were performed using standard normal distribution properties for part (a), binomial probability formulas for part (b), and geometric distribution formulas for part (c). Each step was carefully executed to ensure accuracy and adherence to AP Statistics guidelines.
