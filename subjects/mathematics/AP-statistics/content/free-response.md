@@ -9,6 +9,11 @@ If one cork is selected at random, what is the probability that the cork selecte
 
 ---
 
+___
+
+***
+
+
 A farm manager decides to purchase the corks from a new supplier. Seventy percent of corks produced by the new supplier have a diameter with an acceptable fit.
 
 #### 1.b
