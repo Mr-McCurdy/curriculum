@@ -18,12 +18,12 @@ Define the random variable of interest and state how the random variable is dist
 ##### 1.b.ii 
 What is the probability that **at least 19** of the corks will provide an acceptable fit for the bottle? Show your work.
 
-### 1.c
+#### 1.c
 Suppose corks are inspected one at a time until an acceptable fit is found. Let the random variable $W$ represent the number of corks inspected. What is the probability that $W$ is less than or equal to 2? Show your work.
 
-### **Solution**
+### Solution
 
-### 1.a
+#### 1.a
 
 To determine the probability that a randomly selected cork has a diameter between **0.99 inch** and **1.03 inches**, we can use the properties of the normal distribution.
 
