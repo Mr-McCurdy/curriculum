@@ -7,18 +7,8 @@ A farm produces olive oil that is put into bottles that are sealed with a cork. 
 #### 1.a
 If one cork is selected at random, what is the probability that the cork selected will provide an acceptable fit for the bottle? Show your work.
 
----
-
-___
-
-***
-
-<hr style="border: none; border-top: 1px solid #ccc;" />
-
-A farm manager decides to purchase the corks from a new supplier. Seventy percent of corks produced by the new supplier have a diameter with an acceptable fit.
-
 #### 1.b
-The farm manager is investigating how many corks in a box of 20 randomly selected corks will provide an acceptable fit. Consider the probability that **at least 19** of the corks will provide an acceptable fit for the bottle.
+A farm manager decides to purchase the corks from a new supplier. Seventy percent of corks produced by the new supplier have a diameter with an acceptable fit. The farm manager is investigating how many corks in a box of 20 randomly selected corks will provide an acceptable fit. Consider the probability that **at least 19** of the corks will provide an acceptable fit for the bottle.
 
 ##### 1.b.i
 Define the random variable of interest and state how the random variable is distributed.
