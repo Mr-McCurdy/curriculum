@@ -1,6 +1,6 @@
 # I. Probability and Random Variables
 
-## 1. Random Variables
+## Problem 1
 
 Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.
 
@@ -88,9 +88,9 @@ Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is
    
    The probability of exactly **k** successes in **n** trials is: $$P(X = k) = \binom{n}{k} p^k q^{n-k}$$
    
-   For X = 19: $$P(X = 19) = \binom{20}{19} (0.70)^{19} (0.30)^{1} = 20 \times (0.70)^{19} \times 0.30$$
+   $P(X = 19) = \binom{20}{19} (0.70)^{19} (0.30)^{1} = 20 \times (0.70)^{19} \times 0.30$
    
-   For X = 20: $$P(X = 20) = \binom{20}{20} (0.70)^{20} (0.30)^{0} = 1 \times (0.70)^{20} \times 1 = (0.70)^{20}$$
+   $P(X = 20) = \binom{20}{20} (0.70)^{20} (0.30)^{0} = 1 \times (0.70)^{20} \times 1 = (0.70)^{20}$
 
 3. **Calculate the Probabilities:**
    
@@ -107,14 +107,7 @@ Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is
 **Answer:**  
 The probability that at least 19 corks provide an acceptable fit is approximately **0.5346%**.
 
----
-
-#### **(c) Probability in Sequential Inspections**
-
-**Question:**  
-Suppose corks are inspected one at a time until an acceptable fit is found. Let the random variable $$W$$ represent the number of corks inspected. What is the probability that $$W$$ is less than or equal to 2? Show your work.
-
-**Solution:**
+#### 1.c
 
 1. **Define the Random Variable:**
    
