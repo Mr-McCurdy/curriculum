@@ -56,11 +56,10 @@ $$
    
    The probability that a randomly selected cork has an acceptable diameter is **30.50%**.
 
----
+**Answer:**
+The probability of a chosen cork being an acceptable fit for the bottle is **30.50%**.
 
 #### 1.b
-
-A new supplier produces corks where **70%** have an acceptable fit.
 
 ##### 1.b.i
 
@@ -79,26 +78,19 @@ A new supplier produces corks where **70%** have an acceptable fit.
 **Answer:**  
 Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is binomially distributed with parameters **n = 20** and **p = 0.70**, denoted as $$X \sim \text{Binomial}(20, 0.70)$$.
 
-##### **(ii) Probability of At Least 19 Acceptable Corks**
-
-**Question:**  
-What is the probability that **at least 19** of the corks will provide an acceptable fit for the bottle? Show your work.
-
-**Solution:**
+##### 1.b.ii 
 
 1. **Identify the Desired Probability:**
    
-   We need to find $$P(X \geq 19)$$, which includes:
-  $$
-   P(X = 19) + P(X = 20)
-  $$
+   We need to find $$P(X \geq 19)$$, which includes $$P(X = 19) + P(X = 20)$$.
 
 2. **Use the Binomial Probability Formula:**
    
    The probability of exactly **k** successes in **n** trials is:
-  $$
-   P(X = k) = \binom{n}{k} p^k q^{n-k}
-  $$
+  
+$$
+P(X = k) = \binom{n}{k} p^k q^{n-k}
+$$
    
    - **For X = 19:**
     $$
