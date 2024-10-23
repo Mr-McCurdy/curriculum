@@ -42,7 +42,7 @@ To determine the probability that a randomly selected cork has a diameter betwee
 
 $$
 z = \frac{X - \mu}{\sigma}
-$$
+$$ 
    
    - For **X = 0.99 inches**:
     $$
