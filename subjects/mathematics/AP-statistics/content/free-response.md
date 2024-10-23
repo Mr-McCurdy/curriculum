@@ -136,13 +136,13 @@ The probability that $$W$$ is less than or equal to 2 is **0.91** or **91%**.
 
 ### **Summary of Answers**
 
-   **1.a** Probability = **0.3050** or **30.50%**
+   **1.a:** Probability = **0.3050** or **30.50%**
 
-   **1.b.i** $$X \sim \text{Binomial}(20, 0.70)$$
+   **1.b.i:** $$X \sim \text{Binomial}(20, 0.70)$$
 
-   **1.b.ii** Probability = **0.005346** or **0.5346%**
-   
-   **1.c** Probability = **0.91** or **91%**
+   **1.b.ii:** Probability = **0.005346** or **0.5346%**
+
+   **1.c:** Probability = **0.91** or **91%**
 
 ---
 
