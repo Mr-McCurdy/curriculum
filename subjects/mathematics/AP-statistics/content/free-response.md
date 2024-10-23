@@ -4,21 +4,24 @@ Show all your work. Indicate clearly the methods you use, because you will be sc
 
 A farm produces olive oil that is put into bottles that are sealed with a cork. The diameter of the bottle opening is 1.03 inches. To provide an acceptable fit, the cork diameter should be from 0.99 inch to 1.03 inches. The corks are purchased in bulk from a supplier, and the distribution of cork diameters is approximately normal with mean 1.00 inch and standard deviation 0.05 inch.
 
-### (a) 
+#### 1.a
 If one cork is selected at random, what is the probability that the cork selected will provide an acceptable fit for the bottle? Show your work.
 
 A farm manager decides to purchase the corks from a new supplier. Seventy percent of corks produced by the new supplier have a diameter with an acceptable fit.
 
-### (b)
+#### 1.b
 The farm manager is investigating how many corks in a box of 20 randomly selected corks will provide an acceptable fit. Consider the probability that **at least 19** of the corks will provide an acceptable fit for the bottle.
 
-1. **(i)** Define the random variable of interest and state how the random variable is distributed.
-2. **(ii)** What is the probability that **at least 19** of the corks will provide an acceptable fit for the bottle? Show your work.
+##### 1.b.i
+Define the random variable of interest and state how the random variable is distributed.
+
+##### 1.b.ii 
+What is the probability that **at least 19** of the corks will provide an acceptable fit for the bottle? Show your work.
 
 ### (c) 
 Suppose corks are inspected one at a time until an acceptable fit is found. Let the random variable $W$ represent the number of corks inspected. What is the probability that $W$ is less than or equal to 2? Show your work.
 
-### **Problem 1: Random Variables**
+### **Problem 1 Solution**
 
 A farm produces olive oil bottles sealed with corks. The acceptable cork diameter ranges from **0.99 inch** to **1.03 inches**. Cork diameters are normally distributed with a mean (**μ**) of **1.00 inch** and a standard deviation (**σ**) of **0.05 inch**.
 

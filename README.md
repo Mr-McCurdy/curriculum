@@ -1,7 +1,5 @@
 # Math Curriculum Repository
 
-Test
-
 Welcome to the Math Curriculum repository! This repository contains comprehensive resources for two high school mathematics courses:
 
 - **AP Statistics**  
