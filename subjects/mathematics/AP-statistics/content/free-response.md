@@ -34,15 +34,9 @@ To determine the probability that a randomly selected cork has a diameter betwee
 2. **Standardize the Values:**
    We convert the raw scores to **z-scores** using the formula: $$z = \frac{X - \mu}{\sigma}$$
    
-   - For **X = 0.99 inches**:
-$$
-z_1 = \frac{0.99 - 1.00}{0.05} = \frac{-0.01}{0.05} = -0.2
-$$
+   - For **X = 0.99 inches**: $$z_1 = \frac{0.99 - 1.00}{0.05} = \frac{-0.01}{0.05} = -0.2$$
    
-   - For **X = 1.03 inches**:
-$$
-z_2 = \frac{1.03 - 1.00}{0.05} = \frac{0.03}{0.05} = 0.6
-$$
+   - For **X = 1.03 inches**: $$z_2 = \frac{1.03 - 1.00}{0.05} = \frac{0.03}{0.05} = 0.6$$
 
 3. **Find the Probabilities Using the Standard Normal Distribution Table:**
    
