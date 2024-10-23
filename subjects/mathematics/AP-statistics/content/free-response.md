@@ -56,21 +56,13 @@ $$
    
    The probability that a randomly selected cork has an acceptable diameter is **30.50%**.
 
-**Answer:**  
-The probability of selecting an acceptable cork is **0.3050** or **30.50%**.
-
 ---
 
-#### **(b) Probability with a New Supplier**
+#### 1.b
 
 A new supplier produces corks where **70%** have an acceptable fit.
 
-##### **(i) Define the Random Variable and Its Distribution**
-
-**Question:**  
-Define the random variable of interest and state how the random variable is distributed.
-
-**Solution:**
+##### 1.b.i
 
 1. **Define the Random Variable:**
    
