@@ -86,7 +86,7 @@ Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is
 
 2. **Use the Binomial Probability Formula:**
    
-The probability of exactly **k** successes in **n** trials is:
+   The probability of exactly **k** successes in **n** trials is:
   
 $$
 P(X = k) = \binom{n}{k} p^k q^{n-k}
