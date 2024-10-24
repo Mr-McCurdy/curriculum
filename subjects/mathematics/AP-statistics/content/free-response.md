@@ -147,6 +147,16 @@ The probability that $$W$$ is less than or equal to 2 is **0.91** or **91%**.
    **1.b.ii:** Probability = **0.005346** or **0.5346%**
 
    **1.c:** Probability = **0.91** or **91%**
-   
+
+## Problem 2
+
+Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.
+
+Bath fizzies are mineral tablets that dissolve and create bubbles when added to bathwater. In order to increase sales, the Fizzy Bath Company has produced a new line of bath fizzies that have a cash prize in every bath fizzy. Let the random variable, $X$, represent the dollar value of the cash prize in a bath fizzy. The probability distribution of is shown in the table.
+
+| **Cash Prize**, $x$ | $1 | $5 | $10 | $20 | $50 | $100 |
+|----------|----------|----------|----------|----------|
+| Probability of the cash prize, $P(X=x)$ | $P(X=$1) | 0.2 | 0.05 | 0.05 | 0.01 | 0.01 |
+
 **Note:**  
 All calculations were performed using standard normal distribution properties for part (a), binomial probability formulas for part (b), and geometric distribution formulas for part (c). Each step was carefully executed to ensure accuracy and adherence to AP Statistics guidelines.
