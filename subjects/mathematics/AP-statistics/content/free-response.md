@@ -158,5 +158,32 @@ Bath fizzies are mineral tablets that dissolve and create bubbles when added to 
 |----------|----------|----------|----------|----------|----------|----------|
 | Probability of the cash prize, $P(X=x)$ | $P(X = 1)$| 0.2 | 0.05 | 0.05 | 0.01 | 0.01 |
 
+#### 2.a
+
+Based on the probability distribution of $X$, answer the following. Show your work. 
+
+##### 2.a.i 
+
+Calculate the proportion of bath fizzies that contain $1.
+
+##### 2.a.i 
+
+Calculate the proportion of bath fizzies that contain at least $10.
+
+#### 2.b
+
+Based on the probability distribution of $X$, calculate the probability that a randomly selected bath fizzy contains $100, given that it contains atleast $10. Show your work.
+
+#### 2.c
+
+Based on the probability distribution of $X$, calculate and interpret the expected value of the cash prize in the bath fizzies. Show your work.
+
+#### 2.d 
+
+The Fizzy Bath Company would like to sell the bath fizzies in France, where the currency is euros. Suppose the conversion rate for dollars to euros is 1 dollar = 0.89 euros. Using your expected value from part (c), calculate the expected value, in euros, of the distribution of the cash prize in the bath fizzies. Show your work.
+
+### Solution
+
+
 **Note:**  
 All calculations were performed using standard normal distribution properties for part (a), binomial probability formulas for part (b), and geometric distribution formulas for part (c). Each step was carefully executed to ensure accuracy and adherence to AP Statistics guidelines.
