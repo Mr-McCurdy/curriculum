@@ -98,11 +98,11 @@ Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is
 
 3. **Calculate the Probabilities:**
    
-   $P(X = 19) = 20 \times (0.70)^{19} \times 0.30 \approx 0.004787536$
+   $P(X = 19) = 20 \times (0.70)^{19} \times 0.30 \approx 0.00683933711122$
    
-   $P(X = 20) = (0.70)^{20} \approx 0.0005585458640832844$
+   $P(X = 20) = (0.70)^{20} \approx 0.000797922662976$
 
-   $P(X \geq 19) = P(X = 19) + P(X = 20) \approx 0.004787536 + 0.000558546 = 0.005346082$
+   $P(X \geq 19) = P(X = 19) + P(X = 20) \approx 0.00683933711122 + 0.000797922662976 = 0.0076372597742$
 
 4. **Interpret the Result:**
    
