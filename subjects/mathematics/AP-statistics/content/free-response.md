@@ -155,7 +155,7 @@ Show all your work. Indicate clearly the methods you use, because you will be sc
 Bath fizzies are mineral tablets that dissolve and create bubbles when added to bathwater. In order to increase sales, the Fizzy Bath Company has produced a new line of bath fizzies that have a cash prize in every bath fizzy. Let the random variable, $X$, represent the dollar value of the cash prize in a bath fizzy. The probability distribution of is shown in the table.
 
 | **Cash Prize**, $x$ | $1 | $5 | $10 | $20 | $50 | $100 |
-|----------|----------|----------|----------|----------|
+|----------|----------|----------|----------|----------|----------|----------|
 | Probability of the cash prize, $P(X=x)$ | $P(X=$1) | 0.2 | 0.05 | 0.05 | 0.01 | 0.01 |
 
 **Note:**  
