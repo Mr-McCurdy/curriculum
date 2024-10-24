@@ -106,10 +106,10 @@ Let **X** be the number of corks with an acceptable fit in a box of 20. **X** is
 
 4. **Interpret the Result:**
    
-   The probability that at least **19** corks out of **20** have an acceptable fit is approximately **0.5346%**.
+   The probability that at least **19** corks out of **20** have an acceptable fit is approximately **0.7637%**.
 
 **Answer:**  
-The probability that at least 19 corks provide an acceptable fit is approximately **0.5346%**.
+The probability that at least 19 corks provide an acceptable fit is approximately **0.7637%**.
 
 #### 1.c
 
