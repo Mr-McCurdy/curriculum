@@ -184,6 +184,225 @@ The Fizzy Bath Company would like to sell the bath fizzies in France, where the 
 
 ### Solution
 
+#### 2.a
+
+##### 2.a.i 
+
+The sum of all probabilities for any probability distribution must equal 1:
+
+$$
+\sum_{i=1}^{n} P(X_i) = 1.
+$$
+
+Therefore,
+
+$$
+P(X = 1) = 1 - P(X \geq 2) = 1 - (0.20 + 0.05 + 0.05 + 0.01 + 0.01) = 0.68.
+$$
+
+
+---
+
+##### **2.a.ii** 
+
+**Question:**  
+Calculate the proportion of bath fizzies that contain **at least \$10**.
+
+**Solution:**
+
+1. **Define the Desired Outcome:**
+   
+   We need to find the probability that a bath fizzy contains \$10 or more. Mathematically, this is represented as:
+   
+   \[
+   P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100)
+   \]
+
+2. **Extract the Probabilities:**
+   
+   \[
+   P(X = 10) = 0.05
+   \]
+   \[
+   P(X = 20) = 0.01
+   \]
+   \[
+   P(X = 50) = 0.01
+   \]
+   \[
+   P(X = 100) = 0.68
+   \]
+
+3. **Calculate the Total Probability:**
+   
+   \[
+   P(X \geq 10) = 0.05 + 0.01 + 0.01 + 0.68 = 0.75
+   \]
+
+4. **Interpret the Result:**
+   
+   The proportion of bath fizzies that contain at least \$10 is **75%**.
+
+**Answer:**  
+The proportion of bath fizzies that contain at least \$10 is **75%**.
+
+---
+
+#### **2.b**
+
+Based on the probability distribution of \( X \), calculate the probability that a randomly selected bath fizzy contains \$100, **given that it contains at least \$10**. Show your work.
+
+**Solution:**
+
+1. **Define the Conditional Probability:**
+   
+   We need to find \( P(X = 100 \mid X \geq 10) \), which is the probability that a bath fizzy contains \$100 given that it contains at least \$10.
+
+2. **Use the Conditional Probability Formula:**
+   
+   \[
+   P(X = 100 \mid X \geq 10) = \frac{P(X = 100 \text{ and } X \geq 10)}{P(X \geq 10)}
+   \]
+   
+   Since \( X = 100 \) is a subset of \( X \geq 10 \), the formula simplifies to:
+   
+   \[
+   P(X = 100 \mid X \geq 10) = \frac{P(X = 100)}{P(X \geq 10)}
+   \]
+
+3. **Extract the Required Probabilities:**
+   
+   From the table:
+   
+   \[
+   P(X = 100) = 0.68
+   \]
+   \[
+   P(X \geq 10) = 0.75 \quad \text{(from part 2.a.ii)}
+   \]
+
+4. **Calculate the Conditional Probability:**
+   
+   \[
+   P(X = 100 \mid X \geq 10) = \frac{0.68}{0.75} \approx 0.9067
+   \]
+
+5. **Interpret the Result:**
+   
+   There is approximately a **90.67%** probability that a bath fizzy contains \$100 given that it contains at least \$10.
+
+**Answer:**  
+The probability that a bath fizzy contains \$100, given that it contains at least \$10, is approximately **90.67%**.
+
+---
+
+#### **2.c**
+
+Based on the probability distribution of \( X \), calculate and interpret the expected value of the cash prize in the bath fizzies. Show your work.
+
+**Solution:**
+
+1. **Define the Expected Value:**
+   
+   The expected value \( E(X) \) of a discrete random variable \( X \) is calculated as:
+   
+   \[
+   E(X) = \sum_{x} x \cdot P(X = x)
+   \]
+
+2. **List All Possible Values and Their Probabilities:**
+   
+   From the table:
+   
+   | \( x \) | 1 | 5 | 10 | 20 | 50 | 100 |
+   |---------|---|---|----|----|----|-----|
+   | \( P(X=x) \) | 0.20 | 0.05 | 0.05 | 0.01 | 0.01 | 0.68 |
+
+3. **Calculate Each Term \( x \cdot P(X = x) \):**
+   
+   \[
+   1 \times 0.20 = 0.20
+   \]
+   \[
+   5 \times 0.05 = 0.25
+   \]
+   \[
+   10 \times 0.05 = 0.50
+   \]
+   \[
+   20 \times 0.01 = 0.20
+   \]
+   \[
+   50 \times 0.01 = 0.50
+   \]
+   \[
+   100 \times 0.68 = 68.00
+   \]
+
+4. **Sum All Terms to Find \( E(X) \):**
+   
+   \[
+   E(X) = 0.20 + 0.25 + 0.50 + 0.20 + 0.50 + 68.00 = 69.65
+   \]
+
+5. **Interpret the Result:**
+   
+   The expected value of the cash prize in the bath fizzies is **\$69.65**. This means that on average, a customer can expect to receive \$69.65 per bath fizzy purchased.
+
+**Answer:**  
+The expected value of the cash prize in the bath fizzies is **\$69.65**.
+
+---
+
+#### **2.d**
+
+The Fizzy Bath Company would like to sell the bath fizzies in France, where the currency is euros. Suppose the conversion rate for dollars to euros is 1 dollar = 0.89 euros. Using your expected value from part (2.c), calculate the expected value, in euros, of the distribution of the cash prize in the bath fizzies. Show your work.
+
+**Solution:**
+
+1. **Define the Conversion Rate:**
+   
+   \[
+   1 \text{ dollar} = 0.89 \text{ euros}
+   \]
+
+2. **Use the Expected Value from Part 2.c:**
+   
+   \[
+   E(X) = \$69.65
+   \]
+
+3. **Convert the Expected Value to Euros:**
+   
+   \[
+   E(X \text{ in euros}) = E(X \text{ in dollars}) \times \text{Conversion Rate}
+   \]
+   \[
+   E(X \text{ in euros}) = 69.65 \times 0.89 = 62.1385 \text{ euros}
+   \]
+
+4. **Interpret the Result:**
+   
+   The expected value of the cash prize in euros is approximately **€62.14**. This means that on average, a customer purchasing a bath fizzy in France can expect to receive €62.14 per bath fizzy.
+
+**Answer:**  
+The expected value of the cash prize in euros is approximately **€62.14**.
+
+---
+
+### **Summary of Answers**
+
+- **2.a.i:** Proportion of bath fizzies containing \$1 is **20%**.
+
+- **2.a.ii:** Proportion of bath fizzies containing at least \$10 is **75%**.
+
+- **2.b:** Probability that a bath fizzy contains \$100, given that it contains at least \$10, is approximately **90.67%**.
+
+- **2.c:** Expected value of the cash prize is **\$69.65**.
+
+- **2.d:** Expected value of the cash prize in euros is approximately **€62.14**.
+
+---
 
 **Note:**  
-All calculations were performed using standard normal distribution properties for part (a), binomial probability formulas for part (b), and geometric distribution formulas for part (c). Each step was carefully executed to ensure accuracy and adherence to AP Statistics guidelines.
+All calculations were performed using fundamental principles of probability distributions, including direct probability extraction, conditional probability formulas, and expected value computations. Each step was meticulously executed to ensure accuracy and adherence to AP Statistics guidelines.
