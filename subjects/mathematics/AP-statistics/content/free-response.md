@@ -156,7 +156,7 @@ Bath fizzies are mineral tablets that dissolve and create bubbles when added to 
 
 | **Cash Prize**, $x$ | $1 | $5 | $10 | $20 | $50 | $100 |
 |----------|----------|----------|----------|----------|----------|----------|
-| Probability of the cash prize, $P(X=x)$ | $P(X=$1)$ | 0.2 | 0.05 | 0.05 | 0.01 | 0.01 |
+| Probability of the cash prize, $P(X=x)$ | $P(X=/text{$}1)$ | 0.2 | 0.05 | 0.05 | 0.01 | 0.01 |
 
 **Note:**  
 All calculations were performed using standard normal distribution properties for part (a), binomial probability formulas for part (b), and geometric distribution formulas for part (c). Each step was carefully executed to ensure accuracy and adherence to AP Statistics guidelines.
