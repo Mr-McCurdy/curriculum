@@ -148,6 +148,8 @@ The probability that $$W$$ is less than or equal to 2 is **0.91** or **91%**.
 
    **1.c:** Probability = **0.91** or **91%**
 
+---
+
 ## Problem 2
 
 Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.
