@@ -214,40 +214,41 @@ $$
 
 **Define the Conditional Probability:**
    
-   We need to find \( P(X = 100 \mid X \geq 10) \), which is the probability that a bath fizzy contains \$100 given that it contains at least \$10.
+We need to find \( P(X = 100 \mid X \geq 10) \), which is the probability that a bath fizzy contains \$100 given that it contains at least \$10.
 
 **Use the Conditional Probability Formula:**
    
-   $$
-   P(X = 100 \mid X \geq 10) = \frac{P(X = 100 \text{ and } X \geq 10)}{P(X \geq 10)}
-   $$
+$$
+P(X = 100 \mid X \geq 10) = \frac{P(X = 100 \text{ and } X \geq 10)}{P(X \geq 10)}
+$$
    
-   Since \( X = 100 \) is a subset of \( X \geq 10 \), the formula simplifies to:
+Since $X = 100$ is a subset of $X \geq 10$, the formula simplifies to:
    
-   $$
-   P(X = 100 \mid X \geq 10) = \frac{P(X = 100)}{P(X \geq 10)}
-   $$
+$$
+P(X = 100 \mid X \geq 10) = \frac{P(X = 100)}{P(X \geq 10)}
+$$
 
-3. **Extract the Required Probabilities:**
+**Extract the Required Probabilities:**
    
-   From the table:
+From the table:
    
-   \[
-   P(X = 100) = 0.01
-   \]
-   \[
-   P(X \geq 10) = 0.12 \quad \text{(from part 2.a.ii)}
-   \]
+$$
+P(X = 100) = 0.01
+$$
 
-4. **Calculate the Conditional Probability:**
-   
-   \[
-   P(X = 100 \mid X \geq 10) = \frac{0.01}{0.12} \approx 0.0833
-   \]
+$$
+P(X \geq 10) = 0.12 \quad \text{(from part 2.a.ii)}
+$$
 
-5. **Interpret the Result:**
+**Calculate the Conditional Probability:**
    
-   There is approximately a **8.33%** probability that a bath fizzy contains $100 given that it contains at least $10.
+$$
+P(X = 100 \mid X \geq 10) = \frac{0.01}{0.12} \approx 0.0833
+$$
+
+**Interpret the Result:**
+   
+There is approximately a **8.33%** probability that a bath fizzy contains $100 given that it contains at least $10.
 
 #### **2.c**
 
@@ -258,11 +259,6 @@ E(X) = \sum_{x} x \cdot P(X = x) = (1 \times 0.68) + (5 \times 0.20) + (10 \time
 $$
 
 The expected value of the cash prize in the bath fizzies is **\$4.68**. This means that on average, a customer can expect to receive \$4.68 per bath fizzy purchased.
-
-**Answer:**  
-The expected value of the cash prize in the bath fizzies is **\$69.65**.
-
----
 
 #### **2.d**
 
