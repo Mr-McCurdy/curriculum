@@ -212,104 +212,52 @@ $$
 
 #### **2.b**
 
-Based on the probability distribution of \( X \), calculate the probability that a randomly selected bath fizzy contains \$100, **given that it contains at least \$10**. Show your work.
-
-**Solution:**
-
-1. **Define the Conditional Probability:**
+**Define the Conditional Probability:**
    
    We need to find \( P(X = 100 \mid X \geq 10) \), which is the probability that a bath fizzy contains \$100 given that it contains at least \$10.
 
-2. **Use the Conditional Probability Formula:**
+**Use the Conditional Probability Formula:**
    
-   \[
+   $$
    P(X = 100 \mid X \geq 10) = \frac{P(X = 100 \text{ and } X \geq 10)}{P(X \geq 10)}
-   \]
+   $$
    
    Since \( X = 100 \) is a subset of \( X \geq 10 \), the formula simplifies to:
    
-   \[
+   $$
    P(X = 100 \mid X \geq 10) = \frac{P(X = 100)}{P(X \geq 10)}
-   \]
+   $$
 
 3. **Extract the Required Probabilities:**
    
    From the table:
    
    \[
-   P(X = 100) = 0.68
+   P(X = 100) = 0.01
    \]
    \[
-   P(X \geq 10) = 0.75 \quad \text{(from part 2.a.ii)}
+   P(X \geq 10) = 0.12 \quad \text{(from part 2.a.ii)}
    \]
 
 4. **Calculate the Conditional Probability:**
    
    \[
-   P(X = 100 \mid X \geq 10) = \frac{0.68}{0.75} \approx 0.9067
+   P(X = 100 \mid X \geq 10) = \frac{0.01}{0.12} \approx 0.0833
    \]
 
 5. **Interpret the Result:**
    
-   There is approximately a **90.67%** probability that a bath fizzy contains \$100 given that it contains at least \$10.
-
-**Answer:**  
-The probability that a bath fizzy contains \$100, given that it contains at least \$10, is approximately **90.67%**.
-
----
+   There is approximately a **8.33%** probability that a bath fizzy contains $100 given that it contains at least $10.
 
 #### **2.c**
 
-Based on the probability distribution of \( X \), calculate and interpret the expected value of the cash prize in the bath fizzies. Show your work.
+The expected value \( E(X) \) of a discrete random variable \( X \) is calculated as:
+   
+$$
+E(X) = \sum_{x} x \cdot P(X = x) = (1 \times 0.68) + (5 \times 0.20) + (10 \times 0.05) + (20 \times 0.05) + (50 \times 0.01) + (100 \times 0.01) = 4.68
+$$
 
-**Solution:**
-
-1. **Define the Expected Value:**
-   
-   The expected value \( E(X) \) of a discrete random variable \( X \) is calculated as:
-   
-   \[
-   E(X) = \sum_{x} x \cdot P(X = x)
-   \]
-
-2. **List All Possible Values and Their Probabilities:**
-   
-   From the table:
-   
-   | \( x \) | 1 | 5 | 10 | 20 | 50 | 100 |
-   |---------|---|---|----|----|----|-----|
-   | \( P(X=x) \) | 0.20 | 0.05 | 0.05 | 0.01 | 0.01 | 0.68 |
-
-3. **Calculate Each Term \( x \cdot P(X = x) \):**
-   
-   \[
-   1 \times 0.20 = 0.20
-   \]
-   \[
-   5 \times 0.05 = 0.25
-   \]
-   \[
-   10 \times 0.05 = 0.50
-   \]
-   \[
-   20 \times 0.01 = 0.20
-   \]
-   \[
-   50 \times 0.01 = 0.50
-   \]
-   \[
-   100 \times 0.68 = 68.00
-   \]
-
-4. **Sum All Terms to Find \( E(X) \):**
-   
-   \[
-   E(X) = 0.20 + 0.25 + 0.50 + 0.20 + 0.50 + 68.00 = 69.65
-   \]
-
-5. **Interpret the Result:**
-   
-   The expected value of the cash prize in the bath fizzies is **\$69.65**. This means that on average, a customer can expect to receive \$69.65 per bath fizzy purchased.
+The expected value of the cash prize in the bath fizzies is **\$4.68**. This means that on average, a customer can expect to receive \$4.68 per bath fizzy purchased.
 
 **Answer:**  
 The expected value of the cash prize in the bath fizzies is **\$69.65**.
