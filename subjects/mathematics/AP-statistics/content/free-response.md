@@ -1,3 +1,6 @@
+Free Response 
+=============
+
 # I. Probability and Random Variables
 
 ## Problem 1
@@ -252,7 +255,7 @@ There is approximately a **8.33%** probability that a bath fizzy contains $100 g
 
 #### **2.c**
 
-The expected value \( E(X) \) of a discrete random variable \( X \) is calculated as:
+The expected value $E(X)$ of a discrete random variable $X$ is calculated as:
    
 $$
 E(X) = \sum_{x} x \cdot P(X = x) = (1 \times 0.68) + (5 \times 0.20) + (10 \times 0.05) + (20 \times 0.05) + (50 \times 0.01) + (100 \times 0.01) = 4.68
