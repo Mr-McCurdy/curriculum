@@ -315,3 +315,12 @@ The expected value of the cash prize in euros is approximately **€62.14**.
 
 **Note:**  
 All calculations were performed using fundamental principles of probability distributions, including direct probability extraction, conditional probability formulas, and expected value computations. Each step was meticulously executed to ensure accuracy and adherence to AP Statistics guidelines.
+
+# Frequently Asked Questions
+
+<details>
+  <summary>1. What is GitHub Flavored Markdown?</summary>
+  
+  GitHub Flavored Markdown (GFM) is an extension of the original Markdown specification that adds additional features and syntax support specific to GitHub. It includes support for tables, task lists, strikethrough text, and more.
+
+</details>
