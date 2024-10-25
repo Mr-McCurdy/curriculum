@@ -172,19 +172,19 @@ Based on the probability distribution of $X$, answer the following. Show your wo
 Calculate the proportion of bath fizzies that contain $1.
 
 <details>
-  <summary><strong>Solution</strong></summary>
+   <summary><strong>Solution</strong></summary>
   
   The sum of all probabilities for any probability distribution must equal 1:
 
-   $$
-   \sum_{i=1}^{n} P(x_i) = 1.
-   $$
+$$
+\sum_{i=1}^{n} P(x_i) = 1.
+$$
 
    Therefore,
 
-   $$
-   P(X = 1) = 1 - P(X \geq 2) = 1 - (0.20 + 0.05 + 0.05 + 0.01 + 0.01) = 0.68.
-   $$
+$$
+P(X = 1) = 1 - P(X \geq 2) = 1 - (0.20 + 0.05 + 0.05 + 0.01 + 0.01) = 0.68.
+$$
 
 </details>
 
