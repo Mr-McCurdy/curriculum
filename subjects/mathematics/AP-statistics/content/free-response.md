@@ -191,7 +191,7 @@ The Fizzy Bath Company would like to sell the bath fizzies in France, where the 
 The sum of all probabilities for any probability distribution must equal 1:
 
 $$
-\sum_{i=1}^{n} P(X_i) = 1.
+\sum_{i=1}^{n} P(x_i) = 1.
 $$
 
 Therefore,
@@ -200,53 +200,13 @@ $$
 P(X = 1) = 1 - P(X \geq 2) = 1 - (0.20 + 0.05 + 0.05 + 0.01 + 0.01) = 0.68.
 $$
 
-
----
-
 ##### **2.a.ii** 
-
-**Question:**  
-Calculate the proportion of bath fizzies that contain **at least \$10**.
-
-**Solution:**
-
-1. **Define the Desired Outcome:**
    
    We need to find the probability that a bath fizzy contains \$10 or more. Mathematically, this is represented as:
    
-   \[
-   P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100)
-   \]
-
-2. **Extract the Probabilities:**
-   
-   \[
-   P(X = 10) = 0.05
-   \]
-   \[
-   P(X = 20) = 0.01
-   \]
-   \[
-   P(X = 50) = 0.01
-   \]
-   \[
-   P(X = 100) = 0.68
-   \]
-
-3. **Calculate the Total Probability:**
-   
-   \[
-   P(X \geq 10) = 0.05 + 0.01 + 0.01 + 0.68 = 0.75
-   \]
-
-4. **Interpret the Result:**
-   
-   The proportion of bath fizzies that contain at least \$10 is **75%**.
-
-**Answer:**  
-The proportion of bath fizzies that contain at least \$10 is **75%**.
-
----
+   $$
+   P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12 
+   $$
 
 #### **2.b**
 
