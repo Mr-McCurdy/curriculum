@@ -178,22 +178,18 @@ Calculate the proportion of bath fizzies that contain $1.
 >   
 >   Therefore, $P(X = 1) = 1 - P(X \geq 2) = 1 - (0.20 + 0.05 + 0.05 + 0.01 + 0.01) = 0.68$.
 
-<details>
-  <summary><strong>💡 Solution</strong></summary>
-
-  ##### We need to find the probability that a bath fizzy contains \$10 or more.
-
-  ##### Mathematically, this is represented as: 
-
-  $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
-
-   <div align="center">
-      $$P(X \geq 10) = ... = 0.12$$
-   </div>
-
-  Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
-
-</details>
+> <details>
+>   <summary><strong>💡 Solution</strong></summary>
+> 
+>   ##### We need to find the probability that a bath fizzy contains \$10 or more.
+> 
+>   ##### Mathematically, this is represented as: 
+> 
+>   $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
+> 
+>   Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+> 
+> </details>
 
 #### 2.b
 
