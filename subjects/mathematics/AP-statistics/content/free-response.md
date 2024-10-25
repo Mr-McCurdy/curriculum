@@ -1,5 +1,5 @@
-Free Response 
-=============
+Free Response Primer
+====================
 
 # I. Probability and Random Variables
 
