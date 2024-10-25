@@ -173,7 +173,7 @@ Calculate the proportion of bath fizzies that contain $1.
 
 <details><summary><strong>Solution</strong></summary>
   
-The sum of all probabilities for any probability distribution must equal 1: $ \sum_{i=1}^{n} P(x_i) = 1 $.
+The sum of all probabilities for any probability distribution must equal 1: $\sum_{i=1}^{n} P(x_i) = 1$.
 
 </details>
 
