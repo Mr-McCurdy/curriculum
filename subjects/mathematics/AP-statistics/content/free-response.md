@@ -214,7 +214,7 @@ $$
 
 **Define the Conditional Probability:**
    
-We need to find \( P(X = 100 \mid X \geq 10) \), which is the probability that a bath fizzy contains \$100 given that it contains at least \$10.
+We need to find $P(X = 100 \mid X \geq 10)$, which is the probability that a bath fizzy contains $100 given that it contains at least $10.
 
 **Use the Conditional Probability Formula:**
    
