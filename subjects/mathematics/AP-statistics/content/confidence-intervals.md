@@ -155,20 +155,24 @@ A manufacturer claims that the average lifetime of its batteries is 500 hours wi
    - For 95% confidence, $z^* = 1.96$
 
 3. **Calculate the Standard Error (SE):**
-   $$
-   SE = \frac{\sigma}{\sqrt{n}} = \frac{50}{\sqrt{40}} \approx 7.9069
-   $$
+
+$$
+SE = \frac{\sigma}{\sqrt{n}} = \frac{50}{\sqrt{40}} \approx 7.9069
+$$
 
 4. **Construct the Confidence Interval:**
-   $$
-   \text{CI} = \bar{x} \pm z^* \times SE = 480 \pm 1.96 \times 7.9069
-   $$
-   $$
-   \text{CI} = 480 \pm 15.511
-   $$
-   $$
-   \text{CI} = (464.489, 495.511)
-   $$
+
+$$
+\text{CI} = \bar{x} \pm z^* \times SE = 480 \pm 1.96 \times 7.9069
+$$
+
+$$
+\text{CI} = 480 \pm 15.511
+$$
+
+$$
+\text{CI} = (464.489, 495.511)
+$$
 
 **Interpretation:**
 We are 95% confident that the true mean lifetime of the batteries lies between **464.49 hours** and **495.51 hours**.
@@ -196,20 +200,24 @@ In a survey of 200 students, 120 reported owning a smartphone. Construct a 99% c
    - For 99% confidence, $z^* = 2.576$
 
 4. **Calculate the Standard Error (SE):**
-   $$
-   SE = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}} = \sqrt{\frac{0.60 \times 0.40}{200}} = \sqrt{\frac{0.24}{200}} = 0.03464
-   $$
+   
+$$
+SE = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}} = \sqrt{\frac{0.60 \times 0.40}{200}} = \sqrt{\frac{0.24}{200}} = 0.03464
+$$
 
 5. **Construct the Confidence Interval:**
-   $$
-   \text{CI} = \hat{p} \pm z^* \times SE = 0.60 \pm 2.576 \times 0.03464
-   $$
-   $$
-   \text{CI} = 0.60 \pm 0.0891
-   $$
-   $$
-   \text{CI} = (0.5109, 0.6891)
-   $$
+   
+$$
+\text{CI} = \hat{p} \pm z^* \times SE = 0.60 \pm 2.576 \times 0.03464
+$$
+   
+$$
+\text{CI} = 0.60 \pm 0.0891
+$$
+   
+$$
+\text{CI} = (0.5109, 0.6891)
+$$
 
 **Interpretation:**
 We are 99% confident that between **51.09%** and **68.91%** of all students own a smartphone.
@@ -224,9 +232,11 @@ We are 99% confident that between **51.09%** and **68.91%** of all students own 
    - **Lower Variability:** Leads to a narrower interval.
 
 2. **Margin of Error (ME):**
-   $$
-   ME = z^* \times SE
-   $$
+   
+$$
+ME = z^* \times SE
+$$
+   
    - Represents the maximum expected difference between the sample statistic and the population parameter.
 
 3. **Symmetry:**
