@@ -65,7 +65,7 @@ Here are the **common critical values** for frequently used confidence levels:
 
 > **Note:**  
 > - The **Z-critical values** are used when the population standard deviation ($\sigma$) is known and the sample size is large ($n \geq 30$), invoking the Central Limit Theorem.
-> - The **t-critical values** are used when the population standard deviation (\( \sigma$) is unknown and/or the sample size is small (\( n < 30$). These values are obtained from the t-distribution table based on the desired confidence level and the degrees of freedom (\( df = n - 1$).
+> - The **t-critical values** are used when the population standard deviation ($\sigma$) is unknown and/or the sample size is small ($n < 30$). These values are obtained from the t-distribution table based on the desired confidence level and the degrees of freedom ($df = n - 1$).
 > - As the confidence level increases, the critical value increases, leading to a wider confidence interval. This trade-off between confidence and precision is a fundamental aspect of statistical inference.
 
 #### **Selecting the Appropriate Confidence Level**
