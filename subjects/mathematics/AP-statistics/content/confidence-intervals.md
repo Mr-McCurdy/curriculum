@@ -83,18 +83,6 @@ When selecting a confidence level, consider the following:
 3. **Stakeholder Requirements:**
    - Different stakeholders may have varying tolerances for uncertainty. It's essential to align the confidence level with the expectations and requirements of those relying on the statistical analysis.
 
-#### **Example of Using Critical Values**
-
-Suppose you are constructing a **95% confidence interval** for the population mean. The critical value ($z^*$) associated with a 95% confidence level is **1.960**.
-
-- **Formula:**
-  $$
-  \text{CI} = \bar{x} \pm z^* \left( \frac{\sigma}{\sqrt{n}} \right)
-  $$
-
-- **Interpretation:**
-  You can be **95% confident** that the interval calculated using this critical value contains the true population mean.
-
 By understanding and selecting the appropriate confidence level and corresponding critical value, you ensure that your confidence intervals accurately reflect the desired level of uncertainty and reliability in your statistical inferences.
 
 ### 2. Select the Appropriate Distribution
