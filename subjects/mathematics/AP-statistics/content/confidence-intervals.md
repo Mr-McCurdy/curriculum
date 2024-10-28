@@ -16,7 +16,7 @@ A **confidence interval (CI)** is a range of values derived from sample data tha
 
 ### Confidence Interval for a Population Mean
 
-Mathematically, a confidence interval for a population mean \( \mu \) is expressed as:
+Mathematically, a confidence interval for a population mean $\mu$ is expressed as:
 
 $$
 \bar{x} \pm z^* \left( \frac{\sigma}{\sqrt{n}} \right)
