@@ -54,7 +54,7 @@ $$
 s = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 $$
   
-where \( n = 30 \) and \( x_i \) represents each individual height.
+where $n = 30$ and $x_i$ represents each individual height.
   
 **Interpretation:**
   
