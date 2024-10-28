@@ -51,6 +51,52 @@ Constructing a confidence interval involves several key steps:
 
 Common confidence levels include **90%**, **95%**, and **99%**. The choice depends on the desired precision and the context of the study. A higher confidence level implies a wider interval, providing greater assurance that the interval contains the true parameter.
 
+#### **Common Critical Values**
+
+Each confidence level corresponds to a specific critical value, which is the number of standard errors you need to go from the sample statistic to capture the desired percentage of the population parameter. These critical values are derived from the standard normal (Z) distribution or the t-distribution, depending on the context.
+
+Here are the **common critical values** for frequently used confidence levels:
+
+| **Confidence Level** | **Critical Value ($z^*$)** | **Critical Value ($t^*$)** |
+|----------------------|---------------------------------|---------------------------------|
+| **90%**              | 1.645                           | 1.812                           |
+| **95%**              | 1.960                           | 2.045                           |
+| **99%**              | 2.576                           | 2.756                           |
+
+> **Note:**  
+> - The **Z-critical values** are used when the population standard deviation ($\sigma$) is known and the sample size is large ($n \geq 30$), invoking the Central Limit Theorem.
+> - The **t-critical values** are used when the population standard deviation (\( \sigma$) is unknown and/or the sample size is small (\( n < 30$). These values are obtained from the t-distribution table based on the desired confidence level and the degrees of freedom (\( df = n - 1$).
+> - As the confidence level increases, the critical value increases, leading to a wider confidence interval. This trade-off between confidence and precision is a fundamental aspect of statistical inference.
+
+#### **Selecting the Appropriate Confidence Level**
+
+When selecting a confidence level, consider the following:
+
+1. **Balance Between Confidence and Precision:**
+   - **Higher Confidence Level (e.g., 99%):** Provides greater assurance that the interval contains the true parameter but results in a wider interval, which is less precise.
+   - **Lower Confidence Level (e.g., 90%):** Offers less assurance but results in a narrower, more precise interval.
+
+2. **Context of the Study:**
+   - **Critical Applications (e.g., medical trials, quality control):** Often require higher confidence levels to minimize the risk of Type I errors.
+   - **Exploratory Research or Preliminary Studies:** May accept lower confidence levels for greater precision and cost-effectiveness.
+
+3. **Stakeholder Requirements:**
+   - Different stakeholders may have varying tolerances for uncertainty. It's essential to align the confidence level with the expectations and requirements of those relying on the statistical analysis.
+
+#### **Example of Using Critical Values**
+
+Suppose you are constructing a **95% confidence interval** for the population mean. The critical value ($z^*$) associated with a 95% confidence level is **1.960**.
+
+- **Formula:**
+  $$
+  \text{CI} = \bar{x} \pm z^* \left( \frac{\sigma}{\sqrt{n}} \right)
+  $$
+
+- **Interpretation:**
+  You can be **95% confident** that the interval calculated using this critical value contains the true population mean.
+
+By understanding and selecting the appropriate confidence level and corresponding critical value, you ensure that your confidence intervals accurately reflect the desired level of uncertainty and reliability in your statistical inferences.
+
 ### 2. Select the Appropriate Distribution
 
 - **Z-Distribution:** Used when the population standard deviation $\sigma$ is known and the sample size is large ($n \geq 30$).
@@ -72,7 +118,7 @@ Where $s$ is the sample standard deviation.
 
 ### 4. Find the Critical Value
 
-The **critical value** ($z^*$ or $t^*$) corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
+The **critical value** $z^*$ or $t^*$ corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
 
 ### 5. Construct the Confidence Interval
 
