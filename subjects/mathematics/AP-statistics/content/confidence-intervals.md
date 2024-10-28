@@ -92,7 +92,11 @@ By understanding and selecting the appropriate confidence level and correspondin
 
 ### 3. Calculate the Standard Error
 
-The **standard error (SE)** measures the variability of the sample mean:
+The **standard error (SE)** measures the variability of the sample mean or sample proportion. It quantifies how much the sample statistic is expected to fluctuate due to random sampling variability.
+
+#### **For Sample Means**
+
+When estimating a population mean, the standard error is calculated as:
 
 $$
 SE = \frac{\sigma}{\sqrt{n}} \quad \text{(when } \sigma \text{ is known)}
@@ -102,7 +106,27 @@ $$
 SE = \frac{s}{\sqrt{n}} \quad \text{(when } \sigma \text{ is unknown)}
 $$
 
-Where $s$ is the sample standard deviation.
+Where:
+- $\sigma$ = Population standard deviation
+- $s$ = Sample standard deviation
+- $n$ = Sample size
+
+#### **For Sample Proportions**
+
+When estimating a population proportion, the standard error is calculated as:
+
+$$
+SE = \sqrt{ \frac{\hat{p}(1 - \hat{p})}{n} }
+$$
+
+Where:
+- $\hat{p}$ = Sample proportion
+- $n$ = Sample size
+
+**Conditions for Using the Standard Error for Proportions:**
+
+- **Random Sampling:** The sample should be randomly selected to ensure each member of the population has an equal chance of being included.
+- **Large Sample Size:** Both $n\hat{p} \geq 10$ and $n(1 - \hat{p}) \geq 10$ must be satisfied to justify the use of the normal approximation for the sampling distribution of the proportion.
 
 ### 4. Find the Critical Value
 
