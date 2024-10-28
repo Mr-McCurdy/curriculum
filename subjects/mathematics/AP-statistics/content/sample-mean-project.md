@@ -147,8 +147,6 @@ Your project will be assessed based on the following criteria:
 | **Calculations**                | Accurate calculations with clear, step-by-step process using LaTeX | Mostly accurate with minor errors in steps        | Some errors in calculations or steps             | Numerous errors or incomplete calculations     |
 | **Statistical Analysis**        | Insightful interpretation of mean and standard deviation      | Good interpretation with some insights            | Basic interpretation with limited insights       | Inaccurate or missing interpretation           |
 | **Report Structure & Clarity**  | Well-organized, clear, and professionally presented           | Organized and clear with minor issues             | Some organization and clarity issues             | Disorganized and unclear                        |
-| **Discussion & Evaluation**     | Comprehensive analysis and critical evaluation               | Good analysis and evaluation                      | Basic analysis with limited evaluation           | Inadequate or missing analysis and evaluation  |
-| **Presentation of Data**        | Effective use of tables and charts with proper labeling      | Good use of visual aids with minor labeling issues | Basic use of visual aids with some labeling issues | Poor or no use of visual aids                   |
 | **Grammar & Formatting**         | Free of grammatical errors and well-formatted                 | Minor grammatical errors and formatting issues    | Several grammatical errors and formatting issues | Numerous grammatical errors and poor formatting|
 
 ## **Tips for Success**
@@ -162,15 +160,3 @@ Your project will be assessed based on the following criteria:
 - **Use Resources:** Utilize statistical tables, online calculators, or statistical software to assist with your calculations.
   
 - **Proofread:** Review your report for clarity, coherence, and correctness before submission.
-
-## **Additional Resources**
-
-- **Normal Distribution Tables:** [Insert Link or Reference]
-  
-- **LaTeX Tutorial:** [Insert Link or Reference]
-  
-- **Statistical Software Tutorials:** [Insert Link or Reference]
-
----
-    
-**If you have any questions or need further assistance, please don't hesitate to reach out during office hours or via email. Good luck with your project!**
