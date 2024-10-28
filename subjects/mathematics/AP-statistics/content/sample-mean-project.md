@@ -132,9 +132,9 @@ Prepare a comprehensive report that includes the following sections:
   
 - **Length:** The report should be between **3 to 5 pages** in length, not including the title and references pages.
   
-- **Due Date:** [Insert Due Date Here]
+- **Due Date:** 11/10/2024 11:59 PM
   
-- **Submission Method:** [Specify how and where to submit the report, e.g., via email, learning management system, etc.]
+- **Submission Method:** .pdf upload to Canvas
 
 ## **Grading Rubric**
 
