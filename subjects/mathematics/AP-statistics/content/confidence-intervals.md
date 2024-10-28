@@ -116,7 +116,7 @@ $$
 \text{CI} = \bar{x} \pm (\text{Critical Value}) \times SE
 $$
 
-This yields the lower and upper bounds of the confidence interval.
+This yields the lower and upper bounds of the confidence interval. We also call the value $(\text{Critical Value}) \times SE$ the **Margin of Error**
 
 ---
 
