@@ -106,7 +106,7 @@ Where $s$ is the sample standard deviation.
 
 ### 4. Find the Critical Value
 
-The **critical value** $z^*$ or $t^*$ corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
+The **critical value** $$z^*$$ or $$t^*$$ corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
 
 ### 5. Construct the Confidence Interval
 
