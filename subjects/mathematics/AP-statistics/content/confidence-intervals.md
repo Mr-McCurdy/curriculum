@@ -14,19 +14,19 @@ Understanding confidence intervals is crucial for interpreting statistical resul
 
 A **confidence interval (CI)** is a range of values derived from sample data that is likely to contain the true population parameter with a specified level of confidence. The confidence level, typically expressed as a percentage (e.g., 95%, 99%), indicates the degree of certainty associated with the interval.
 
-Mathematically, a confidence interval for a population mean \( \mu \) is expressed as:
+Mathematically, a confidence interval for a population mean $\mu$ is expressed as:
 
 $$
 \bar{x} \pm z^* \left( \frac{\sigma}{\sqrt{n}} \right)
 $$
 
 Where:
-- \( \bar{x} \) = Sample mean
-- \( z^* \) = Z-score corresponding to the desired confidence level
-- \( \sigma \) = Population standard deviation (known)
-- \( n \) = Sample size
+- $\bar{x}$ = Sample mean
+- $z^*$ = Z-score corresponding to the desired confidence level
+- $\sigma$ = Population standard deviation (known)
+- $n$ = Sample size
 
-For situations where \( \sigma \) is unknown and the sample size is small, the **t-distribution** is used instead of the normal distribution.
+For situations where $\sigma$ is unknown and the sample size is small, the **t-distribution** is used instead of the normal distribution.
 
 ---
 
@@ -53,8 +53,8 @@ Common confidence levels include **90%**, **95%**, and **99%**. The choice depen
 
 ### 2. Select the Appropriate Distribution
 
-- **Z-Distribution:** Used when the population standard deviation \( \sigma \) is known and the sample size is large (\( n \geq 30 \)).
-- **t-Distribution:** Used when \( \sigma \) is unknown and the sample size is small (\( n < 30 \)).
+- **Z-Distribution:** Used when the population standard deviation $\sigma$ is known and the sample size is large ($n \geq 30$).
+- **t-Distribution:** Used when $\sigma$ is unknown and the sample size is small ($n < 30$).
 
 ### 3. Calculate the Standard Error
 
@@ -68,11 +68,11 @@ $$
 SE = \frac{s}{\sqrt{n}} \quad \text{(when } \sigma \text{ is unknown)}
 $$
 
-Where \( s \) is the sample standard deviation.
+Where $s$ is the sample standard deviation.
 
 ### 4. Find the Critical Value
 
-The **critical value** (\( z^* \) or \( t^* \)) corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
+The **critical value** ($z^*$ or $t^*$) corresponds to the desired confidence level and is obtained from the standard normal or t-distribution tables.
 
 ### 5. Construct the Confidence Interval
 
@@ -94,8 +94,8 @@ For confidence intervals to be valid, certain assumptions must be met:
 2. **Independence:** Observations should be independent of one another.
 3. **Normality:**
    - For means: The sampling distribution of the mean should be approximately normal. This is naturally satisfied if the population is normal or the sample size is large enough (Central Limit Theorem).
-   - For proportions: The sample size should be large enough so that both \( np \) and \( n(1-p) \) are at least 10.
-4. **Known Standard Deviation (for Z-Intervals):** When constructing a confidence interval for a mean using the z-distribution, the population standard deviation \( \sigma \) should be known.
+   - For proportions: The sample size should be large enough so that both $np$ and $n(1-p)$ are at least 10.
+4. **Known Standard Deviation (for Z-Intervals):** When constructing a confidence interval for a mean using the z-distribution, the population standard deviation $\sigma$ should be known.
 
 Failure to meet these assumptions may compromise the accuracy and reliability of the confidence interval.
 
@@ -111,14 +111,14 @@ A manufacturer claims that the average lifetime of its batteries is 500 hours wi
 **Solution:**
 
 1. **Given:**
-   - \( \bar{x} = 480 \) hours
-   - \( \mu = 500 \) hours (claimed mean)
-   - \( \sigma = 50 \) hours
-   - \( n = 40 \)
+   - $\bar{x} = 480$ hours
+   - $\mu = 500$ hours (claimed mean)
+   - $\sigma = 50$ hours
+   - $n = 40$
    - Confidence Level = 95%
 
-2. **Determine the Critical Value (\( z^* \)):**
-   - For 95% confidence, \( z^* = 1.96 \)
+2. **Determine the Critical Value ($z^*$):**
+   - For 95% confidence, $z^* = 1.96$
 
 3. **Calculate the Standard Error (SE):**
    $$
@@ -149,17 +149,17 @@ In a survey of 200 students, 120 reported owning a smartphone. Construct a 99% c
 **Solution:**
 
 1. **Given:**
-   - \( \hat{p} = \frac{120}{200} = 0.60 \)
-   - \( n = 200 \)
+   - $\hat{p} = \frac{120}{200} = 0.60$
+   - $n = 200$
    - Confidence Level = 99%
 
 2. **Check Conditions:**
-   - \( np = 200 \times 0.60 = 120 \geq 10 \)
-   - \( n(1-p) = 200 \times 0.40 = 80 \geq 10 \)
+   - $np = 200 \times 0.60 = 120 \geq 10$
+   - $n(1-p) = 200 \times 0.40 = 80 \geq 10$
    - Conditions met; normal approximation is appropriate.
 
-3. **Determine the Critical Value (\( z^* \)):**
-   - For 99% confidence, \( z^* = 2.576 \)
+3. **Determine the Critical Value ($z^*$):**
+   - For 99% confidence, $z^* = 2.576$
 
 4. **Calculate the Standard Error (SE):**
    $$
@@ -208,8 +208,8 @@ We are 99% confident that between **51.09%** and **68.91%** of all students own 
 - **Sample Size:** Larger samples provide more precise estimates (narrower intervals).
 - **Population Distribution:** The sampling distribution of the mean approaches normality as sample size increases (Central Limit Theorem).
 - **Known vs. Unknown Population Standard Deviation:**
-  - **Known \( \sigma \):** Use z-intervals.
-  - **Unknown \( \sigma \):** Use t-intervals, especially for small samples.
+  - **Known $\sigma$:** Use z-intervals.
+  - **Unknown $\sigma$:** Use t-intervals, especially for small samples.
 - **Random Sampling:** Ensures that the sample is representative of the population, reducing bias.
 
 ---
