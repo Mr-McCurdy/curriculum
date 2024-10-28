@@ -340,6 +340,49 @@ The expected value of the cash prize in euros is approximately **€62.14**.
 
 ---
 
+# II. Inference
+
+## Problem 1: One-Sample Confidence Interval for Population Mean
+
+Activity trackers are electronic devices that people wear to record physical activity. Researchers wanted to estimate the mean number of steps taken on a typical workday for people working in New York City who wear such trackers. A random sample of 61 people working in New York City who wear an activity tracker was selected. The number of steps taken on a typical workday for each person in the sample was recorded. The mean was 9,797 steps and the standard deviation was 2,313 steps.
+
+### 1.a
+
+Construct and interpret a 99 percent confidence interval for the mean number of steps taken on a typical workday for all people working in New York City who wear an activity tracker.
+
+### 1.b
+
+A wellness director at a company in New York City wants to investigate whether it is unusual for one person working in the city who wears an activity tracker to record approximately 8,500 steps on a typical workday. Is it appropriate to use the confidence interval found in part (a) to conduct the investigation? Explain your answer.
+
+## Problem 2: One-Sample Confidence Interval for Population Proportion
+
+### 2.a
+
+The manager of a local fast-food restaurant is concerned about customers who ask for a water cup when placing an order but fill the cup with a soft drink from the beverage fountain instead of filling the cup with water. The manager selected a random sample of 80 customers who asked for a water cup when placing an order and found that 23 of those customers filled the cup with a soft drink from the beverage fountain.
+
+### 2.b
+
+The manager estimates that each customer who asks for a water cup but fills it with a soft drink costs the restaurant $0.25. Suppose that in the month of June 3,000 customers ask for a water cup when placing an order. Use the confidence interval constructed in part (a) to give an interval estimate for the cost to the restaurant for the month of June from the customers who ask for a water cup but fill the cup with a soft drink.
+
+## Problem 3: Two-Sample Confidence Interval for the Difference in Population Means
+
+Patients with heart-attack symptoms arrive at an emergency room either by ambulance or self-transportation provided by themselves, family, or friends. When a patient arrives at the emergency room, the time of arrival is recorded. The time when the patient’s diagnostic treatment begins is also recorded.
+
+An administrator of a large hospital wanted to determine whether the mean wait time (time between arrival and diagnostic treatment) for patients with heart-attack symptoms differs according to the mode of transportation. A random sample of 150 patients with heart-attack symptoms who had reported to the emergency room was selected. For each patient, the mode of transportation and wait time were recorded. Summary statistics for each mode of transportation are shown in the table below.
+
+| **Mode of Transportation** | **Sample Size** | **Mean Wait Time (in minutes)** | **Standard Deviation of Wait Times (in minutes)** |
+|----------------------------|----------------|---------------------------------|--------------------------------------------------|
+| Ambulance                  | 77             | 6.04                            | 4.30                                             |
+| Self                       | 73             | 8.30                            | 5.16                                             |
+
+### 3.a
+
+Use a 99 percent confidence interval to estimate the difference between the mean wait times for ambulance transported patients and self-transported patients at this emergency room.
+
+### 3.b
+
+Based only on this confidence interval, do you think the difference in the mean wait times is statistically significant? Justify your answer.
+
 **Note:**  
 All calculations were performed using fundamental principles of probability distributions, including direct probability extraction, conditional probability formulas, and expected value computations. Each step was meticulously executed to ensure accuracy and adherence to AP Statistics guidelines.
 
