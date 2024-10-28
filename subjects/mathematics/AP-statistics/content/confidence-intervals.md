@@ -60,8 +60,9 @@ Where:
 - **Population Mean:**
   - **Use Z-Interval:** When the population standard deviation $\sigma$ is known and the sample size is large ($n \geq 30$).
   - **Use T-Interval:** When the population standard deviation $\sigma$ is unknown and the sample size is small ($n < 30$).
-    > **Note:** When $\sigma$ is unknown, we estimate it using the sample standard deviation $s$. This estimation introduces additional variability, especially with smaller sample sizes. The **t-interval** accounts for this by using the **t-distribution**, which has heavier tails than the normal distribution, providing a more accurate confidence interval under these conditions.
-    
+
+> **Note:** When $\sigma$ is unknown, we estimate it using the sample standard deviation $s$. This estimation introduces additional variability, especially with smaller sample sizes. The **t-interval** accounts for this by using the **t-distribution**, which has heavier tails than the normal distribution, providing a more accurate confidence interval under these conditions.
+
 - **Population Proportion:**
   - **Use Z-Interval:** When the sample size is large enough to satisfy the **Success-Failure Condition**:
     - $n\hat{p} \geq 10$
