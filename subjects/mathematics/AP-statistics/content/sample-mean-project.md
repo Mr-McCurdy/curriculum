@@ -88,7 +88,7 @@ Prepare a comprehensive report that includes the following sections:
 
 - **Descriptive Statistics:**
   
-  - Present the **sample mean (\( \bar{x} \))** and **sample standard deviation (\( s \))**.
+  - Present the **sample mean ($\bar{x}$)** and **sample standard deviation ($s$)**.
   
   - Include any tables or charts that help visualize the data distribution (e.g., histogram, box plot).
   
