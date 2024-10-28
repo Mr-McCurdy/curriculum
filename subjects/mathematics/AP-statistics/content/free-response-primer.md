@@ -420,7 +420,7 @@ To determine whether this sample of four bottles provides **convincing evidence 
 The dotplot below displays the values of the sample standard deviations from the simulation study:
 
 <p align="center">
-  <img src="../assets/freeresponseprimer-III1a-figure1.png" alt="freeresponseprimer-III1a-figure1.png" width="350">
+  <img src="../assets/freeresponseprimer-III1a-figure1.png" alt="freeresponseprimer-III1a-figure1.png" width="500">
 </p>
 
 Based on the results of the simulation study, explain whether you think the sample provides or does not provide convincing evidence that the standard deviation of the juice dispensed exceeds **0.05 fluid ounce**.
