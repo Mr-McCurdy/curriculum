@@ -38,6 +38,10 @@ Where:
 - $t^*$ = t-score from the t-distribution corresponding to the desired confidence level and degrees of freedom ($df = n - 1$)
 - $s$ = Sample standard deviation
 
+> **Note:** 
+>
+> When $\sigma$ is unknown, we estimate it using the sample standard deviation $s$. This estimation introduces additional variability, especially with smaller sample sizes. The **t-interval** accounts for this by using the **t-distribution**, which has heavier tails than the normal distribution, providing a more accurate confidence interval under these conditions.
+
 ### Confidence Interval for a Population Proportion
 
 When estimating a population proportion $p$, the confidence interval is constructed using the sample proportion $\hat{p}$. The formula for a confidence interval for a population proportion is:
@@ -54,52 +58,6 @@ Where:
 **Key Points:**
 - The confidence interval for a proportion uses the **standard error (SE)** specific to proportions, which accounts for the variability in binary outcomes.
 - Unlike confidence intervals for means, the t-distribution is **not** used for proportions. Instead, the normal distribution is typically employed, provided certain conditions are met.
-
-### When to Use Each Type of Confidence Interval
-
-- **Population Mean:**
-  - **Use Z-Interval:** When the population standard deviation $\sigma$ is known and the sample size is large ($n \geq 30$).
-  - **Use T-Interval:** When the population standard deviation $\sigma$ is unknown and the sample size is small ($n < 30$).
-
-> **Note:** 
->
-> When $\sigma$ is unknown, we estimate it using the sample standard deviation $s$. This estimation introduces additional variability, especially with smaller sample sizes. The **t-interval** accounts for this by using the **t-distribution**, which has heavier tails than the normal distribution, providing a more accurate confidence interval under these conditions.
-
-- **Population Proportion:**
-  - **Use Z-Interval:** When the sample size is large enough to satisfy the **Success-Failure Condition**:
-    - $n\hat{p} \geq 10$
-    - $n(1 - \hat{p}) \geq 10$
-
-### Example Formulas
-
-1. **Confidence Interval for a Mean (Z-Interval):**
-
-$$
-\text{CI} = \bar{x} \pm z^* \left( \frac{\sigma}{\sqrt{n}} \right)
-$$
-
-2. **Confidence Interval for a Mean (T-Interval):**
-
-$$
-\text{CI} = \bar{x} \pm t^* \left( \frac{s}{\sqrt{n}} \right)
-$$
-
-3. **Confidence Interval for a Proportion:**
-
-$$
-\text{CI} = \hat{p} \pm z^* \left( \sqrt{ \frac{\hat{p}(1 - \hat{p})}{n} } \right)
-$$
-
-### Choosing the Right Confidence Interval
-
-Selecting the appropriate type of confidence interval depends on the parameter being estimated (mean or proportion), the sample size, and whether the population standard deviation is known.
-
-- **For Means:**
-  - **Large Sample Size or Known $\sigma$:** Use Z-Interval.
-  - **Small Sample Size and Unknown $\sigma$:** Use T-Interval.
-
-- **For Proportions:**
-  - **Always Use Z-Interval:** Provided the Success-Failure Condition is satisfied.
 
 ### Practical Considerations
 
