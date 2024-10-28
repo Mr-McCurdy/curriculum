@@ -40,27 +40,27 @@ By the end of this project, you should be able to:
 
 ### **3. Data Analysis**
 
-- **Calculate the Sample Mean (\( \bar{x} \)):**
+**Calculate the Sample Mean (\( \bar{x} \)):**
   
-  \[
-  \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
-  \]
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
   
-  where \( n = 30 \) and \( x_i \) represents each individual height.
+where \( n = 30 \) and \( x_i \) represents each individual height.
   
-- **Calculate the Sample Standard Deviation (\( s \)):**
+**Calculate the Sample Standard Deviation (\( s \)):**
   
-  \[
-  s = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
-  \]
+$$
+s = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+$$
   
-  where \( n = 30 \) and \( x_i \) represents each individual height.
+where \( n = 30 \) and \( x_i \) represents each individual height.
   
-- **Interpretation:**
+**Interpretation:**
   
-  - Discuss what the sample mean and sample standard deviation tell you about the distribution of student heights.
+- Discuss what the sample mean and sample standard deviation tell you about the distribution of student heights.
   
-  - Compare your findings to any known averages or standards, if available.
+- Compare your findings to any known averages or standards, if available.
 
 ### **4. Report Writing**
 
