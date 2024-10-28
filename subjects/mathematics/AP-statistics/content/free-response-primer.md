@@ -340,9 +340,9 @@ The expected value of the cash prize in euros is approximately **€62.14**.
 
 ---
 
-# II. Inference
+# II. Inference: Confidence Intervals
 
-## Problem 1: One-Sample Confidence Interval for Population Mean
+## Problem 1: One-Sample T-Interval for Population Mean
 
 Activity trackers are electronic devices that people wear to record physical activity. Researchers wanted to estimate the mean number of steps taken on a typical workday for people working in New York City who wear such trackers. A random sample of 61 people working in New York City who wear an activity tracker was selected. The number of steps taken on a typical workday for each person in the sample was recorded. The mean was 9,797 steps and the standard deviation was 2,313 steps.
 
@@ -354,7 +354,7 @@ Construct and interpret a 99 percent confidence interval for the mean number of 
 
 A wellness director at a company in New York City wants to investigate whether it is unusual for one person working in the city who wears an activity tracker to record approximately 8,500 steps on a typical workday. Is it appropriate to use the confidence interval found in part (a) to conduct the investigation? Explain your answer.
 
-## Problem 2: One-Sample Confidence Interval for Population Proportion
+## Problem 2: One-Sample Z-Interval for Population Proportion
 
 ### 2.a
 
@@ -364,7 +364,7 @@ The manager of a local fast-food restaurant is concerned about customers who ask
 
 The manager estimates that each customer who asks for a water cup but fills it with a soft drink costs the restaurant $0.25. Suppose that in the month of June 3,000 customers ask for a water cup when placing an order. Use the confidence interval constructed in part (a) to give an interval estimate for the cost to the restaurant for the month of June from the customers who ask for a water cup but fill the cup with a soft drink.
 
-## Problem 3: Two-Sample Confidence Interval for the Difference in Population Means
+## Problem 3: Two-Sample T-Interval for the Difference in Population Means
 
 Patients with heart-attack symptoms arrive at an emergency room either by ambulance or self-transportation provided by themselves, family, or friends. When a patient arrives at the emergency room, the time of arrival is recorded. The time when the patient’s diagnostic treatment begins is also recorded.
 
@@ -382,6 +382,48 @@ Use a 99 percent confidence interval to estimate the difference between the mean
 ### 3.b
 
 Based only on this confidence interval, do you think the difference in the mean wait times is statistically significant? Justify your answer.
+
+## Problem 4: Two-Sample Z-Interval for the Difference in Population Proportions
+
+A large company has two shifts—a day shift and a night shift. Parts produced by the two shifts must meet the same specifications. The manager of the company believes that there is a difference in the proportions of parts produced within specifications by the two shifts. 
+
+To investigate this belief, random samples of parts that were produced on each of these shifts were selected. For the **day shift**, 188 of its 200 selected parts met specifications. For the **night shift**, 180 of its 200 selected parts met specifications.
+
+### 4.a
+
+Use a 96 percent confidence interval to estimate the difference in the proportions of parts produced within specifications by the two shifts.
+
+### 4.b
+
+Based only on this confidence interval, do you think that the difference in the proportions of parts produced within specifications by the two shifts is significantly different from 0? Justify your answer.
+
+# III. Inference: Hypothesis Tests
+
+## Problem 1: 1-Sample T-Test for Population Mean
+
+A bottle-filling machine is set to dispense **12.1 fluid ounces** into juice bottles. To ensure that the machine is filling accurately, every hour a worker randomly selects four bottles filled by the machine during the past hour and measures the contents. 
+
+If there is convincing evidence that the mean amount of juice dispensed is different from **12.1 ounces**, or if there is convincing evidence that the standard deviation is greater than **0.05 ounce**, the machine is shut down for recalibration. It can be assumed that the amount of juice dispensed into bottles is normally distributed.
+
+During one hour, the mean number of fluid ounces of four randomly selected bottles was **12.05**, and the standard deviation was **0.085 ounce**.
+
+### 1.a
+**Perform a test of significance to determine whether the mean amount of juice dispensed is different from 12.1 fluid ounces.**  
+Assume the conditions for inference are met.
+
+### 1.b
+To determine whether this sample of four bottles provides **convincing evidence that the standard deviation** of the amount of juice dispensed is greater than **0.05 ounce**, a simulation study was performed.
+
+- In the simulation study, **300 samples**, each of size 4, were randomly generated from a normal population with a **mean of 12.1** and a **standard deviation of 0.05**.
+- The sample standard deviation was computed for each of the 300 samples. 
+
+The dotplot below displays the values of the sample standard deviations from the simulation study:
+
+<p align="center">
+  <img src="../assets/freeresponseprimer-III1a-figure1.png" alt="freeresponseprimer-III1a-figure1.png" width="350">
+</p>
+
+Based on the results of the simulation study, explain whether you think the sample provides or does not provide convincing evidence that the standard deviation of the juice dispensed exceeds **0.05 fluid ounce**.
 
 **Note:**  
 All calculations were performed using fundamental principles of probability distributions, including direct probability extraction, conditional probability formulas, and expected value computations. Each step was meticulously executed to ensure accuracy and adherence to AP Statistics guidelines.
