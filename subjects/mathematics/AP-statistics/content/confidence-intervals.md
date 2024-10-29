@@ -382,7 +382,7 @@ Confidence intervals are a cornerstone of statistical inference, bridging the ga
 
 10. **Application in Real Life:**
    
-   Provide a real-life scenario where constructing a confidence interval would be essential and explain why.
+      Provide a real-life scenario where constructing a confidence interval would be essential and explain why.
 
 ---
 
