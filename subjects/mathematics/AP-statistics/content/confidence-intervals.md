@@ -345,34 +345,34 @@ Confidence intervals are a cornerstone of statistical inference, bridging the ga
 ## Exercises
 
 1. **Construct a Confidence Interval for a Mean:**
-A sample of 25 light bulbs has an average lifetime of 1500 hours with a known population standard deviation of 100 hours. Construct a 90% confidence interval for the true mean lifetime of the light bulbs.
+   A sample of 25 light bulbs has an average lifetime of 1500 hours with a known population standard deviation of 100 hours. Construct a 90% confidence interval for the true mean lifetime of the light bulbs.
 
 2. **Construct a Confidence Interval for a Proportion:**
-In a random sample of 500 voters, 320 support a particular candidate. Construct a 95% confidence interval for the true proportion of voters who support the candidate.
+   In a random sample of 500 voters, 320 support a particular candidate. Construct a 95% confidence interval for the true proportion of voters who support the candidate.
 
 3. **Effect of Sample Size on Confidence Interval:**
-Explain how increasing the sample size from 30 to 100 affects the width of a 95% confidence interval for the population mean. Assume the population standard deviation remains constant.
+   Explain how increasing the sample size from 30 to 100 affects the width of a 95% confidence interval for the population mean. Assume the population standard deviation remains constant.
 
 4. **Interpretation of Confidence Interval:**
-A 99% confidence interval for the average number of hours students spend on homework each week is (10.5, 12.3). Interpret this interval in the context of the study.
+   A 99% confidence interval for the average number of hours students spend on homework each week is (10.5, 12.3). Interpret this interval in the context of the study.
 
 5. **Using t-Distribution:**
-A sample of 15 students has a sample mean score of 78 with a sample standard deviation of 10. Construct a 95% confidence interval for the true mean score using the t-distribution.
+   A sample of 15 students has a sample mean score of 78 with a sample standard deviation of 10. Construct a 95% confidence interval for the true mean score using the t-distribution.
 
 6. **Understanding Margin of Error:**
-Define the margin of error in the context of confidence intervals and explain how it is affected by the confidence level and sample size.
+   Define the margin of error in the context of confidence intervals and explain how it is affected by the confidence level and sample size.
 
 7. **Comparing Confidence Levels:**
-Compare a 90% confidence interval and a 99% confidence interval for the same dataset. Discuss the trade-offs involved in choosing a higher confidence level.
+   Compare a 90% confidence interval and a 99% confidence interval for the same dataset. Discuss the trade-offs involved in choosing a higher confidence level.
 
 8. **Non-Normal Population:**
-If the population distribution is highly skewed, under what conditions can we still construct a valid confidence interval for the mean?
+   If the population distribution is highly skewed, under what conditions can we still construct a valid confidence interval for the mean?
 
 9. **Confidence Interval for Difference of Means:**
-Describe how to construct a confidence interval for the difference between two population means when the populations have known standard deviations.
+   Describe how to construct a confidence interval for the difference between two population means when the populations have known standard deviations.
 
 10. **Application in Real Life:**
-Provide a real-life scenario where constructing a confidence interval would be essential and explain why.
+   Provide a real-life scenario where constructing a confidence interval would be essential and explain why.
 
 ---
 
