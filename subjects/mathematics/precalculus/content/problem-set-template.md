@@ -28,7 +28,7 @@
     <details>
         <summary><strong>💡 Answer</strong></summary>
 
-    $x = 2$ and $x = 3$
+    $(x - 6)(x + 1)$
     </details>
 
     <details>
