@@ -14,7 +14,7 @@
 
 ---
 
-## Factoring
+## I. Factoring
 **Factor the quadratic equation:**
 
 1. $x^2 - 5x + 6 = 0$
@@ -54,42 +54,43 @@
 > ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
 </details>
 
-2. $x^2 - 5x + 6 = 0$
-<details>
-    <summary><strong>🔎 Hint</strong></summary>
+1. $x^2 - 5x + 6 = 0$
 
-> ##### We need to find the probability that a bath fizzy contains \$10 or more.
->
-> ##### Mathematically, this is represented as: 
->
-> $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
->
-> ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
-</details>
+    <details>
+        <summary><strong>Hint</strong></summary>
 
-<details>
-    <summary><strong>💡 Answer</strong></summary>
+    ##### We need to find the probability that a bath fizzy contains \$10 or more.
 
-> ##### We need to find the probability that a bath fizzy contains \$10 or more.
->
-> ##### Mathematically, this is represented as: 
->
-> $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
->
-> ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
-</details>
+    ##### Mathematically, this is represented as: 
 
-<details>
-    <summary><strong>🔓 Solution</strong></summary>
+    $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
 
-> ##### We need to find the probability that a bath fizzy contains \$10 or more.
->
-> ##### Mathematically, this is represented as: 
->
-> $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
->
-> ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
-</details>
+    ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+    </details>
+
+    <details>
+        <summary><strong>Answer</strong></summary>
+
+    ##### We need to find the probability that a bath fizzy contains \$10 or more.
+
+    ##### Mathematically, this is represented as: 
+
+    $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
+
+    ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+    </details>
+
+    <details>
+        <summary><strong>Solution</strong></summary>
+
+    ##### We need to find the probability that a bath fizzy contains \$10 or more.
+
+    ##### Mathematically, this is represented as: 
+
+    $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
+
+    ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+    </details>
 
 ---
 
