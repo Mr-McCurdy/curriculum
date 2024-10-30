@@ -70,39 +70,35 @@
     </details>
 
     <details>
-        <summary><strong>S🔓 Solution</strong></summary>
+        <summary><strong>🔓 Solution</strong></summary>
 
     **Step 1:** Identify two numbers that multiply to **+6** (the constant term) and add up to **-5** (the coefficient of the middle term).
     
     **Step 2:** The numbers **-2** and **-3** satisfy these conditions since:
     
-    \(-2 \times -3 = +6\)  
-    \(-2 + (-3) = -5\)
+    $-2 \times -3 = 6$
+
+    $-2 + (-3) = -5$
     
     **Step 3:** Rewrite the quadratic equation using these numbers:
-    $$
-    x^2 - 2x - 3x + 6 = 0
-    $$
+    
+    $x^2 - 2x - 3x + 6 = 0$
     
     **Step 4:** Factor by grouping:
-    $$
-    x(x - 2) - 3(x - 2) = 0
-    $$
+
+    $x(x - 2) - 3(x - 2) = 0$
 
     **Step 5:** Factor out the common term \((x - 2)\):
-    $$
-    (x - 3)(x - 2) = 0
-    $$
+    
+    $(x - 3)(x - 2) = 0$
 
     **Step 6:** Set each factor equal to zero and solve for \( x \):
-    $$
-    x - 3 = 0 \quad \Rightarrow \quad x = 3
-    $$
-    $$
-    x - 2 = 0 \quad \Rightarrow \quad x = 2
-    $$
 
-    **Conclusion:** The solutions are \( x = 2 \) and \( x = 3 \).
+    $x - 3 = 0 \quad \Rightarrow \quad x = 3$
+
+    $x - 2 = 0 \quad \Rightarrow \quad x = 2$
+
+    **Conclusion:** The solutions are $x = 2$ and $x = 3$.
     </details>
 
 ---
