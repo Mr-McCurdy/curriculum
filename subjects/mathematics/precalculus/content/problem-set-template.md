@@ -81,30 +81,6 @@ $x^2 - 5x + 6 = 0$
 >   ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
 > 
 > </details>
----
-
-## Trigonometric Ratios
-
-### Problem 1
-**Find the value of \( \sin(\theta) \) if \( \cos(\theta) = \frac{4}{5} \) and \( \theta \) is in the first quadrant.**
-
-<details>
-  <summary><strong>Solution</strong></summary>
-  
-Given \( \cos(\theta) = \frac{4}{5} \) and \( \theta \) is in the first quadrant, we can find \( \sin(\theta) \) using the Pythagorean identity:
-$$
-\sin^2(\theta) + \cos^2(\theta) = 1
-$$
-
-Substitute \( \cos(\theta) \):
-$$
-\sin^2(\theta) + \left(\frac{4}{5}\right)^2 = 1 \\
-\sin^2(\theta) + \frac{16}{25} = 1 \\
-\sin^2(\theta) = 1 - \frac{16}{25} = \frac{9}{25} \\
-\sin(\theta) = \frac{3}{5} \quad \text{(since \( \theta \) is in the first quadrant)}
-$$
-
-</details>
 
 ---
 
