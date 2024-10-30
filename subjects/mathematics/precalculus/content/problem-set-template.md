@@ -18,22 +18,8 @@
 
 ### Problem 1
 **Factor the quadratic equation:**
-$$
-x^2 - 5x + 6 = 0
-$$
 
-> <details>
->   <summary><strong>🔎 Hint</strong></summary>
-> 
->   ##### We need to find the probability that a bath fizzy contains \$10 or more.
-> 
->   ##### Mathematically, this is represented as: 
-> 
->   $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
-> 
->   ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
-> 
-> </details>
+$x^2 - 5x + 6 = 0$
 
 > <details>
 >   <summary><strong>🔎 Hint</strong></summary>
@@ -74,13 +60,7 @@ $$
 > 
 > </details>
 
----
-
-### Problem 2
-**Factor the cubic polynomial:**
-$$
-x^3 - 6x^2 + 11x - 6 = 0
-$$
+$x^3 - 6x^2 + 11x - 6 = 0$
 
 <details>
   <summary><strong>Solution</strong></summary>
@@ -109,13 +89,7 @@ $$
 
 </details>
 
----
-
-### Problem 3
-**Factor the difference of squares:**
-$$
-9x^2 - 25 = 0
-$$
+$9x^2 - 25 = 0$
 
 <details>
   <summary><strong>Solution</strong></summary>
