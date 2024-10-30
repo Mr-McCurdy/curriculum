@@ -58,7 +58,7 @@
 
     <details>
         <summary><strong>Hint</strong></summary>
-
+    >
     > ##### We need to find the probability that a bath fizzy contains \$10 or more.
     >
     > ##### Mathematically, this is represented as: 
