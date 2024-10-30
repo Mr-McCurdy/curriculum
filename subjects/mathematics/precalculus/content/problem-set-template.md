@@ -58,7 +58,7 @@
 2. $x^2 - 5x + 6 = 0$
 
     <details>
-        <summary><strong🔎 Hint</strong></summary>
+        <summary><strong>🔎 Hint</strong></summary>
 
     To factor the quadratic equation, look for two numbers that multiply to **+6** and add up to **-5**.
     </details>
