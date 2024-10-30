@@ -1,163 +1,237 @@
-# 🧮 Problem Set: [Subject/Topic]
+# Problem Set: Mathematics
 
-## 📋 Instructions
-Please attempt each problem before viewing the solution. Click on the "Solution" button below each problem to reveal the answer.
-
----
-
-## 🔢 Problems
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-
-### 📝 **Problem 1**
-**Description:**
-Calculate the probability that a bath fizzy contains \$10 or more.
-
-**Mathematically, this is represented as:**
-
-$$
-P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100)
-$$
-
-<details>
-  <summary><strong>💡 Solution</strong></summary>
-  
-  $$ 
-  P(X \geq 10) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12
-  $$
-  
-  Therefore, the proportion of bath fizzies that contain at least \$10 is **0.12** or **12%**.
-</details>
-
-    </td>
-    <td valign="top" width="50%">
-
-### 📝 **Problem 2**
-**Description:**
-Determine the expected value \( E[X] \) of the random variable \( X \) representing the amount in dollars contained in a bath fizzy.
-
-**Given Probability Distribution:**
-
-| Value (\$) | Probability \( P(X) \) |
-|-----------|-----------------------|
-| 1         | 0.20                  |
-| 2         | 0.05                  |
-| 5         | 0.05                  |
-| 10        | 0.01                  |
-| 20        | 0.01                  |
-
-<details>
-  <summary><strong>💡 Solution</strong></summary>
-  
-  The expected value \( E[X] \) is calculated as:
-
-  $$
-  E[X] = \sum_{i} x_i \cdot P(x_i) = (1 \times 0.20) + (2 \times 0.05) + (5 \times 0.05) + (10 \times 0.01) + (20 \times 0.01) = 0.20 + 0.10 + 0.25 + 0.10 + 0.20 = 0.85
-  $$
-
-  Therefore, the expected value \( E[X] \) is **\$0.85**.
-</details>
-
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-
-### 📝 **Problem 3**
-**Description:**
-If the cost to produce a bath fizzy is \$0.50, calculate the expected profit per bath fizzy sold.
-
-<details>
-  <summary><strong>💡 Solution</strong></summary>
-  
-  **Expected Profit \( E[Profit] \):**
-
-  $$
-  E[Profit] = E[X] - Cost = 0.85 - 0.50 = 0.35
-  $$
-
-  Therefore, the expected profit per bath fizzy sold is **\$0.35**.
-</details>
-
-    </td>
-    <td valign="top" width="50%">
-
-### 📝 **Problem 4**
-**Description:**
-What is the variance \( Var(X) \) of the random variable \( X \) representing the amount in dollars contained in a bath fizzy?
-
-**Given Probability Distribution:**
-
-| Value (\$) | Probability \( P(X) \) |
-|-----------|-----------------------|
-| 1         | 0.20                  |
-| 2         | 0.05                  |
-| 5         | 0.05                  |
-| 10        | 0.01                  |
-| 20        | 0.01                  |
-
-<details>
-  <summary><strong>💡 Solution</strong></summary>
-  
-  First, calculate \( E[X^2] \):
-
-  $$
-  E[X^2] = \sum_{i} x_i^2 \cdot P(x_i) = (1^2 \times 0.20) + (2^2 \times 0.05) + (5^2 \times 0.05) + (10^2 \times 0.01) + (20^2 \times 0.01) = 0.20 + 0.20 + 1.25 + 1.00 + 4.00 = 6.65
-  $$
-
-  Then, calculate the variance:
-
-  $$
-  Var(X) = E[X^2] - (E[X])^2 = 6.65 - (0.85)^2 = 6.65 - 0.7225 = 5.9275
-  $$
-
-  Therefore, the variance \( Var(X) \) is **5.9275**.
-</details>
-
-    </td>
-  </tr>
-  <!-- Add more problems as needed -->
-</table>
+## Table of Contents
+1. [Factoring](#factoring)
+2. [Trigonometric Ratios](#trigonometric-ratios)
+3. [Additional Sections](#additional-sections)
+4. [Additional Resources](#additional-resources)
 
 ---
 
-## 🔗 **Additional Resources**
+## Instructions
+- **Attempt Each Problem First**: Try to solve each problem on your own before revealing the solution.
+- **View Solutions**: Click on the "Solution" button below each problem to see the detailed answer.
+
+---
+
+## Factoring
+
+### Problem 1
+**Factor the quadratic equation:**
+$$
+x^2 - 5x + 6 = 0
+$$
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+To factor the quadratic equation \( x^2 - 5x + 6 = 0 \), we look for two numbers that multiply to \( +6 \) and add up to \( -5 \).
+
+The numbers are \( -2 \) and \( -3 \).
+
+Therefore, the factored form is:
+$$
+(x - 2)(x - 3) = 0
+$$
+
+Setting each factor equal to zero gives the solutions:
+$$
+x = 2 \quad \text{or} \quad x = 3
+$$
+
+</details>
+
+---
+
+### Problem 2
+**Factor the cubic polynomial:**
+$$
+x^3 - 6x^2 + 11x - 6 = 0
+$$
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+To factor \( x^3 - 6x^2 + 11x - 6 = 0 \), we can use the Rational Root Theorem to find possible rational roots.
+
+Testing \( x = 1 \):
+$$
+1 - 6 + 11 - 6 = 0 \quad \text{(Thus, } x = 1 \text{ is a root)}
+$$
+
+Perform polynomial division or synthetic division to factor out \( (x - 1) \):
+$$
+(x - 1)(x^2 - 5x + 6) = 0
+$$
+
+Factor the quadratic:
+$$
+(x - 1)(x - 2)(x - 3) = 0
+$$
+
+Solutions:
+$$
+x = 1, \quad x = 2, \quad x = 3
+$$
+
+</details>
+
+---
+
+### Problem 3
+**Factor the difference of squares:**
+$$
+9x^2 - 25 = 0
+$$
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+The expression \( 9x^2 - 25 \) is a difference of squares:
+$$
+9x^2 - 25 = (3x)^2 - 5^2
+$$
+
+Using the identity \( a^2 - b^2 = (a - b)(a + b) \):
+$$
+(3x - 5)(3x + 5) = 0
+$$
+
+Solutions:
+$$
+3x - 5 = 0 \quad \Rightarrow \quad x = \frac{5}{3}
+$$
+$$
+3x + 5 = 0 \quad \Rightarrow \quad x = -\frac{5}{3}
+$$
+
+</details>
+
+---
+
+## Trigonometric Ratios
+
+### Problem 1
+**Find the value of \( \sin(\theta) \) if \( \cos(\theta) = \frac{4}{5} \) and \( \theta \) is in the first quadrant.**
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+Given \( \cos(\theta) = \frac{4}{5} \) and \( \theta \) is in the first quadrant, we can find \( \sin(\theta) \) using the Pythagorean identity:
+$$
+\sin^2(\theta) + \cos^2(\theta) = 1
+$$
+
+Substitute \( \cos(\theta) \):
+$$
+\sin^2(\theta) + \left(\frac{4}{5}\right)^2 = 1 \\
+\sin^2(\theta) + \frac{16}{25} = 1 \\
+\sin^2(\theta) = 1 - \frac{16}{25} = \frac{9}{25} \\
+\sin(\theta) = \frac{3}{5} \quad \text{(since \( \theta \) is in the first quadrant)}
+$$
+
+</details>
+
+---
+
+### Problem 2
+**Simplify the expression:**
+$$
+\frac{\tan(\theta)}{1 + \cot(\theta)}
+$$
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+Start by expressing \( \tan(\theta) \) and \( \cot(\theta) \) in terms of sine and cosine:
+$$
+\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)} \\
+\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}
+$$
+
+Substitute into the original expression:
+$$
+\frac{\frac{\sin(\theta)}{\cos(\theta)}}{1 + \frac{\cos(\theta)}{\sin(\theta)}} = \frac{\sin(\theta)}{\cos(\theta)} \div \left( \frac{\sin(\theta) + \cos(\theta)}{\sin(\theta)} \right) = \frac{\sin^2(\theta)}{\cos(\theta)(\sin(\theta) + \cos(\theta))}
+$$
+
+Simplify by factoring:
+$$
+\frac{\sin(\theta)}{\cos(\theta)} \cdot \frac{\sin(\theta)}{\sin(\theta) + \cos(\theta)} = \tan(\theta) \cdot \frac{\sin(\theta)}{\sin(\theta) + \cos(\theta)}
+$$
+
+Final simplified form:
+$$
+\frac{\sin^2(\theta)}{\cos(\theta)(\sin(\theta) + \cos(\theta))}
+$$
+
+</details>
+
+---
+
+### Problem 3
+**Prove that \( \tan(\theta) + \cot(\theta) = \frac{2}{\sin(2\theta)} \).**
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+Start with the left-hand side (LHS):
+$$
+\tan(\theta) + \cot(\theta) = \frac{\sin(\theta)}{\cos(\theta)} + \frac{\cos(\theta)}{\sin(\theta)} = \frac{\sin^2(\theta) + \cos^2(\theta)}{\sin(\theta)\cos(\theta)} = \frac{1}{\sin(\theta)\cos(\theta)}
+$$
+
+Recall the double-angle identity for sine:
+$$
+\sin(2\theta) = 2\sin(\theta)\cos(\theta) \quad \Rightarrow \quad \sin(\theta)\cos(\theta) = \frac{\sin(2\theta)}{2}
+$$
+
+Substitute into the LHS:
+$$
+\frac{1}{\sin(\theta)\cos(\theta)} = \frac{2}{\sin(2\theta)}
+$$
+
+Therefore:
+$$
+\tan(\theta) + \cot(\theta) = \frac{2}{\sin(2\theta)}
+$$
+
+</details>
+
+---
+
+## Additional Sections
+
+> **Note:** This section is a placeholder. You can add more sections for different types of problems following the structure used in the "Factoring" and "Trigonometric Ratios" sections.
+
+### Section Title
+**Description:**
+Brief description of the problem type.
+
+### Problem X
+**Description:**
+Detailed problem statement.
+
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+Detailed solution steps, including any necessary LaTeX expressions.
+
+</details>
+
+---
+
+## Additional Resources
 - [Markdown Guide](https://www.markdownguide.org/)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [LaTeX Documentation](https://www.latex-project.org/help/documentation/)
+- [LaTeX Project](https://www.latex-project.org/)
+- [Wolfram MathWorld](https://mathworld.wolfram.com/)
 
 ---
 
-## 📢 **Notes:**
-- **Emojis:** Enhance the visual appeal and provide intuitive cues for interactive elements like solutions.
+## Notes
 - **LaTeX Rendering:** Ensure that LaTeX expressions are correctly formatted. Use `$$ ... $$` for display math and `$ ... $` for inline math.
-- **Table Structure:** Utilize HTML tables to create a two-column layout, ensuring that each problem and its corresponding solution are side by side.
-- **Expandable Solutions:** Use `<details>` and `<summary>` tags to create collapsible sections for solutions, allowing users to attempt problems before viewing answers.
+- **Table of Contents:** Update the Table of Contents as you add new sections to maintain easy navigation.
+- **Consistent Formatting:** Maintain a uniform structure for each problem and solution to ensure readability.
+- **Expandability:** Easily add more sections and problems by following the established template structure.
+- **Previewing:** Regularly push your Markdown file to GitHub and use the platform's preview feature to ensure everything renders correctly.
 
 ---
-
-### 📌 **Example Rendered Problems:**
-
-# 🧮 Problem Set: Probability Distributions
-
-## 📋 Instructions
-Please attempt each problem before viewing the solution. Click on the "Solution" button below each problem to reveal the answer.
-
----
-
-## 🔢 Problems
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-
-### 📝 **Problem 1**
-**Description:**
-Calculate the probability that a bath fizzy contains \$10 or more.
-
-**Mathematically, this is represented as:**
-
-$$
-P(X \geq 10) = P(X = 10) + P(X = 20) + P(X
