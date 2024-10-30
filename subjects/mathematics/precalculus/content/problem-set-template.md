@@ -32,6 +32,30 @@ $x^2 - 5x + 6 = 0$
 > ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
 </details>
 
+<details>
+    <summary><strong>💡 Answer</strong></summary>
+
+> ##### We need to find the probability that a bath fizzy contains \$10 or more.
+>
+> ##### Mathematically, this is represented as: 
+>
+> $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
+>
+> ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+</details>
+
+<details>
+    <summary><strong>🔓 Solution</strong></summary>
+
+> ##### We need to find the probability that a bath fizzy contains \$10 or more.
+>
+> ##### Mathematically, this is represented as: 
+>
+> $$P(X \geq 10) = P(X = 10) + P(X = 20) + P(X = 50) + P(X = 100) = 0.05 + 0.05 + 0.01 + 0.01 = 0.12$$
+>
+> ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
+</details>
+
  <details>
    <summary><strong>💡 Answer</strong></summary>
  
@@ -57,61 +81,6 @@ $x^2 - 5x + 6 = 0$
 >   ##### Therefore, the proportion of bath fizzies that contain at least \$10 is 0.12 or 12%.
 > 
 > </details>
-
-$x^3 - 6x^2 + 11x - 6 = 0$
-
-<details>
-  <summary><strong>Solution</strong></summary>
-  
-To factor \( x^3 - 6x^2 + 11x - 6 = 0 \), we can use the Rational Root Theorem to find possible rational roots.
-
-Testing \( x = 1 \):
-$$
-1 - 6 + 11 - 6 = 0 \quad \text{(Thus, } x = 1 \text{ is a root)}
-$$
-
-Perform polynomial division or synthetic division to factor out \( (x - 1) \):
-$$
-(x - 1)(x^2 - 5x + 6) = 0
-$$
-
-Factor the quadratic:
-$$
-(x - 1)(x - 2)(x - 3) = 0
-$$
-
-Solutions:
-$$
-x = 1, \quad x = 2, \quad x = 3
-$$
-
-</details>
-
-$9x^2 - 25 = 0$
-
-<details>
-  <summary><strong>Solution</strong></summary>
-  
-The expression \( 9x^2 - 25 \) is a difference of squares:
-$$
-9x^2 - 25 = (3x)^2 - 5^2
-$$
-
-Using the identity \( a^2 - b^2 = (a - b)(a + b) \):
-$$
-(3x - 5)(3x + 5) = 0
-$$
-
-Solutions:
-$$
-3x - 5 = 0 \quad \Rightarrow \quad x = \frac{5}{3}
-$$
-$$
-3x + 5 = 0 \quad \Rightarrow \quad x = -\frac{5}{3}
-$$
-
-</details>
-
 ---
 
 ## Trigonometric Ratios
