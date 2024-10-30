@@ -28,7 +28,7 @@
     <details>
         <summary><strong>💡 Answer</strong></summary>
 
-    $(x - 6)(x + 1)$
+    $(x - 2)(x - 3) = 0$
     </details>
 
     <details>
@@ -60,7 +60,7 @@
 
     $x - 2 = 0 \quad \Rightarrow \quad x = 2$
 
-    **Conclusion:** The solutions are $x = 2$ and $x = 3$.
+    **Answer:** $(x - 2)(x - 3) = 0$
     </details>
 
 ---
