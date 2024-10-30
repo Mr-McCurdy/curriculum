@@ -88,11 +88,11 @@
 
     $x(x - 2) - 3(x - 2) = 0$
 
-    **Step 5:** Factor out the common term \((x - 2)\):
+    **Step 5:** Factor out the common term $(x - 2)$:
     
     $(x - 3)(x - 2) = 0$
 
-    **Step 6:** Set each factor equal to zero and solve for \( x \):
+    **Step 6:** Set each factor equal to zero and solve for $x$:
 
     $x - 3 = 0 \quad \Rightarrow \quad x = 3$
 
