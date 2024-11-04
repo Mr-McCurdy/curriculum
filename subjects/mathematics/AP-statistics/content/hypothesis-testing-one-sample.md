@@ -151,9 +151,9 @@ Before conducting a 1-sample z-test, certain assumptions must be met to ensure t
 1. **Random Sampling**: The sample must be randomly selected from the population, ensuring that each member has an equal chance of being included.
 2. **Normality**: The sampling distribution of the proportion is approximately normal. This is ensured if both:
    
-   $$
-   np \geq 10 \quad \text{and} \quad n(1 - p) \geq 10
-   $$
+$$
+np \geq 10 \quad \text{and} \quad n(1 - p) \geq 10
+$$
    
    Where:
    - $n$ = Sample size
@@ -176,9 +176,9 @@ Before conducting a 1-sample z-test, certain assumptions must be met to ensure t
 
 3. **Calculate the Test Statistic (z):**
    
-   $$
-   z = \frac{\hat{p} - p_0}{\sqrt{ \frac{p_0(1 - p_0)}{n} }}
-   $$
+$$
+z = \frac{\hat{p} - p_0}{\sqrt{ \frac{p_0(1 - p_0)}{n} }}
+$$
    
    Where:
    - $\hat{p}$ = Sample proportion
@@ -192,7 +192,7 @@ Before conducting a 1-sample z-test, certain assumptions must be met to ensure t
 5. **Make a Decision:**
    
    - **Two-Tailed Test:** Reject $H_0$ if $|z| > z^*$.
-   - **One-Tailed Test:** Reject $H_0$ if $z > z^*$ (right-tailed) or $z < -z^*$ (left-tailed).
+   - **One-Tailed Test:** Reject $H_0$ if $z > z^* \text{(right-tailed) or }z < -z^* \text{(left-tailed)}$.
 
 6. **Conclusion:**
    
