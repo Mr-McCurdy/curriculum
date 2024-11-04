@@ -55,6 +55,400 @@
     $(x - 3)(x - 2) = 0$
     </details>
 
+2. $2x^2 + 7x + 3 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Look for two numbers that multiply to **2 × 3 = 6** and add up to **+7**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(2x + 1)(x + 3) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Multiply the leading coefficient and the constant term: \( 2 × 3 = 6 \).
+
+        **Step 2:** Find two numbers that multiply to **+6** and add up to **+7**. The numbers **+6** and **+1** satisfy these conditions:
+        $$
+        6 × 1 = 6 \\
+        6 + 1 = 7
+        $$
+
+        **Step 3:** Rewrite the middle term using these numbers:
+        $$
+        2x^2 + 6x + x + 3 = 0
+        $$
+
+        **Step 4:** Factor by grouping:
+        $$
+        2x(x + 3) + 1(x + 3) = 0
+        $$
+
+        **Step 5:** Factor out the common binomial \((x + 3)\):
+        $$
+        (2x + 1)(x + 3) = 0
+        $$
+
+        **Conclusion:** The factored form is \( (2x + 1)(x + 3) = 0 \).
+    </details>
+
+3. $x^2 - 9 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Recognize that this is a **difference of squares**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x - 3)(x + 3) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Identify the expression as a difference of squares:
+        $$
+        x^2 - 9 = x^2 - 3^2
+        $$
+
+        **Step 2:** Apply the difference of squares formula \( a^2 - b^2 = (a - b)(a + b) \):
+        $$
+        (x - 3)(x + 3) = 0
+        $$
+
+        **Conclusion:** The factored form is \( (x - 3)(x + 3) = 0 \).
+    </details>
+
+4. $3x^2 - 12x + 12 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Factor out the greatest common factor (GCF) before proceeding.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $3(x - 2)^2 = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Factor out the GCF, which is **3**:
+        $$
+        3x^2 - 12x + 12 = 3(x^2 - 4x + 4)
+        $$
+
+        **Step 2:** Factor the quadratic expression inside the parentheses:
+        $$
+        x^2 - 4x + 4 = (x - 2)^2
+        $$
+
+        **Step 3:** Substitute back:
+        $$
+        3(x - 2)^2 = 0
+        $$
+
+        **Conclusion:** The factored form is \( 3(x - 2)^2 = 0 \).
+    </details>
+
+---
+
+5. $x^3 - 27 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Recognize this as a **difference of cubes**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x - 3)(x^2 + 3x + 9) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Identify the expression as a difference of cubes:
+        $$
+        x^3 - 27 = x^3 - 3^3
+        $$
+
+        **Step 2:** Apply the difference of cubes formula \( a^3 - b^3 = (a - b)(a^2 + ab + b^2) \):
+        $$
+        (x - 3)(x^2 + 3x + 9) = 0
+        $$
+
+        **Conclusion:** The factored form is \( (x - 3)(x^2 + 3x + 9) = 0 \).
+    </details>
+
+---
+
+6. $4x^2 - 12x + 9 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Check if the quadratic is a **perfect square trinomial**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(2x - 3)^2 = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Determine if the quadratic is a perfect square trinomial by checking if:
+        - The first term is a perfect square: \( (2x)^2 = 4x^2 \).
+        - The last term is a perfect square: \( 3^2 = 9 \).
+        - The middle term is twice the product of the square roots of the first and last terms: \( 2 × 2x × 3 = 12x \), which matches the middle term \( -12x \) with the appropriate sign.
+
+        **Step 2:** Express the quadratic as a squared binomial:
+        $$
+        4x^2 - 12x + 9 = (2x - 3)^2
+        $$
+
+        **Conclusion:** The factored form is \( (2x - 3)^2 = 0 \).
+    </details>
+
+---
+
+7. $x^4 - 16 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Notice that \( x^4 = (x^2)^2 \), making this a **difference of squares**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x^2 - 4)(x^2 + 4) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Rewrite \( x^4 - 16 \) as a difference of squares:
+        $$
+        x^4 - 16 = (x^2)^2 - 4^2
+        $$
+
+        **Step 2:** Apply the difference of squares formula \( a^2 - b^2 = (a - b)(a + b) \):
+        $$
+        (x^2 - 4)(x^2 + 4) = 0
+        $$
+
+        **Step 3:** Factor further if possible. Notice that \( x^2 - 4 \) is also a difference of squares:
+        $$
+        x^2 - 4 = (x - 2)(x + 2)
+        $$
+
+        **Step 4:** Combine the factors:
+        $$
+        (x - 2)(x + 2)(x^2 + 4) = 0
+        $$
+
+        **Conclusion:** The fully factored form is \( (x - 2)(x + 2)(x^2 + 4) = 0 \).
+    </details>
+
+---
+
+8. $6x^3 - 15x^2 + 6x = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Factor out the greatest common factor (GCF) first.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $3x(2x^2 - 5x + 2) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Identify and factor out the GCF, which is **3x**:
+        $$
+        6x^3 - 15x^2 + 6x = 3x(2x^2 - 5x + 2)
+        $$
+
+        **Step 2:** Factor the quadratic expression \( 2x^2 - 5x + 2 \):
+        - Look for two numbers that multiply to **2 × 2 = 4** and add up to **-5**. The numbers **-4** and **-1** satisfy this:
+          $$
+          -4 × -1 = 4 \\
+          -4 + (-1) = -5
+          $$
+
+        **Step 3:** Rewrite the quadratic using these numbers:
+        $$
+        2x^2 - 4x - x + 2 = 0
+        $$
+
+        **Step 4:** Factor by grouping:
+        $$
+        2x(x - 2) - 1(x - 2) = 0
+        $$
+
+        **Step 5:** Factor out the common term \((x - 2)\):
+        $$
+        (2x - 1)(x - 2) = 0
+        $$
+
+        **Conclusion:** The fully factored form is \( 3x(2x - 1)(x - 2) = 0 \).
+    </details>
+
+---
+
+9. $x^2 + 5x + 6 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Find two numbers that multiply to **+6** and add up to **+5**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x + 2)(x + 3) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Identify two numbers that multiply to **+6** and add up to **+5**. The numbers **+2** and **+3** satisfy these conditions:
+        $$
+        2 × 3 = 6 \\
+        2 + 3 = 5
+        $$
+
+        **Step 2:** Rewrite the quadratic equation using these numbers:
+        $$
+        x^2 + 2x + 3x + 6 = 0
+        $$
+
+        **Step 3:** Factor by grouping:
+        $$
+        x(x + 2) + 3(x + 2) = 0
+        $$
+
+        **Step 4:** Factor out the common term \((x + 2)\):
+        $$
+        (x + 2)(x + 3) = 0
+        $$
+
+        **Conclusion:** The factored form is \( (x + 2)(x + 3) = 0 \).
+    </details>
+
+---
+
+10. $x^2 - 4x - 5 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Find two numbers that multiply to **-5** and add up to **-4**.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x - 5)(x + 1) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Identify two numbers that multiply to **-5** and add up to **-4**. The numbers **-5** and **+1** satisfy these conditions:
+        $$
+        -5 × 1 = -5 \\
+        -5 + 1 = -4
+        $$
+
+        **Step 2:** Rewrite the quadratic equation using these numbers:
+        $$
+        x^2 - 5x + x - 5 = 0
+        $$
+
+        **Step 3:** Factor by grouping:
+        $$
+        x(x - 5) + 1(x - 5) = 0
+        $$
+
+        **Step 4:** Factor out the common term \((x - 5)\):
+        $$
+        (x - 5)(x + 1) = 0
+        $$
+
+        **Conclusion:** The factored form is \( (x - 5)(x + 1) = 0 \).
+    </details>
+
+---
+
+11. $x^3 - 3x^2 - 4x + 12 = 0$
+
+    <details>
+        <summary><strong>🔎 Hint</strong></summary>
+
+        Use the Rational Root Theorem to find a root, then factor by grouping.
+    </details>
+
+    <details>
+        <summary><strong>💡 Answer</strong></summary>
+
+        $(x - 3)(x + 2)(x - 2) = 0$
+    </details>
+
+    <details>
+        <summary><strong>🔓 Solution</strong></summary>
+
+        **Step 1:** Apply the Rational Root Theorem to identify possible rational roots. The possible roots are \( \pm1, \pm2, \pm3, \pm4, \pm6, \pm12 \).
+
+        **Step 2:** Test \( x = 3 \):
+        $$
+        3^3 - 3(3)^2 - 4(3) + 12 = 27 - 27 - 12 + 12 = 0
+        $$
+        Thus, \( x = 3 \) is a root.
+
+        **Step 3:** Perform polynomial division or synthetic division to factor out \( (x - 3) \):
+        $$
+        x^3 - 3x^2 - 4x + 12 = (x - 3)(x^2 + 0x - 4)
+        $$
+
+        **Step 4:** Factor the quadratic \( x^2 - 4 \):
+        $$
+        x^2 - 4 = (x - 2)(x + 2)
+        $$
+
+        **Step 5:** Combine the factors:
+        $$
+        (x - 3)(x - 2)(x + 2) = 0
+        $$
+
+        **Conclusion:** The fully factored form is \( (x - 3)(x + 2)(x - 2) = 0 \).
+    </details>
+
 ---
 
 ### Problem 2
