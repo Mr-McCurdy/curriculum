@@ -226,9 +226,9 @@ A company claims that 40% of its customers are satisfied with their service. In 
    
    $\hat{p} = \frac{90}{200} = 0.45$
    
-   $$
-   z = \frac{0.45 - 0.40}{\sqrt{ \frac{0.40 \times 0.60}{200} }} = \frac{0.05}{\sqrt{ \frac{0.24}{200} }} = \frac{0.05}{0.0346} \approx 1.447
-   $$
+$$
+z = \frac{0.45 - 0.40}{\sqrt{ \frac{0.40 \times 0.60}{200} }} = \frac{0.05}{\sqrt{ \frac{0.24}{200} }} = \frac{0.05}{0.0346} \approx 1.447
+$$
 
 5. **Critical z-Value:**
    
@@ -343,9 +343,9 @@ A manufacturer claims that the average lifetime of its batteries is 500 hours wi
 
 4. **Calculate the Test Statistic:**
    
-   $$
-   t = \frac{480 - 500}{50 / \sqrt{25}} = \frac{-20}{10} = -2.0
-   $$
+$$
+t = \frac{480 - 500}{50 / \sqrt{25}} = \frac{-20}{10} = -2.0
+$$
 
 5. **Degrees of Freedom:**
    
@@ -392,9 +392,9 @@ In a survey of 200 voters, 120 reported supporting a particular candidate. The c
    
    $\hat{p} = \frac{120}{200} = 0.60$
    
-   $$
-   z = \frac{0.60 - 0.60}{\sqrt{ \frac{0.60 \times 0.40}{200} }} = \frac{0}{\sqrt{ \frac{0.24}{200} }} = 0
-   $$
+$$
+z = \frac{0.60 - 0.60}{\sqrt{ \frac{0.60 \times 0.40}{200} }} = \frac{0}{\sqrt{ \frac{0.24}{200} }} = 0
+$$
 
 5. **Find the Critical z-Value ($z^*$):**
    
@@ -502,9 +502,9 @@ A researcher claims that the average time employees spend on social media during
 
 4. **Calculate the Test Statistic:**
    
-   $$
-   t = \frac{35 - 30}{5 / \sqrt{16}} = \frac{5}{1.25} = 4.0
-   $$
+$$
+t = \frac{35 - 30}{5 / \sqrt{16}} = \frac{5}{1.25} = 4.0
+$$
 
 5. **Degrees of Freedom:**
    
@@ -551,9 +551,9 @@ A marketing team claims that 25% of consumers prefer their new product over the 
    
    $\hat{p} = \frac{120}{400} = 0.30$
    
-   $$
-   z = \frac{0.30 - 0.25}{\sqrt{ \frac{0.25 \times 0.75}{400} }} = \frac{0.05}{\sqrt{ \frac{0.1875}{400} }} = \frac{0.05}{0.0217} \approx 2.303
-   $$
+$$
+z = \frac{0.30 - 0.25}{\sqrt{ \frac{0.25 \times 0.75}{400} }} = \frac{0.05}{\sqrt{ \frac{0.1875}{400} }} = \frac{0.05}{0.0217} \approx 2.303
+$$
 
 5. **Critical z-Value:**
    
@@ -602,26 +602,6 @@ A marketing team claims that 25% of consumers prefer their new product over the 
 8. **Verify Assumptions:**
    
    Always check that the preconditions and assumptions for the test are met. This includes verifying the normality conditions based on the population parameters ($\mu$ or $p$) and sample size.
-
----
-
-## Additional Resources
-
-- **Statistical Tables:**
-  
-  - [Standard Normal (Z) Table](https://www.mathsisfun.com/data/standard-normal-distribution-table.html)
-  - [t-Distribution Table](https://www.mathsisfun.com/data/t-distribution-table.html)
-
-- **Tutorials and Guides:**
-  
-  - [Khan Academy: Hypothesis Testing](https://www.khanacademy.org/math/statistics-probability/significance-tests-confidence-intervals)
-  - [Statistics How To: t-Test](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/t-test/)
-  - [Statistics How To: z-Test](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/z-test/)
-
-- **Software Tools:**
-  
-  - **Excel:** Useful for large datasets and automated calculations.
-  - **R and Python:** Powerful programming languages for statistical analysis and visualization.
 
 ---
 
