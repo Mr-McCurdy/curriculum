@@ -65,7 +65,7 @@ Before conducting a 1-sample t-test, certain assumptions must be met to ensure t
 3. **Calculate the Test Statistic (t):**
    
 $$
-t = \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}
+t = \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}
 $$
    
    Where:
