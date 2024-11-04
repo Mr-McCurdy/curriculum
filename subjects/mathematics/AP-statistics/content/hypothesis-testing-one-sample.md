@@ -64,9 +64,9 @@ Before conducting a 1-sample t-test, certain assumptions must be met to ensure t
 
 3. **Calculate the Test Statistic (t):**
    
-   $$
-   t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
-   $$
+$$
+t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
+$$
    
    Where:
    - $\bar{x}$ = Sample mean
@@ -76,9 +76,9 @@ Before conducting a 1-sample t-test, certain assumptions must be met to ensure t
 
 4. **Determine the Degrees of Freedom (df):**
    
-   $$
-   df = n - 1
-   $$
+$$
+df = n - 1
+$$
 
 5. **Find the Critical t-Value ($t^*$) from the t-Distribution Table:**
    
