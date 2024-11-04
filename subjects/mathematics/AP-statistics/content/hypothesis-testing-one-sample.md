@@ -111,13 +111,15 @@ A teacher believes that the average score of her class on a standardized test is
 
 3. **Calculate the Test Statistic:**
    
-   $$
-   t = \frac{78 - 75}{10 / \sqrt{25}} = \frac{3}{2} = 1.5
-   $$
+$$
+t = \frac{78 - 75}{10 / \sqrt{25}} = \frac{3}{2} = 1.5
+$$
 
 4. **Degrees of Freedom:**
    
-   $df = 25 - 1 = 24$
+$$
+df = 25 - 1 = 24
+$$
 
 5. **Critical t-Value:**
    
