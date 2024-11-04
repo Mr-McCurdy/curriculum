@@ -86,8 +86,8 @@ $$
 
 6. **Make a Decision:**
    
-   - **Two-Tailed Test:** Reject $H_0$ if $|t| > t^*$.
-   - **One-Tailed Test:** Reject $H_0$ if $ t > t^* $ (right-tailed) or $ t < -t^* $ (left-tailed).
+   **Two-Tailed Test:** Reject $H_0$ if $|t| > t^*$.
+   **One-Tailed Test:** Reject $H_0$ if $t > t^*$ (right-tailed) or $t < -t^*$ (left-tailed).
 
 7. **Conclusion:**
    
