@@ -656,6 +656,14 @@ By mastering the manual calculation of these tests using z-score and t-score tab
     
     Discuss why it is important to verify the normality conditions based on population parameters ($\mu$ and $p$) before conducting hypothesis tests. What could be the consequences of violating these assumptions?
 
+11. **p-Value Interpretation:**
+    
+    If you obtain a p-value of 0.07 in a hypothesis test with $alpha = 0.05$, what is your conclusion? Explain the reasoning behind your decision.
+
+12. **p-Value Calculation Challenge:**
+    
+    In a 1-sample z-test, the test statistic is calculated to be $z = -2.58$. Calculate the p-value for this two-tailed test and determine whether to reject the null hypothesis at the 1% significance level.
+
 ---
 
 **Happy Testing!**  
