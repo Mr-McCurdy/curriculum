@@ -569,6 +569,7 @@ $$
 
 ---
 
+
 ## Best Practices for Performing Hypothesis Tests by Hand
 
 1. **Understand the Problem Context:**
