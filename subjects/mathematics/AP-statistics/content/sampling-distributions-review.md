@@ -194,7 +194,10 @@ $$
 2. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{49 - 55}{6} = \frac{-6}{6} = -1.0 \\
+z_1 = \frac{49 - 55}{6} = \frac{-6}{6} = -1.0 
+$$
+
+$$
 z_2 = \frac{61 - 55}{6} = \frac{6}{6} = 1.0
 $$
 
@@ -258,7 +261,10 @@ $$
 3. **Check Normal Approximation Conditions:**
    
 $$
-np = 150 \times 0.40 = 60 \geq 10 \\
+np = 150 \times 0.40 = 60 \geq 10 
+$$
+
+$$
 n(1 - p) = 150 \times 0.60 = 90 \geq 10
 $$
    
@@ -289,7 +295,10 @@ Only selected, representative problems from each section are provided here to de
 2. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{95 - 100}{15} = -0.333 \\
+z_1 = \frac{95 - 100}{15} = -0.333 
+$$
+
+$$
 z_2 = \frac{115 - 100}{15} = 1.0
 $$
 
@@ -329,7 +338,10 @@ $$
 3. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{29 - 30}{1} = -1 \\
+z_1 = \frac{29 - 30}{1} = -1 
+$$
+
+$$
 z_2 = \frac{31 - 30}{1} = 1
 $$
 
@@ -361,7 +373,10 @@ There is approximately a **68.26%** probability that the sample mean time is bet
 2. **Check Normal Approximation Conditions:**
    
 $$
-np = 250 \times 0.30 = 75 \geq 10 \\
+np = 250 \times 0.30 = 75 \geq 10 
+$$
+
+$$
 n(1 - p) = 250 \times 0.70 = 175 \geq 10
 $$
    
@@ -417,7 +432,10 @@ Only selected, representative problems from each section are provided here to de
 2. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{49 - 55}{6} = -1.0 \\
+z_1 = \frac{49 - 55}{6} = -1.0 
+$$
+
+$$
 z_2 = \frac{61 - 55}{6} = 1.0
 $$
 
@@ -457,7 +475,10 @@ $$
 3. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{29 - 30}{1} = -1 \\
+z_1 = \frac{29 - 30}{1} = -1 
+$$
+
+$$
 z_2 = \frac{31 - 30}{1} = 1
 $$
 
@@ -487,10 +508,15 @@ There is approximately a **68.26%** probability that the sample mean time is bet
    - $H_a: p \neq 0.30$ (two-tailed)
 
 2. **Check Normal Approximation Conditions:**
-   $$
-   np = 250 \times 0.30 = 75 \geq 10 \\
-   n(1 - p) = 250 \times 0.70 = 175 \geq 10
-   $$
+
+$$
+np = 250 \times 0.30 = 75 \geq 10 
+$$
+
+$$
+n(1 - p) = 250 \times 0.70 = 175 \geq 10
+$$
+   
    Conditions are satisfied.
 
 3. **Calculate Sample Proportion ($\hat{p}$):**
@@ -543,7 +569,10 @@ Only selected, representative problems from each section are provided here to de
 2. **Calculate Z-scores:**
    
 $$
-z_1 = \frac{95 - 100}{15} = -0.333 \\
+z_1 = \frac{95 - 100}{15} = -0.333 
+$$
+
+$$
 z_2 = \frac{115 - 100}{15} = 1.0
 $$
 
