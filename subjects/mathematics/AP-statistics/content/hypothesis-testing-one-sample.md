@@ -626,7 +626,7 @@ By mastering the manual calculation of these tests using z-score and t-score tab
 
 3. **Confidence Interval and Hypothesis Test Relationship:**
    
-   A 95% confidence interval for the population mean is (48, 52). Conduct a hypothesis test to determine if the population mean is equal to 50 at the 5% significance level. State your conclusion.
+   A 95% confidence interval for the population mean is (48, 52). Conduct a hypothesis test to determine if the population mean is equal to 50 at the 5% significance level. Assume a sample size of 100. State your conclusion.
 
 4. **Determining Appropriate Test:**
    
