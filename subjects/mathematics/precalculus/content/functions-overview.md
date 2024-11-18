@@ -385,7 +385,7 @@ x - 4 \neq 0 \Rightarrow x \neq 4
 $$
 
 $$
-\text{Domain: } $\mathbb{R} \setminus \{4\}
+\text{Domain: } \mathbb{R} \setminus \{4\}
 $$
 
 4. **Finding Range**:
