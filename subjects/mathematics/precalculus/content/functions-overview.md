@@ -307,102 +307,47 @@ $$
 \{(1, 2), (2, 3), (3, 4), (2, 5)\}
 $$
    
-   **Answer**: This relation is **not** a function because the input $2$ maps to two different outputs $3$ and $5$.
-   
 2. **Function Notation**: Write the function $f$ that maps $x$ to $x^3 - 2x$.
-
-   **Answer**:
-   
-   $$
-   f(x) = x^3 - 2x
-   $$
 
 ### Domain and Range
 
 3. **Finding Domain**: Find the domain of the function:
    
-   $$
-   f(x) = \frac{1}{x - 4}
-   $$
-   
-   **Answer**: The denominator cannot be zero:
-   
-   $$
-   x - 4 \neq 0 \implies x \neq 4
-   $$
-   
-   **Domain**: $\mathbb{R} \setminus \{4\}$
+$$
+f(x) = \frac{1}{x - 4}
+$$
 
 4. **Finding Range**: Find the range of the function:
    
-   $$
-   f(x) = \sqrt{9 - x^2}
-   $$
-   
-   **Answer**: The expression under the square root must be non-negative:
-   
-   $$
-   9 - x^2 \geq 0 \implies x^2 \leq 9 \implies -3 \leq x \leq 3
-   $$
-   
-   The range of $f(x)$ is:
-   
-   $$
-   [0, 3]
-   $$
+$$
+f(x) = \sqrt{9 - x^2}
+$$
    
 ### Types of Functions
 
 5. **Linear Function**: Identify the slope and y-intercept of the linear function:
    
-   $$
-   f(x) = -3x + 7
-   $$
-   
-   **Answer**:
-   - **Slope (m)**: $-3$
-   - **Y-intercept (b)**: $7$
+$$
+f(x) = -3x + 7
+$$
 
 6. **Quadratic Function**: Determine the vertex of the quadratic function:
    
-   $$
-   f(x) = 2x^2 - 8x + 6
-   $$
-   
-   **Answer**:
-   - The vertex $(h, k)$ is found using:
-     
-     $$
-     h = -\frac{b}{2a} = -\frac{-8}{2 \cdot 2} = 2
-     $$
-     
-     $$
-     k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
-     $$
-     
-   - **Vertex**: $(2, -2)$
+$$
+f(x) = 2x^2 - 8x + 6
+$$
 
 7. **Polynomial Function**: What is the degree of the polynomial function:
    
-   $$
-   f(x) = 4x^4 - x^3 + 2x - 5
-   $$
-   
-   **Answer**: The degree is **4** (the highest exponent).
+$$
+f(x) = 4x^4 - x^3 + 2x - 5
+$$
 
 8. **Rational Function**: Identify the vertical asymptote of the rational function:
    
-   $$
-   f(x) = \frac{3x + 2}{x^2 - 1}
-   $$
-   
-   **Answer**: The vertical asymptotes occur where the denominator is zero:
-   
-   $$
-   x^2 - 1 = 0 \implies x = \pm 1
-   $$
-   
-   **Vertical Asymptotes**: $x = 1$ and $x = -1$
+$$
+f(x) = \frac{3x + 2}{x^2 - 1}
+$$
    
 ### 4. Properties of Functions
 
