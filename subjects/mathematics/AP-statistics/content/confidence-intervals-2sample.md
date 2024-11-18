@@ -195,27 +195,27 @@ A marketing company wants to compare the success rates of two advertising campai
 
 5. **Calculate the Standard Error (SE):**
 
-   $$
-   SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.30 (1 - 0.30)}{500} + \frac{0.3333 (1 - 0.3333)}{600} }
-   $$
+$$
+SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.30 (1 - 0.30)}{500} + \frac{0.3333 (1 - 0.3333)}{600} }
+$$
 
-   $$
-   SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.21}{500} + \frac{0.2222}{600} } \approx \sqrt{0.00042 + 0.0003704} \approx \sqrt{0.0007904} \approx 0.0281
-   $$
+$$
+SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.21}{500} + \frac{0.2222}{600} } \approx \sqrt{0.00042 + 0.0003704} \approx \sqrt{0.0007904} \approx 0.0281
+$$
 
 6. **Construct the Confidence Interval:**
 
-   $$
-   (\hat{p}_A - \hat{p}_B) \pm z^* \times SE_{\hat{p}_A - \hat{p}_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
-   $$
+$$
+(\hat{p}_A - \hat{p}_B) \pm z^* \times SE_{\hat{p}_A - \hat{p}_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
+$$
 
-   $$
-   (-0.0333) \pm 0.0550
-   $$
+$$
+(-0.0333) \pm 0.0550
+$$
 
-   $$
-   \text{CI} = (-0.0883, 0.0217)
-   $$
+$$
+\text{CI} = (-0.0883, 0.0217)
+$$
 
 7. **Interpret the Results:**
 
@@ -255,9 +255,9 @@ A researcher wants to compare the average test scores of students taught using t
 
    - Degrees of freedom can be approximated using the **Welch-Satterthwaite equation**:
 
-     $$
-     df = \frac{ \left( \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} \right)^2 }{ \frac{ \left( \frac{s_1^2}{n_1} \right)^2 }{ n_1 - 1 } + \frac{ \left( \frac{s_2^2}{n_2} \right)^2 }{ n_2 - 1 } }
-     $$
+$$
+df = \frac{ \left( \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} \right)^2 }{ \frac{ \left( \frac{s_1^2}{n_1} \right)^2 }{ n_1 - 1 } + \frac{ \left( \frac{s_2^2}{n_2} \right)^2 }{ n_2 - 1 } }
+$$
 
      Calculating:
 
@@ -266,9 +266,9 @@ A researcher wants to compare the average test scores of students taught using t
      - Numerator: $(5 + 6.5455)^2 = (11.5455)^2 = 133.3025$
      - Denominator:
 
-       $$
-       \frac{5^2}{19} + \frac{6.5455^2}{21} = \frac{25}{19} + \frac{42.8271}{21} \approx 1.3158 + 2.0394 = 3.3552
-       $$
+$$
+\frac{5^2}{19} + \frac{6.5455^2}{21} = \frac{25}{19} + \frac{42.8271}{21} \approx 1.3158 + 2.0394 = 3.3552
+$$
 
      - $df = \frac{133.3025}{3.3552} \approx 39.74$
 
@@ -278,23 +278,23 @@ A researcher wants to compare the average test scores of students taught using t
 
 5. **Calculate the Standard Error (SE):**
 
-   $$
-   SE_{\bar{x}_1 - \bar{x}_2} = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} } = \sqrt{ \frac{100}{20} + \frac{144}{22} } = \sqrt{5 + 6.5455} = \sqrt{11.5455} \approx 3.3986
-   $$
+$$
+SE_{\bar{x}_1 - \bar{x}_2} = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} } = \sqrt{ \frac{100}{20} + \frac{144}{22} } = \sqrt{5 + 6.5455} = \sqrt{11.5455} \approx 3.3986
+$$
 
 6. **Construct the Confidence Interval:**
 
-   $$
-   (\bar{x}_1 - \bar{x}_2) \pm t^* \times SE_{\bar{x}_1 - \bar{x}_2} = (78 - 85) \pm 2.0227 \times 3.3986
-   $$
+$$
+(\bar{x}_1 - \bar{x}_2) \pm t^* \times SE_{\bar{x}_1 - \bar{x}_2} = (78 - 85) \pm 2.0227 \times 3.3986
+$$
 
-   $$
-   (-7) \pm 2.0227 \times 3.3986 \approx -7 \pm 6.877
-   $$
+$$
+(-7) \pm 2.0227 \times 3.3986 \approx -7 \pm 6.877
+$$
 
-   $$
-   \text{CI} = (-13.877, -0.123)
-   $$
+$$
+\text{CI} = (-13.877, -0.123)
+$$
 
 7. **Interpret the Results:**
 
