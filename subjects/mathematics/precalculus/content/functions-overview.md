@@ -418,8 +418,6 @@ $$
 k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
 $$
 
-   **Vertex**: $(2, -2)$
-
 7. **Polynomial Function**:
 
    The degree of $f(x) = 4x^4 - x^3 + 2x - 5$ is **4** (the highest exponent).
@@ -434,8 +432,6 @@ $$
 x^2 - 1 = 0 \Rightarrow x = \pm 1
 $$
 
-   **Vertical Asymptotes**: $x = 1$ and $x = -1$
-
 ### 4. Properties of Functions (Continued)
 
 9. **Injective Function**:
@@ -444,7 +440,7 @@ $$
 
 10. **Surjective Function**:
 
-   The function $f(x) = x^2$ is **not surjective** over $\mathbb{R}$ because there are real numbers (negative numbers) that are not outputs of $f$.
+    The function $f(x) = x^2$ is **not surjective** over $\mathbb{R}$ because there are real numbers (negative numbers) that are not outputs of $f$.
 
 11. **Bijective Function**:
 
