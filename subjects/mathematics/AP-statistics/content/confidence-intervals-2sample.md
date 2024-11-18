@@ -233,82 +233,64 @@ A researcher wants to compare the average test scores of students taught using t
 
 1. **State the Parameters:**
 
-   Estimate $\mu_1 - \mu_2$, where:
+   Estimate \( \mu_1 - \mu_2 \), where:
 
-   - $\mu_1$ = True mean score for Method 1
-   - $\mu_2$ = True mean score for Method 2
+   - \( \mu_1 \) = True mean score for Method 1
+   - \( \mu_2 \) = True mean score for Method 2
 
 2. **Check Assumptions and Conditions:**
 
-   - Random and independent samples.
-   - Independence between samples.
-   - Normality condition:
-
-     - Sample sizes are less than 30, but if the distributions are approximately normal or there are no significant outliers, we can proceed.
+   - **Random Sampling:** Samples are random and independent.
+   - **Independence Between Samples:** The two samples are independent.
+   - **Normality Condition:** Since the sample sizes are less than 30, we assume the populations are approximately normal or check for no significant skewness or outliers.
 
 3. **Calculate Sample Statistics:**
 
-   - $\bar{x}_1 = 78$, $s_1 = 10$, $n_1 = 20$
-   - $\bar{x}_2 = 85$, $s_2 = 12$, $n_2 = 22$
+   - \( \bar{x}_1 = 78 \), \( s_1 = 10 \), \( n_1 = 20 \)
+   - \( \bar{x}_2 = 85 \), \( s_2 = 12 \), \( n_2 = 22 \)
 
-4. **Determine the Critical Value ($t^*$):**
+4. **Determine the Degrees of Freedom and Critical Value (\( t^\ast \)):**
 
-   - Degrees of freedom can be approximated using the **Welch-Satterthwaite equation**:
+   - **Degrees of Freedom (\( df \))**:
 
-$$
-df = \frac{ \left( \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} \right)^2 }{ \frac{ \left( \frac{s_1^2}{n_1} \right)^2 }{ n_1 - 1 } + \frac{ \left( \frac{s_2^2}{n_2} \right)^2 }{ n_2 - 1 } }
-$$
+     In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of \( n_1 - 1 \) and \( n_2 - 1 \)**.
 
-     Calculating:
+     - \( df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19 \)
 
-     - $\frac{s_1^2}{n_1} = \frac{100}{20} = 5$
-     - $\frac{s_2^2}{n_2} = \frac{144}{22} \approx 6.5455$
-     - Numerator: $(5 + 6.5455)^2 = (11.5455)^2 = 133.3025$
-     - Denominator:
+   - **Critical Value (\( t^\ast \))**:
 
-$$
-\frac{5^2}{19} + \frac{6.5455^2}{21} = \frac{25}{19} + \frac{42.8271}{21} \approx 1.3158 + 2.0394 = 3.3552
-$$
+     Using the AP Statistics t-table for \( df = 19 \) at a 95% confidence level (two-tailed):
 
-     - $df = \frac{133.3025}{3.3552} \approx 39.74$
-
-     - Degrees of freedom $df \approx 39$
-
-   - For 95% confidence and $df = 39$, $t^* \approx 2.0227$ (from t-distribution table)
+     - \( t^\ast \approx 2.093 \)
 
 5. **Calculate the Standard Error (SE):**
 
-$$
-SE_{\bar{x}_1 - \bar{x}_2} = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} } = \sqrt{ \frac{100}{20} + \frac{144}{22} } = \sqrt{5 + 6.5455} = \sqrt{11.5455} \approx 3.3986
-$$
+   $$
+   \begin{align*}
+   SE_{\bar{x}_1 - \bar{x}_2} &= \sqrt{ \dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2} } \\
+   &= \sqrt{ \dfrac{10^2}{20} + \dfrac{12^2}{22} } \\
+   &= \sqrt{ \dfrac{100}{20} + \dfrac{144}{22} } \\
+   &= \sqrt{5 + 6.5455} \\
+   &= \sqrt{11.5455} \\
+   &\approx 3.399
+   \end{align*}
+   $$
 
 6. **Construct the Confidence Interval:**
 
-$$
-(\bar{x}_1 - \bar{x}_2) \pm t^* \times SE_{\bar{x}_1 - \bar{x}_2} = (78 - 85) \pm 2.0227 \times 3.3986
-$$
-
-$$
-(-7) \pm 2.0227 \times 3.3986 \approx -7 \pm 6.877
-$$
-
-$$
-\text{CI} = (-13.877, -0.123)
-$$
+   $$
+   \begin{align*}
+   (\bar{x}_1 - \bar{x}_2) \pm t^\ast \times SE_{\bar{x}_1 - \bar{x}_2} &= (78 - 85) \pm 2.093 \times 3.399 \\
+   &= (-7) \pm 2.093 \times 3.399 \\
+   &= (-7) \pm 7.112 \\
+   \text{Confidence Interval} &= (-7 - 7.112,\ -7 + 7.112) \\
+   &= (-14.112,\ 0.112)
+   \end{align*}
+   $$
 
 7. **Interpret the Results:**
 
-   We are 95% confident that the true difference in mean scores between Method 1 and Method 2 is between **-13.88** and **-0.12** points. Since the entire interval is negative, it suggests that Method 2 leads to higher average scores than Method 1.
-
----
-
-## Interpretation of Results
-
-- **Confidence Level:** Indicates the proportion of times the interval would contain the true parameter if the experiment were repeated numerous times.
-- **Direction and Magnitude:**
-  - If the interval contains only positive values, $\mu_1 - \mu_2$ or $p_1 - p_2$ is likely positive.
-  - If the interval contains only negative values, $\mu_1 - \mu_2$ or $p_1 - p_2$ is likely negative.
-  - If the interval includes zero, there may be no significant difference between the populations.
+   We are 95% confident that the true difference in mean scores between Method 1 and Method 2 is between **-14.11** and **0.11** points. Since this interval includes zero, there is not enough evidence to conclude a significant difference between the mean scores of the two teaching methods at the 95% confidence level.
 
 ---
 
