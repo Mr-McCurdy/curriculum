@@ -384,7 +384,9 @@ $$
 x - 4 \neq 0 \Rightarrow x \neq 4
 $$
 
-    Domain: $\mathbb{R} \setminus \{4\}$
+$$
+\text{Domain: } $\mathbb{R} \setminus \{4\}
+$$
 
 4. **Finding Range**:
    For $f(x) = \sqrt{9 - x^2}$, the expression under the square root must be non-negative:
