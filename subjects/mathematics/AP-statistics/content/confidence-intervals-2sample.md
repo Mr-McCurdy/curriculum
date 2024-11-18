@@ -246,14 +246,14 @@ A researcher wants to compare the average test scores of students taught using t
 
 3. **Calculate Sample Statistics:**
 
-   - \( \bar{x}_1 = 78 \), \( s_1 = 10 \), \( n_1 = 20 \)
-   - \( \bar{x}_2 = 85 \), \( s_2 = 12 \), \( n_2 = 22 \)
+   - $\bar{x}_1 = 78$, $s_1 = 10$, $n_1 = 20$
+   - $\bar{x}_2 = 85$, $s_2 = 12$, $n_2 = 22$
 
-4. **Determine the Degrees of Freedom and Critical Value (\( t^\ast \)):**
+4. **Determine the Degrees of Freedom and Critical Value ($t^*$):**
 
-   - **Degrees of Freedom (\( df \))**:
+   - **Degrees of Freedom ($df$)**:
 
-     In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of \( n_1 - 1 \) and \( n_2 - 1 \)**.
+     In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of $n_1 - 1$ and $n_2 - 1$**.
 
      - $df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19$
 
