@@ -140,8 +140,8 @@ Before constructing two-sample confidence intervals, certain assumptions must be
    - Compute $\hat{p}_1, \hat{p}_2$ or $\bar{x}_1, \bar{x}_2$ and $s_1, s_2$.
 
 4. **Determine the Critical Value:**
-   - Find $z^*$ or $t^*$ corresponding to the desired confidence level.
-   - For $t^*$, degrees of freedom may be approximated using the **Welch-Satterthwaite equation** or by using the smaller of $n_1 - 1$ and $n_2 - 1$.
+   - Find $z^\ast$ or $t^\ast$ corresponding to the desired confidence level.
+   - For $t^*$, degrees of freedom may be approximated by using the smaller of $n_1 - 1$ and $n_2 - 1$.
 
 5. **Calculate the Standard Error (SE):**
    - Use the appropriate formula for SE based on whether you're working with proportions or means.
