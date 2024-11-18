@@ -206,7 +206,7 @@ $$
 6. **Construct the Confidence Interval:**
 
 $$
-(\hat{p}_A - \hat{p}_B) \pm z^* \times SE_{\hat{p}_A - \hat{p}_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
+(\hat{p}_A - \hat{p}_B) \pm z^* \times SE\_{\hat{p}\_A - \hat{p}\_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
 $$
 
 $$
