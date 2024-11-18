@@ -39,37 +39,37 @@ This article delves into the essential properties of functions, explores differe
 
 ## Definition of a Function
 
-A **function** is a relation between two sets that assigns to every element of the first set exactly one element of the second set. Formally, if \( A \) and \( B \) are sets, a function \( f \) from \( A \) to \( B \) is denoted as:
+A **function** is a relation between two sets that assigns to every element of the first set exactly one element of the second set. Formally, if $ A $ and $ B $ are sets, a function $ f $ from $ A $ to $ B $ is denoted as:
 
-\[
+$$
 f: A \rightarrow B
-\]
+$$
 
-where each \( a \in A \) is associated with exactly one \( b \in B \).
+where each $ a \in A $ is associated with exactly one $ b \in B $.
 
 ### Example
 
-Consider the function \( f \) defined by:
+Consider the function $ f $ defined by:
 
-\[
+$$
 f(x) = x^2
-\]
+$$
 
-Here, \( f \) maps every real number \( x \) to its square \( x^2 \).
+Here, $ f $ maps every real number $ x $ to its square $ x^2 $.
 
 ---
 
 ## Function Notation
 
-Functions are typically denoted by letters such as \( f \), \( g \), and \( h \). The notation \( f(x) \) represents the output of the function \( f \) when the input is \( x \).
+Functions are typically denoted by letters such as $ f $, $ g $, and $ h $. The notation $ f(x) $ represents the output of the function $ f $ when the input is $ x $.
 
 ### Function Evaluation
 
-Given a function \( f(x) = 2x + 3 \), the value of \( f(5) \) is:
+Given a function $ f(x) = 2x + 3 $, the value of $ f(5) $ is:
 
-\[
+$$
 f(5) = 2(5) + 3 = 13
-\]
+$$
 
 ---
 
@@ -77,18 +77,18 @@ f(5) = 2(5) + 3 = 13
 
 ### Domain
 
-The **domain** of a function is the set of all possible input values (\( x \)-values) for which the function is defined.
+The **domain** of a function is the set of all possible input values ($ x $-values) for which the function is defined.
 
 ### Range
 
-The **range** of a function is the set of all possible output values (\( f(x) \)-values) that the function can produce.
+The **range** of a function is the set of all possible output values ($ f(x) $-values) that the function can produce.
 
 ### Example
 
-For the function \( f(x) = \sqrt{x} \):
+For the function $ f(x) = \sqrt{x} $:
 
-- **Domain**: \( x \geq 0 \) (since the square root of a negative number is not a real number)
-- **Range**: \( f(x) \geq 0 \)
+- **Domain**: $ x \geq 0 $ (since the square root of a negative number is not a real number)
+- **Range**: $ f(x) \geq 0 $
 
 ---
 
@@ -100,43 +100,43 @@ Functions can be categorized based on their expressions and properties. Below ar
 
 A **linear function** is of the form:
 
-\[
+$$
 f(x) = mx + b
-\]
+$$
 
-where \( m \) is the slope and \( b \) is the y-intercept.
+where $ m $ is the slope and $ b $ is the y-intercept.
 
 **Example:**
 
-\[
+$$
 f(x) = 3x - 2
-\]
+$$
 
 ### Quadratic Functions
 
 A **quadratic function** has the form:
 
-\[
+$$
 f(x) = ax^2 + bx + c
-\]
+$$
 
-where \( a \neq 0 \).
+where $ a \neq 0 $.
 
 **Example:**
 
-\[
+$$
 f(x) = 2x^2 - 4x + 1
-\]
+$$
 
 ### Polynomial Functions
 
-A **polynomial function** is a sum of terms in the form \( ax^n \), where \( n \) is a non-negative integer.
+A **polynomial function** is a sum of terms in the form $ ax^n $, where $ n $ is a non-negative integer.
 
 **Example:**
 
-\[
+$$
 f(x) = x^3 - 6x^2 + 11x - 6
-\]
+$$
 
 ### Rational Functions
 
@@ -144,33 +144,33 @@ A **rational function** is the ratio of two polynomial functions.
 
 **Example:**
 
-\[
+$$
 f(x) = \frac{2x + 3}{x - 1}
-\]
+$$
 
 ### Exponential and Logarithmic Functions
 
 - **Exponential Function**:
 
-\[
+$$
 f(x) = a \cdot b^x
-\]
+$$
 
-where \( b > 0 \) and \( b \neq 1 \).
+where $ b > 0 $ and $ b \neq 1 $.
 
 - **Logarithmic Function**:
 
-\[
+$$
 f(x) = \log_b(x)
-\]
+$$
 
-where \( b > 0 \) and \( b \neq 1 \).
+where $ b > 0 $ and $ b \neq 1 $.
 
 **Example:**
 
-\[
+$$
 f(x) = 2 \cdot 3^x
-\]
+$$
 
 ### Trigonometric Functions
 
@@ -178,15 +178,15 @@ Trigonometric functions relate angles to ratios of side lengths in right triangl
 
 **Common Trigonometric Functions:**
 
-- Sine: \( \sin(x) \)
-- Cosine: \( \cos(x) \)
-- Tangent: \( \tan(x) \)
+- Sine: $ \sin(x) $
+- Cosine: $ \cos(x) $
+- Tangent: $ \tan(x) $
 
 **Example:**
 
-\[
+$$
 f(x) = \sin(x)
-\]
+$$
 
 ---
 
@@ -196,19 +196,19 @@ Understanding the properties of functions helps in analyzing their behavior and 
 
 ### Injective (One-to-One) Functions
 
-A function \( f: A \rightarrow B \) is **injective** if different inputs produce different outputs. Formally:
+A function $ f: A \rightarrow B $ is **injective** if different inputs produce different outputs. Formally:
 
-\[
+$$
 \text{If } f(a) = f(b) \text{ then } a = b
-\]
+$$
 
 ### Surjective (Onto) Functions
 
-A function \( f: A \rightarrow B \) is **surjective** if every element in \( B \) is an output of \( f \). Formally:
+A function $ f: A \rightarrow B $ is **surjective** if every element in $ B $ is an output of $ f $. Formally:
 
-\[
+$$
 \forall b \in B, \exists a \in A \text{ such that } f(a) = b
-\]
+$$
 
 ### Bijective Functions
 
@@ -218,23 +218,23 @@ A function is **bijective** if it is both injective and surjective. Bijective fu
 
 - **Even Function**:
 
-\[
+$$
 f(-x) = f(x) \quad \forall x \in \text{Domain}
-\]
+$$
 
 - **Odd Function**:
 
-\[
+$$
 f(-x) = -f(x) \quad \forall x \in \text{Domain}
-\]
+$$
 
 ### Periodic Functions
 
-A function \( f \) is **periodic** with period \( T \) if:
+A function $ f $ is **periodic** with period $ T $ if:
 
-\[
+$$
 f(x + T) = f(x) \quad \forall x \in \text{Domain}
-\]
+$$
 
 ---
 
@@ -244,28 +244,28 @@ Functions can be combined and manipulated through various operations to form new
 
 ### Addition, Subtraction, Multiplication, and Division
 
-Given two functions \( f \) and \( g \):
+Given two functions $ f $ and $ g $:
 
-- **Addition**: \( (f + g)(x) = f(x) + g(x) \)
-- **Subtraction**: \( (f - g)(x) = f(x) - g(x) \)
-- **Multiplication**: \( (f \cdot g)(x) = f(x) \cdot g(x) \)
-- **Division**: \( \left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)} \), \( g(x) \neq 0 \)
+- **Addition**: $ (f + g)(x) = f(x) + g(x) $
+- **Subtraction**: $ (f - g)(x) = f(x) - g(x) $
+- **Multiplication**: $ (f \cdot g)(x) = f(x) \cdot g(x) $
+- **Division**: $ \left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)} $, $ g(x) \neq 0 $
 
 ### Composition of Functions
 
-The **composition** of functions \( f \) and \( g \) is denoted by \( f \circ g \) and defined as:
+The **composition** of functions $ f $ and $ g $ is denoted by $ f \circ g $ and defined as:
 
-\[
+$$
 (f \circ g)(x) = f(g(x))
-\]
+$$
 
 ### Inverse Functions
 
-A function \( f \) has an **inverse** \( f^{-1} \) if:
+A function $ f $ has an **inverse** $ f^{-1} $ if:
 
-\[
+$$
 f^{-1}(f(x)) = x \quad \text{and} \quad f(f^{-1}(x)) = x
-\]
+$$
 
 Only bijective functions have inverses.
 
@@ -283,7 +283,7 @@ Graphing functions provides a visual representation of their behavior.
 - **Symmetry**: Whether the graph is symmetric about the y-axis (even), origin (odd), or neither.
 - **Periodicity**: For periodic functions, the interval after which the function repeats.
 
-### Example: Graph of \( f(x) = \sin(x) \)
+### Example: Graph of $ f(x) = \sin(x) $
 
 ![Graph of sine function](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sine.svg/320px-Sine.svg.png)
 
@@ -641,19 +641,19 @@ Given $$f(x) = \frac{3x + 2}{x - 1}$$:
 
 To find $$f^{-1}(x)$$:
 
-\[
+$$
 y = \frac{3x + 2}{x - 1} \Rightarrow y(x - 1) = 3x + 2 \Rightarrow yx - y = 3x + 2
-\]
+$$
 
-\[
+$$
 yx - 3x = y + 2 \Rightarrow x(y - 3) = y + 2 \Rightarrow x = \frac{y + 2}{y - 3}
-\]
+$$
 
 **Inverse Function**:
 
-\[
+$$
 f^{-1}(x) = \frac{x + 2}{x - 3}
-\]
+$$
 
 23. **Determining Injectivity**:
 
