@@ -74,7 +74,7 @@ Used to estimate the difference between two population means ($\mu_1 - \mu_2$) w
 Formula:
 
 $$
-(\bar{x}_1 - \bar{x}_2) \times SE_{\bar{x}_1 - \bar{x}_2}
+(\bar{x}_1 - \bar{x}_2) \times SE\_{\bar{x}\_1 - \bar{x}\_2}
 $$
 
 Where:
