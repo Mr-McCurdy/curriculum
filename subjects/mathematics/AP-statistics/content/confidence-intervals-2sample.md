@@ -43,58 +43,58 @@ A **two-sample confidence interval** estimates the difference between two popula
 
 ### Two-Sample Z-Interval for Proportions
 
-Used to estimate the difference between two population proportions ($p_1 - p_2$) when sample sizes are large enough for the normal approximation to be valid.
+Used to estimate the difference between two population proportions ($p\_1 - p\_2$) when sample sizes are large enough for the normal approximation to be valid.
 
 **Formula:**
 
 $$
-(\hat{p}_1 - \hat{p}_2) \pm z^* \times SE\_{(\hat{p}\_1 - \hat{p}\_2)}
+(\hat{p}\_1 - \hat{p}\_2) \pm z^* \times SE\\_{(\hat{p}\\_1 - \hat{p}\\_2)}
 $$
 
 Where:
 
-- $\hat{p}_1, \hat{p}_2$ = Sample proportions
+- $\hat{p}\_1, \hat{p}\_2$ = Sample proportions
 - $z^*$ = Z-critical value corresponding to the desired confidence level
-- $SE_{\hat{p}_1 - \hat{p}_2}$ = Standard error of the difference between sample proportions
+- $SE\_{\hat{p}\_1 - \hat{p}\_2}$ = Standard error of the difference between sample proportions
 
 **Standard Error Calculation:**
 
 $$
-SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{ \frac{\hat{p}_1 (1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2 (1 - \hat{p}_2)}{n_2} }
+SE\_{\hat{p}\_1 - \hat{p}\_2} = \sqrt{ \frac{\hat{p}\_1 (1 - \hat{p}\_1)}{n\_1} + \frac{\hat{p}\_2 (1 - \hat{p}\_2)}{n\_2} }
 $$
 
 Where:
 
-- $n_1, n_2$ = Sample sizes of the two groups
+- $n\_1, n\_2$ = Sample sizes of the two groups
 
 ### Two-Sample T-Interval for Means
 
-Used to estimate the difference between two population means ($\mu_1 - \mu_2$) when population standard deviations are unknown.
+Used to estimate the difference between two population means ($\mu\_1 - \mu\_2$) when population standard deviations are unknown.
 
 Formula:
 
 $$
-(\bar{x}_1 - \bar{x}_2) \times SE\_{\bar{x}\_1 - \bar{x}\_2}
+(\bar{x}\_1 - \bar{x}\_2) \times SE\\_{\bar{x}\\_1 - \bar{x}\\_2}
 $$
 
 Where:
 
-- $\bar{x}_1, \bar{x}_2$ = Sample means
+- $\bar{x}\_1, \bar{x}\_2$ = Sample means
 - $t^*$ = T-critical value corresponding to the desired confidence level and degrees of freedom
-- $SE_{\bar{x}_1 - \bar{x}_2}$ = Standard error of the difference between sample means
+- $SE\_{\bar{x}\_1 - \bar{x}\_2}$ = Standard error of the difference between sample means
 
 **Standard Error Calculation:**
 
 For **Independent Samples**:
 
 $$
-SE_{\bar{x}_1 - \bar{x}_2} = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }
+SE\_{\bar{x}\_1 - \bar{x}\_2} = \sqrt{ \frac{s\_1^2}{n\_1} + \frac{s\_2^2}{n\_2} }
 $$
 
 Where:
 
-- $s_1^2, s_2^2$ = Sample variances
-- $n_1, n_2$ = Sample sizes
+- $s\_1^2, s\_2^2$ = Sample variances
+- $n\_1, n\_2$ = Sample sizes
 
 ---
 
@@ -109,7 +109,7 @@ Before constructing two-sample confidence intervals, certain assumptions must be
 2. **Independence Between Samples:**
    - The two samples must be independent of each other.
 3. **Sample Size Condition (Normal Approximation):**
-   - Both $n_1 \hat{p}_1$, $n_1 (1 - \hat{p}_1)$, $n_2 \hat{p}_2$, and $n_2 (1 - \hat{p}_2)$ should be at least 10.
+   - Both $n\_1 \hat{p}\_1$, $n\_1 (1 - \hat{p}\_1)$, $n\_2 \hat{p}\_2$, and $n\_2 (1 - \hat{p}\_2)$ should be at least 10.
 4. **Population Size:**
    - Each sample size should be less than 10% of its respective population if sampling without replacement.
 
@@ -131,17 +131,17 @@ Before constructing two-sample confidence intervals, certain assumptions must be
 ### Step-by-Step Guide
 
 1. **State the Parameters:**
-   - Identify the population parameters you are estimating ($p_1 - p_2$ or $\mu_1 - \mu_2$).
+   - Identify the population parameters you are estimating ($p\_1 - p\_2$ or $\mu\_1 - \mu\_2$).
 
 2. **Check Assumptions and Conditions:**
    - Ensure all necessary conditions are met for validity.
 
 3. **Calculate Sample Statistics:**
-   - Compute $\hat{p}_1, \hat{p}_2$ or $\bar{x}_1, \bar{x}_2$ and $s_1, s_2$.
+   - Compute $\hat{p}\_1, \hat{p}\_2$ or $\bar{x}\_1, \bar{x}\_2$ and $s\_1, s\_2$.
 
 4. **Determine the Critical Value:**
    - Find $z^\ast$ or $t^\ast$ corresponding to the desired confidence level.
-   - For $t^*$, degrees of freedom may be approximated by using the smaller of $n_1 - 1$ and $n_2 - 1$.
+   - For $t^*$, degrees of freedom may be approximated by using the smaller of $n\_1 - 1$ and $n\_2 - 1$.
 
 5. **Calculate the Standard Error (SE):**
    - Use the appropriate formula for SE based on whether you're working with proportions or means.
@@ -166,10 +166,10 @@ A marketing company wants to compare the success rates of two advertising campai
 
 1. **State the Parameters:**
 
-   Estimate $p_A - p_B$, where:
+   Estimate $p\_A - p\_B$, where:
 
-   - $p_A$ = True proportion of success in Campaign A
-   - $p_B$ = True proportion of success in Campaign B
+   - $p\_A$ = True proportion of success in Campaign A
+   - $p\_B$ = True proportion of success in Campaign B
 
 2. **Check Assumptions and Conditions:**
 
@@ -177,17 +177,17 @@ A marketing company wants to compare the success rates of two advertising campai
    - Independence between samples.
    - Sample sizes are large enough:
 
-     - $n_A \hat{p}_A = 500 \times 0.30 = 150 \geq 10$
-     - $n_A (1 - \hat{p}_A) = 500 \times 0.70 = 350 \geq 10$
-     - $n_B \hat{p}_B = 600 \times 0.3333 = 200 \geq 10$
-     - $n_B (1 - \hat{p}_B) = 600 \times 0.6667 = 400 \geq 10$
+     - $n\_A \hat{p}\_A = 500 \times 0.30 = 150 \geq 10$
+     - $n\_A (1 - \hat{p}\_A) = 500 \times 0.70 = 350 \geq 10$
+     - $n\_B \hat{p}\_B = 600 \times 0.3333 = 200 \geq 10$
+     - $n\_B (1 - \hat{p}\_B) = 600 \times 0.6667 = 400 \geq 10$
 
 3. **Calculate Sample Statistics:**
 
-   - $\hat{p}_A = \frac{150}{500} = 0.30$
-   - $\hat{p}_B = \frac{200}{600} \approx 0.3333$
-   - $n_A = 500$
-   - $n_B = 600$
+   - $\hat{p}\_A = \frac{150}{500} = 0.30$
+   - $\hat{p}\_B = \frac{200}{600} \approx 0.3333$
+   - $n\_A = 500$
+   - $n\_B = 600$
 
 4. **Determine the Critical Value ($z^*$):**
 
@@ -196,17 +196,17 @@ A marketing company wants to compare the success rates of two advertising campai
 5. **Calculate the Standard Error (SE):**
 
 $$
-SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.30 (1 - 0.30)}{500} + \frac{0.3333 (1 - 0.3333)}{600} }
+SE\_{\hat{p}\_A - \hat{p}\_B} = \sqrt{ \frac{0.30 (1 - 0.30)}{500} + \frac{0.3333 (1 - 0.3333)}{600} }
 $$
 
 $$
-SE_{\hat{p}_A - \hat{p}_B} = \sqrt{ \frac{0.21}{500} + \frac{0.2222}{600} } \approx \sqrt{0.00042 + 0.0003704} \approx \sqrt{0.0007904} \approx 0.0281
+SE\_{\hat{p}\_A - \hat{p}\_B} = \sqrt{ \frac{0.21}{500} + \frac{0.2222}{600} } \approx \sqrt{0.00042 + 0.0003704} \approx \sqrt{0.0007904} \approx 0.0281
 $$
 
 6. **Construct the Confidence Interval:**
 
 $$
-(\hat{p}_A - \hat{p}_B) \pm z^* \times SE\_{\hat{p}\_A - \hat{p}\_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
+(\hat{p}\_A - \hat{p}\_B) \pm z^* \times SE\\_{\hat{p}\\_A - \hat{p}\\_B} = (0.30 - 0.3333) \pm 1.96 \times 0.0281
 $$
 
 $$
@@ -233,10 +233,10 @@ A researcher wants to compare the average test scores of students taught using t
 
 1. **State the Parameters:**
 
-   Estimate $\mu_1 - \mu_2$, where:
+   Estimate $\mu\_1 - \mu\_2$, where:
 
-   - $\mu_1$ = True mean score for Method 1
-   - $\mu_2$ = True mean score for Method 2
+   - $\mu\_1$ = True mean score for Method 1
+   - $\mu\_2$ = True mean score for Method 2
 
 2. **Check Assumptions and Conditions:**
 
@@ -246,16 +246,16 @@ A researcher wants to compare the average test scores of students taught using t
 
 3. **Calculate Sample Statistics:**
 
-   - $\bar{x}_1 = 78$, $s_1 = 10$, $n_1 = 20$
-   - $\bar{x}_2 = 85$, $s_2 = 12$, $n_2 = 22$
+   - $\bar{x}\_1 = 78$, $s\_1 = 10$, $n\_1 = 20$
+   - $\bar{x}\_2 = 85$, $s\_2 = 12$, $n\_2 = 22$
 
 4. **Determine the Degrees of Freedom and Critical Value ($t^*$):**
 
    - **Degrees of Freedom ($df$)**:
 
-     In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of $n_1 - 1$ and $n_2 - 1$**.
+     In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of $n\_1 - 1$ and $n\_2 - 1$**.
 
-     - $df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19$
+     - $df = \min(n\_1 - 1, n\_2 - 1) = \min(19, 21) = 19$
 
    - **Critical Value ($t^*$)**:
 
@@ -267,7 +267,7 @@ A researcher wants to compare the average test scores of students taught using t
 
 $$
 \begin{align*}
-SE_{\bar{x}_1 - \bar{x}_2} &= \sqrt{ \dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2} } \\
+SE\_{\bar{x}\_1 - \bar{x}\_2} &= \sqrt{ \dfrac{s\_1^2}{n\_1} + \dfrac{s\_2^2}{n\_2} } \\
 &= \sqrt{ \dfrac{10^2}{20} + \dfrac{12^2}{22} } \\
 &= \sqrt{ \dfrac{100}{20} + \dfrac{144}{22} } \\
 &= \sqrt{5 + 6.5455} \\
@@ -280,7 +280,7 @@ $$
 
 $$
 \begin{align*}
-(\bar{x}_1 - \bar{x}_2) \pm t^\ast \times SE_{\bar{x}_1 - \bar{x}_2} &= (78 - 85) \pm 2.093 \times 3.399 \\
+(\bar{x}\_1 - \bar{x}\_2) \pm t^\ast \times SE\_{\bar{x}\_1 - \bar{x}\_2} &= (78 - 85) \pm 2.093 \times 3.399 \\
 &= (-7) \pm 2.093 \times 3.399 \\
 &= (-7) \pm 7.112 \\
 \text{Confidence Interval} &= (-7 - 7.112,\ -7 + 7.112) \\
@@ -326,11 +326,11 @@ $$
 
 4. **Interpretation of Negative Interval:**
 
-   If a 99% confidence interval for $\mu_1 - \mu_2$ is (-15, -5), what does this imply about the two population means?
+   If a 99% confidence interval for $\mu\_1 - \mu\_2$ is (-15, -5), what does this imply about the two population means?
 
 5. **Assumptions Check:**
 
-   For a two-sample z-interval for proportions, why is it important that $n_1 \hat{p}_1 \geq 10$ and $n_2 \hat{p}_2 \geq 10$?
+   For a two-sample z-interval for proportions, why is it important that $n\_1 \hat{p}\_1 \geq 10$ and $n\_2 \hat{p}\_2 \geq 10$?
 
 6. **Constructing T-Interval with Unequal Variances:**
 
@@ -338,7 +338,7 @@ $$
 
 7. **Confidence Interval Includes Zero:**
 
-   What does it mean if the confidence interval for $\mu_1 - \mu_2$ is (-2, 3)?
+   What does it mean if the confidence interval for $\mu\_1 - \mu\_2$ is (-2, 3)?
 
 8. **Real-Life Application:**
 
