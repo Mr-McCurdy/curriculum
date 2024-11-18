@@ -159,7 +159,7 @@ $$
 f(x) = a \cdot b^x
 $$
 
-where $b > 0$ and $ b\neq 1$.
+where $b > 0$ and $b\neq 1$.
 
 - **Logarithmic Function**:
 
