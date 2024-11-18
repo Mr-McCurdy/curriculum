@@ -55,7 +55,7 @@ $$
 f(x) = x^2
 $$
 
-Here, $ f $ maps every real number $x$ to its square $x^2$.
+Here, $f$ maps every real number $x$ to its square $x^2$.
 
 ---
 
@@ -303,9 +303,9 @@ Functions are integral to understanding and modeling relationships in mathematic
 
 1. **Function Identification**: Determine whether the following relation is a function:
    
-   $$
-   \{(1, 2), (2, 3), (3, 4), (2, 5)\}
-   $$
+$$
+\{(1, 2), (2, 3), (3, 4), (2, 5)\}
+$$
    
    **Answer**: This relation is **not** a function because the input $2$ maps to two different outputs $3$ and $5$.
    
