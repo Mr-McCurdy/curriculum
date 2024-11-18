@@ -255,13 +255,13 @@ A researcher wants to compare the average test scores of students taught using t
 
      In AP Statistics, when variances are not assumed equal and sample sizes are small, we use the **smaller of \( n_1 - 1 \) and \( n_2 - 1 \)**.
 
-     - \( df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19 \)
+     - $df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19$
 
-   - **Critical Value (\( t^\ast \))**:
+   - **Critical Value (\( t^* \))**:
 
      Using the AP Statistics t-table for \( df = 19 \) at a 95% confidence level (two-tailed):
 
-     - \( t^\ast \approx 2.093 \)
+     - $t^* \approx 2.093$
 
 5. **Calculate the Standard Error (SE):**
 
