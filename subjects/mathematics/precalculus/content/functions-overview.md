@@ -47,6 +47,9 @@ $$
 
 where each $a \in A$ is associated with exactly one $b \in B$.
 
+- $A$  is called the domain, representing the set of all possible inputs.
+- $B$  is called the codomain, representing the set of potential outputs.
+
 ### Example
 
 Consider the function $f$ defined by:
