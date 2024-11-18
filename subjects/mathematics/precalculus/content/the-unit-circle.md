@@ -52,7 +52,7 @@ This means that for any angle $\theta$, the x-coordinate is $\cos \theta$,and th
 
 <!-- Centered and resized image using HTML tags -->
 <p align="center">
-  <img src="../assets/unit-circle.png" alt="Unit Circle Diagram" width="600">
+  <img src="../assets/the-unit-circle-fig1.png" alt="Unit Circle Diagram" width="600">
 </p>
 
 <!-- Centered caption -->
