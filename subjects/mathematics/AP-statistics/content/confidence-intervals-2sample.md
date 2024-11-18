@@ -47,7 +47,9 @@ Used to estimate the difference between two population proportions ($p_1 - p_2$)
 
 **Formula:**
 
-$$(\hat{p}_1 - \hat{p}_2) \pm z^* \times SE_{\hat{p}_1 - \hat{p}_2}$$
+$$
+(\hat{p}_1 - \hat{p}_2) \pm z^* \times SE_{\hat{p}_1 - \hat{p}_2}
+$$
 
 Where:
 
