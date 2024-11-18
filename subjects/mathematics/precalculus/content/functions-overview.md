@@ -373,29 +373,25 @@ Functions are integral to understanding and modeling relationships in mathematic
    The relation $\{(1, 2), (2, 3), (3, 4), (2, 5)\}$ is **not** a function because the input $2$ maps to two different outputs $3$ and $5$.
 
 2. **Function Notation**:
-   The function $f$ mapping $x$ to $x^3 - 2x$ is written as:
-
-   $$
-   f(x) = x^3 - 2x
-   $$
+   The function $f$ mapping $x$ to $x^3 - 2x$ is written as:$f(x) = x^3 - 2x$
 
 ### 2. Domain and Range
 
 3. **Finding Domain**:
    For $f(x) = \frac{1}{x - 4}$, the denominator cannot be zero:
 
-   $$
-   x - 4 \neq 0 \Rightarrow x \neq 4
-   $$
+$$
+x - 4 \neq 0 \Rightarrow x \neq 4
+$$
 
    **Domain**: $\mathbb{R} \setminus \{4\}$
 
 4. **Finding Range**:
    For $f(x) = \sqrt{9 - x^2}$, the expression under the square root must be non-negative:
 
-   $$
-   9 - x^2 \geq 0 \Rightarrow x^2 \leq 9 \Rightarrow -3 \leq x \leq 3
-   $$
+$$
+9 - x^2 \geq 0 \Rightarrow x^2 \leq 9 \Rightarrow -3 \leq x \leq 3
+$$
 
    The range of $f(x)$ is $[0, 3]$.
 
@@ -414,13 +410,13 @@ Functions are integral to understanding and modeling relationships in mathematic
 
    The vertex $(h, k)$ is found using:
 
-   $$
-   h = -\frac{b}{2a} = -\frac{-8}{2 \cdot 2} = 2
-   $$
+$$
+h = -\frac{b}{2a} = -\frac{-8}{2 \cdot 2} = 2
+$$
 
-   $$
-   k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
-   $$
+$$
+k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
+$$
 
    **Vertex**: $(2, -2)$
 
@@ -434,9 +430,9 @@ Functions are integral to understanding and modeling relationships in mathematic
 
    The vertical asymptotes occur where the denominator is zero:
 
-   $$
-   x^2 - 1 = 0 \Rightarrow x = \pm 1
-   $$
+$$
+x^2 - 1 = 0 \Rightarrow x = \pm 1
+$$
 
    **Vertical Asymptotes**: $x = 1$ and $x = -1$
 
@@ -458,9 +454,9 @@ Functions are integral to understanding and modeling relationships in mathematic
 
    For $f(x) = x^4 - x^2$:
 
-   $$
-   f(-x) = (-x)^4 - (-x)^2 = x^4 - x^2 = f(x)
-   $$
+$$
+f(-x) = (-x)^4 - (-x)^2 = x^4 - x^2 = f(x)
+$$
 
    Since $f(-x) = f(x)$, $f$ is an **even function**.
 
@@ -468,8 +464,9 @@ Functions are integral to understanding and modeling relationships in mathematic
 
    The function $f(x) = \cos(x)$ is **periodic** with a period of $2\pi$ because:
 
-   $$
-   \cos(x + 2\pi) = \cos(x)
+$$
+\cos(x + 2\pi) = \cos(x)
+$$
 
 ### 5. Operations on Functions
 
@@ -477,33 +474,33 @@ Functions are integral to understanding and modeling relationships in mathematic
 
     Given $$f(x) = x + 2$$ and $$g(x) = 3x - 1$$:
 
-    $$
-    (f + g)(x) = (x + 2) + (3x - 1) = 4x + 1
-    $$
+$$
+(f + g)(x) = (x + 2) + (3x - 1) = 4x + 1
+$$
 
 15. **Multiplication of Functions**:
 
     Given $$f(x) = 2x$$ and $$g(x) = x^2$$:
 
-    $$
-    (f \cdot g)(x) = 2x \cdot x^2 = 2x^3
-    $$
+$$
+(f \cdot g)(x) = 2x \cdot x^2 = 2x^3
+$$
 
 16. **Division of Functions**:
 
     Given $$f(x) = x^2$$ and $$g(x) = x + 1$$:
 
-    $$
-    \left(\frac{f}{g}\right)(x) = \frac{x^2}{x + 1}, \quad x \neq -1
-    $$
+$$
+\left(\frac{f}{g}\right)(x) = \frac{x^2}{x + 1}, \quad x \neq -1
+$$
 
 17. **Composition of Functions**:
 
     Given $$f(x) = 2x$$ and $$g(x) = x + 3$$:
 
-    $$
-    (f \circ g)(x) = f(g(x)) = f(x + 3) = 2(x + 3) = 2x + 6
-    $$
+$$
+(f \circ g)(x) = f(g(x)) = f(x + 3) = 2(x + 3) = 2x + 6
+$$
 
 18. **Inverse Function**:
 
@@ -511,15 +508,15 @@ Functions are integral to understanding and modeling relationships in mathematic
 
     To find $$f^{-1}(x)$$, solve for $$x$$:
 
-    $$
-    y = \frac{x - 5}{3} \Rightarrow 3y = x - 5 \Rightarrow x = 3y + 5
-    $$
+$$
+y = \frac{x - 5}{3} \Rightarrow 3y = x - 5 \Rightarrow x = 3y + 5
+$$
 
     **Inverse Function**:
 
-    $$
-    f^{-1}(x) = 3x + 5
-    $$
+$$
+f^{-1}(x) = 3x + 5
+$$
 
 ### 6. Graphing Functions
 
@@ -579,232 +576,6 @@ The function $$f(x) = |x|$$ is **not injective** because $$f(-a) = f(a)$$ for an
 24. **Determining Surjectivity**:
 
 The function $$f(x) = \sqrt{x}$$ is **not surjective** when $$f: \mathbb{R} \rightarrow \mathbb{R}$$ because there are real numbers (negative numbers) that are not outputs of $$f$$. However, if the codomain is $$[0, \infty)$$, then $$f$$ is surjective.
-
----
-
-# Solutions
-
-*Solutions to the exercises are provided below for self-assessment.*
-
-### 1. Definition and Notation
-
-1. **Function Identification**:
-
-   The relation $$\{(1, 2), (2, 3), (3, 4), (2, 5)\}$$ is **not** a function because the input $$2$$ maps to two different outputs $$3$$ and $$5$$.
-
-2. **Function Notation**:
-
-   The function $$f$$ mapping $$x$$ to $$x^3 - 2x$$ is written as:
-
-   $$
-   f(x) = x^3 - 2x
-   $$
-
-### 2. Domain and Range
-
-3. **Finding Domain**:
-
-   For $$f(x) = \frac{1}{x - 4}$$, the denominator cannot be zero:
-
-   $$
-   x - 4 \neq 0 \Rightarrow x \neq 4
-   $$
-
-   **Domain**: $$\mathbb{R} \setminus \{4\}$$
-
-4. **Finding Range**:
-
-   For $$f(x) = \sqrt{9 - x^2}$$, the expression under the square root must be non-negative:
-
-   $$
-   9 - x^2 \geq 0 \Rightarrow x^2 \leq 9 \Rightarrow -3 \leq x \leq 3
-   $$
-
-   The range of $$f(x)$$ is $$[0, 3]$$.
-
-### 3. Types of Functions
-
-5. **Linear Function**:
-
-   For $$f(x) = -3x + 7$$:
-
-   - **Slope (m)**: $$-3$$
-   - **Y-intercept (b)**: $$7$$
-
-6. **Quadratic Function**:
-
-   For $$f(x) = 2x^2 - 8x + 6$$:
-
-   The vertex $$(h, k)$$ is found using:
-
-   $$
-   h = -\frac{b}{2a} = -\frac{-8}{2 \cdot 2} = 2
-   $$
-
-   $$
-   k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
-   $$
-
-   **Vertex**: $$(2, -2)$$
-
-7. **Polynomial Function**:
-
-   The degree of $$f(x) = 4x^4 - x^3 + 2x - 5$$ is **4** (the highest exponent).
-
-8. **Rational Function**:
-
-   For $$f(x) = \frac{3x + 2}{x^2 - 1}$$:
-
-   The vertical asymptotes occur where the denominator is zero:
-
-   $$
-   x^2 - 1 = 0 \Rightarrow x = \pm 1
-   $$
-
-   **Vertical Asymptotes**: $$x = 1$$ and $$x = -1$$
-
-### 4. Properties of Functions
-
-9. **Injective Function**:
-    
-    The function $f(x) = 2x + 1$ is **injective** because for every distinct $x_1$ and $x_2$, $f(x_1) \neq f(x_2)$.
-    
-10. **Surjective Function**:
-    
-    The function $f(x) = x^2$ is **not surjective** over $\mathbb{R}$ because there are real numbers (negative numbers) that are not outputs of $f$.
-    
-11. **Bijective Function**:
-    
-    The function $f(x) = e^x$ is **not bijective** over $\mathbb{R} \rightarrow \mathbb{R}$ because it is **not surjective** (outputs are always positive).
-    
-12. **Even or Odd Function**:
-    
-    For $f(x) = x^4 - x^2$:
-    
-    $$
-    f(-x) = (-x)^4 - (-x)^2 = x^4 - x^2 = f(x)
-    $$
-    
-    Since $f(-x) = f(x)$, $f$ is an **even function**.
-    
-13. **Periodic Function**:
-    
-    The function $f(x) = \cos(x)$ is **periodic** with a period of $2\pi$ because:
-    
-    $$
-    \cos(x + 2\pi) = \cos(x)
-    $$
-
-### 5. Operations on Functions
-
-14. **Addition of Functions**:
-    
-    Given $f(x) = x + 2$ and $g(x) = 3x - 1$:
-    
-    $$
-    (f + g)(x) = (x + 2) + (3x - 1) = 4x + 1
-    $$
-    
-15. **Multiplication of Functions**:
-    
-    Given $f(x) = 2x$ and $g(x) = x^2$:
-    
-    $$
-    (f \cdot g)(x) = 2x \cdot x^2 = 2x^3
-    $$
-    
-16. **Division of Functions**:
-    
-    Given $f(x) = x^2$ and $g(x) = x + 1$:
-    
-    $$
-    \left(\frac{f}{g}\right)(x) = \frac{x^2}{x + 1}, \quad x \neq -1
-    $$
-    
-17. **Composition of Functions**:
-    
-    Given $f(x) = 2x$ and $g(x) = x + 3$:
-    
-    $$
-    (f \circ g)(x) = f(g(x)) = f(x + 3) = 2(x + 3) = 2x + 6
-    $$
-    
-18. **Inverse Function**:
-    
-    Given $f(x) = \frac{x - 5}{3}$:
-    
-    To find $f^{-1}(x)$, solve for $x$:
-    
-    $$
-    y = \frac{x - 5}{3} \Rightarrow 3y = x - 5 \Rightarrow x = 3y + 5
-    $$
-    
-    **Inverse Function**:
-    
-    $$
-    f^{-1}(x) = 3x + 5
-    $$
-
-### 6. Graphing Functions
-
-19. **Graphing Linear Function**:
-    
-    **Function**: $ f(x) = -x + 4 $
-    
-    - **Y-intercept**: $ (0, 4) $
-    - **Slope**: $ -1 $ (downward slope)
-    
-    ![Graph of f(x) = -x + 4](https://i.imgur.com/OxQh7Vq.png)
-    
-20. **Graphing Quadratic Function**:
-    
-    **Function**: $ f(x) = x^2 - 6x + 8 $
-    
-    - **Vertex**: $ (3, -1) $
-    - **Axis of Symmetry**: $ x = 3 $
-    
-    ![Graph of f(x) = x^2 - 6x + 8](https://i.imgur.com/1VxP5jR.png)
-    
-21. **Identifying Asymptotes**:
-    
-    For $ f(x) = \frac{2}{x - 2} $:
-    
-    - **Vertical Asymptote**: $ x = 2 $ (denominator zero)
-    - **Horizontal Asymptote**: $ y = 0 $ (degree of denominator > degree of numerator)
-    
-    ![Graph of f(x) = 2/(x-2)](https://i.imgur.com/MDJpC3Y.png)
-    
-### 7. Advanced Properties
-
-22. **Finding Function Inverse**:
-    
-    Given $f(x) = \frac{3x + 2}{x - 1}$:
-    
-    To find $f^{-1}(x)$:
-    
-    $$
-    y = \frac{3x + 2}{x - 1} \Rightarrow y(x - 1) = 3x + 2 \Rightarrow yx - y = 3x + 2
-    $$
-    
-    $$
-    yx - 3x = y + 2 \Rightarrow x(y - 3) = y + 2 \Rightarrow x = \frac{y + 2}{y - 3}
-    $$
-    
-    **Inverse Function**:
-    
-    $$
-    f^{-1}(x) = \frac{x + 2}{x - 3}
-    $$
-
-23. **Determining Injectivity**:
-    
-    The function $f(x) = |x|$ is **not injective** because $f(-a) = f(a)$ for any $a \neq 0$, meaning different inputs can produce the same output.
-    
-24. **Determining Surjectivity**:
-    
-    The function $f(x) = \sqrt{x}$ is **not surjective** when $f: \mathbb{R} \rightarrow \mathbb{R}$ because there are real numbers (negative numbers) that are not outputs of $f$. However, if the codomain is $[0, \infty)$, then $f$ is surjective.
-
----
 
 # Conclusion
 
