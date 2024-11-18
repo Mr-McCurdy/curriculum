@@ -373,7 +373,7 @@ Functions are integral to understanding and modeling relationships in mathematic
    The relation $\{(1, 2), (2, 3), (3, 4), (2, 5)\}$ is **not** a function because the input $2$ maps to two different outputs $3$ and $5$.
 
 2. **Function Notation**:
-   The function $f$ mapping $x$ to $x^3 - 2x$ is written as:$f(x) = x^3 - 2x$
+   The function $f$ mapping $x$ to $x^3 - 2x$ is written as: $f(x) = x^3 - 2x$
 
 ### 2. Domain and Range
 
