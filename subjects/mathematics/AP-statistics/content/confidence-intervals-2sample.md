@@ -233,10 +233,10 @@ A researcher wants to compare the average test scores of students taught using t
 
 1. **State the Parameters:**
 
-   Estimate \( \mu_1 - \mu_2 \), where:
+   Estimate $\mu_1 - \mu_2$, where:
 
-   - \( \mu_1 \) = True mean score for Method 1
-   - \( \mu_2 \) = True mean score for Method 2
+   - $\mu_1$ = True mean score for Method 1
+   - $\mu_2$ = True mean score for Method 2
 
 2. **Check Assumptions and Conditions:**
 
@@ -259,7 +259,7 @@ A researcher wants to compare the average test scores of students taught using t
 
    - **Critical Value ($t^*$)**:
 
-     Using the AP Statistics t-table for \( df = 19 \) at a 95% confidence level (two-tailed):
+     Using the AP Statistics t-table for $df = 19$ at a 95% confidence level (two-tailed):
 
      - $t^* \approx 2.093$
 
@@ -278,15 +278,15 @@ $$
 
 6. **Construct the Confidence Interval:**
 
-   $$
-   \begin{align*}
-   (\bar{x}_1 - \bar{x}_2) \pm t^\ast \times SE_{\bar{x}_1 - \bar{x}_2} &= (78 - 85) \pm 2.093 \times 3.399 \\
-   &= (-7) \pm 2.093 \times 3.399 \\
-   &= (-7) \pm 7.112 \\
-   \text{Confidence Interval} &= (-7 - 7.112,\ -7 + 7.112) \\
-   &= (-14.112,\ 0.112)
-   \end{align*}
-   $$
+$$
+\begin{align*}
+(\bar{x}_1 - \bar{x}_2) \pm t^\ast \times SE_{\bar{x}_1 - \bar{x}_2} &= (78 - 85) \pm 2.093 \times 3.399 \\
+&= (-7) \pm 2.093 \times 3.399 \\
+&= (-7) \pm 7.112 \\
+\text{Confidence Interval} &= (-7 - 7.112,\ -7 + 7.112) \\
+&= (-14.112,\ 0.112)
+\end{align*}
+$$
 
 7. **Interpret the Results:**
 
