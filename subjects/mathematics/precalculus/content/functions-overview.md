@@ -395,7 +395,9 @@ $$
 9 - x^2 \geq 0 \Rightarrow x^2 \leq 9 \Rightarrow -3 \leq x \leq 3
 $$
 
-   The range of $f(x)$ is $[0, 3]$.
+$$
+\text{Range: }[0, 3]
+$$
 
 ### 3. Types of Functions
 
@@ -418,6 +420,10 @@ $$
 
 $$
 k = f(2) = 2(2)^2 - 8(2) + 6 = 8 - 16 + 6 = -2
+$$
+
+$$
+\text{Vertex: } (2,-2)
 $$
 
 7. **Polynomial Function**:
@@ -450,13 +456,13 @@ $$
 
 12. **Even or Odd Function**:
 
-   For $f(x) = x^4 - x^2$:
+   Since $f(-x) = f(x)$, $f$ is an **even function**.
 
 $$
 f(-x) = (-x)^4 - (-x)^2 = x^4 - x^2 = f(x)
 $$
 
-   Since $f(-x) = f(x)$, $f$ is an **even function**.
+   
 
 13. **Periodic Function**:
 
@@ -509,8 +515,6 @@ $$
 $$
 y = \frac{x - 5}{3} \Rightarrow 3y = x - 5 \Rightarrow x = 3y + 5
 $$
-
-    **Inverse Function**:
 
 $$
 f^{-1}(x) = 3x + 5
@@ -573,7 +577,7 @@ The function $$f(x) = |x|$$ is **not injective** because $$f(-a) = f(a)$$ for an
 
 24. **Determining Surjectivity**:
 
-The function $$f(x) = \sqrt{x}$$ is **not surjective** when $$f: \mathbb{R} \rightarrow \mathbb{R}$$ because there are real numbers (negative numbers) that are not outputs of $$f$$. However, if the codomain is $$[0, \infty)$$, then $$f$$ is surjective.
+The function $f(x) = \sqrt{x}$ is **not surjective** when $f: \mathbb{R} \rightarrow \mathbb{R}$ because there are real numbers (negative numbers) that are not outputs of $f$. However, if the codomain is $[0, \infty)$, then $f$ is surjective.
 
 # Conclusion
 
