@@ -257,7 +257,7 @@ A researcher wants to compare the average test scores of students taught using t
 
      - $df = \min(n_1 - 1, n_2 - 1) = \min(19, 21) = 19$
 
-   - **Critical Value (\( t^* \))**:
+   - **Critical Value ($t^*$)**:
 
      Using the AP Statistics t-table for \( df = 19 \) at a 95% confidence level (two-tailed):
 
@@ -265,16 +265,16 @@ A researcher wants to compare the average test scores of students taught using t
 
 5. **Calculate the Standard Error (SE):**
 
-   $$
-   \begin{align*}
-   SE_{\bar{x}_1 - \bar{x}_2} &= \sqrt{ \dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2} } \\
-   &= \sqrt{ \dfrac{10^2}{20} + \dfrac{12^2}{22} } \\
-   &= \sqrt{ \dfrac{100}{20} + \dfrac{144}{22} } \\
-   &= \sqrt{5 + 6.5455} \\
-   &= \sqrt{11.5455} \\
-   &\approx 3.399
-   \end{align*}
-   $$
+$$
+\begin{align*}
+SE_{\bar{x}_1 - \bar{x}_2} &= \sqrt{ \dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2} } \\
+&= \sqrt{ \dfrac{10^2}{20} + \dfrac{12^2}{22} } \\
+&= \sqrt{ \dfrac{100}{20} + \dfrac{144}{22} } \\
+&= \sqrt{5 + 6.5455} \\
+&= \sqrt{11.5455} \\
+&\approx 3.399
+\end{align*}
+$$
 
 6. **Construct the Confidence Interval:**
 
