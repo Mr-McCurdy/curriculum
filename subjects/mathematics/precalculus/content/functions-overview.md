@@ -301,53 +301,25 @@ Functions are integral to understanding and modeling relationships in mathematic
 
 ### Definition and Notation
 
-1. **Function Identification**: Determine whether the following relation is a function:
-   
-$$
-\{(1, 2), (2, 3), (3, 4), (2, 5)\}
-$$
+1. **Function Identification**: Determine whether the following relation is a function: $\{(1, 2), (2, 3), (3, 4), (2, 5)\}$
    
 2. **Function Notation**: Write the function $f$ that maps $x$ to $x^3 - 2x$.
 
 ### Domain and Range
 
-3. **Finding Domain**: Find the domain of the function:
-   
-$$
-f(x) = \frac{1}{x - 4}
-$$
+3. **Finding Domain**: Find the domain of the function: $f(x) = \frac{1}{x - 4}$
 
-4. **Finding Range**: Find the range of the function:
-   
-$$
-f(x) = \sqrt{9 - x^2}
-$$
+4. **Finding Range**: Find the range of the function: $f(x) = \sqrt{9 - x^2}$
    
 ### Types of Functions
 
-5. **Linear Function**: Identify the slope and y-intercept of the linear function:
-   
-$$
-f(x) = -3x + 7
-$$
+5. **Linear Function**: Identify the slope and y-intercept of the linear function: $f(x) = -3x + 7$
 
-6. **Quadratic Function**: Determine the vertex of the quadratic function:
-   
-$$
-f(x) = 2x^2 - 8x + 6
-$$
+6. **Quadratic Function**: Determine the vertex of the quadratic function: $f(x) = 2x^2 - 8x + 6$
 
-7. **Polynomial Function**: What is the degree of the polynomial function:
-   
-$$
-f(x) = 4x^4 - x^3 + 2x - 5
-$$
+7. **Polynomial Function**: What is the degree of the polynomial function: $f(x) = 4x^4 - x^3 + 2x - 5$
 
-8. **Rational Function**: Identify the vertical asymptote of the rational function:
-   
-$$
-f(x) = \frac{3x + 2}{x^2 - 1}
-$$
+8. **Rational Function**: Identify the vertical asymptote of the rational function: $f(x) = \frac{3x + 2}{x^2 - 1}$
    
 ### 4. Properties of Functions
 
