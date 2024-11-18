@@ -285,7 +285,7 @@ Graphing functions provides a visual representation of their behavior.
 
 ### Example: Graph of $f(x) = \sin(x)$
 
-![Graph of sine function](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sine.svg/320px-Sine.svg.png)
+![Graph of sine function](../assets/functions-overview-fig1.png)
 
 *Graph of the sine function, demonstrating periodicity and symmetry.*
 
@@ -529,7 +529,7 @@ $$
     - **Y-intercept**: $$(0, 4)$$
     - **Slope**: $$-1$$ (downward slope)
     
-    ![Graph of f(x) = -x + 4](../assets/functions-overview-fig1.png)
+    ![Graph of f(x) = -x + 4](../assets/functions-overview-exercises-fig1.png)
     
 20. **Graphing Quadratic Function**:
     
@@ -538,7 +538,7 @@ $$
     - **Vertex**: $$(3, -1)$$
     - **Axis of Symmetry**: $$x = 3$$
     
-    ![Graph of f(x) = x^2 - 6x + 8](../assets/functions-overview-fig2.png)
+    ![Graph of f(x) = x^2 - 6x + 8](../assets/functions-overview-exercises-fig2.png)
     
 21. **Identifying Asymptotes**:
     
@@ -547,7 +547,7 @@ $$
     - **Vertical Asymptote**: $$x = 2$$ (denominator zero)
     - **Horizontal Asymptote**: $$y = 0$$ (degree of denominator > degree of numerator)
     
-    ![Graph of f(x) = 2/(x-2)](../assets/functions-overview-fig3.png)
+    ![Graph of f(x) = 2/(x-2)](../assets/functions-overview-exercises-fig3.png)
 
 ### 7. Advanced Properties
 
