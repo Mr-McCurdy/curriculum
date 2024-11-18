@@ -261,7 +261,7 @@ $$
 
 ### Inverse Functions
 
-A function $ f $ has an **inverse** $ f^{-1} $ if:
+A function $f$ has an **inverse** $f^{-1}$ if:
 
 $$
 f^{-1}(f(x)) = x \quad \text{and} \quad f(f^{-1}(x)) = x
