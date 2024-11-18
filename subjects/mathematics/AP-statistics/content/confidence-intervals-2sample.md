@@ -48,7 +48,7 @@ Used to estimate the difference between two population proportions ($p_1 - p_2$)
 **Formula:**
 
 $$
-(\hat{p}_1 - \hat{p}_2) \pm \text{t}^*
+(\hat{p}_1 - \hat{p}_2) \pm t^*
 $$
 
 Where:
