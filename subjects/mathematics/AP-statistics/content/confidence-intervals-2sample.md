@@ -48,7 +48,7 @@ Used to estimate the difference between two population proportions ($p\_1 - p\_2
 **Formula:**
 
 $$
-(\hat{p}\_1 - \hat{p}\_2) \pm z^* \times SE\\_{(\hat{p}\\_1 - \hat{p}\\_2)}
+(\hat{p}\_1 - \hat{p}\_2) \pm z^* \times SE\_{(\hat{p}\_1 - \hat{p}\_2)}
 $$
 
 Where:
@@ -74,7 +74,7 @@ Used to estimate the difference between two population means ($\mu\_1 - \mu\_2$)
 Formula:
 
 $$
-(\bar{x}\_1 - \bar{x}\_2) \times SE\\_{\bar{x}\\_1 - \bar{x}\\_2}
+(\bar{x}\_1 - \bar{x}\_2) \times SE\_{\bar{x}\_1 - \bar{x}\_2}
 $$
 
 Where:
