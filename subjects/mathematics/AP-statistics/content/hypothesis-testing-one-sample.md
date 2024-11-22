@@ -614,7 +614,7 @@ By mastering the manual calculation of these tests using z-score and t-score tab
 
 ---
 
-# **Exercises**
+## Exercises
 
 1. **1-Sample t-Test for Population Mean:**
    
