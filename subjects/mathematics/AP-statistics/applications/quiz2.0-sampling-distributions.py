@@ -1,6 +1,3 @@
-!pip install openai
-!pip install python-dotenv
-
 import json
 import os
 import requests
