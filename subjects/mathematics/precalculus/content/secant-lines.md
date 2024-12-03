@@ -126,17 +126,16 @@ Let's find the average rate of change of revenue as sales increase from 10 to 30
    - $b = 30$
 
 2. **Compute $R(a)$ and $R(b)$:**
-   $$
-   \begin{align*}
-   R(10) &= -0.5(10)^2 + 20(10) = -50 + 200 = 150 \\
-   R(30) &= -0.5(30)^2 + 20(30) = -450 + 600 = 150 \\
-   \end{align*}
-   $$
+   
+$$
+\begin{align*}
+R(10) &= -0.5(10)^2 + 20(10) = -50 + 200 = 150 \\
+R(30) &= -0.5(30)^2 + 20(30) = -450 + 600 = 150 \\
+\end{align*}
+$$
 
 3. **Calculate the Average Rate of Change:**
-   $$
-   \text{Average Rate of Change} = \frac{R(30) - R(10)}{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0
-   $$
+   $$\text{Average Rate of Change} = \frac{R(30) - R(10{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0$$
 
 ##### **Understanding the Result**
 
@@ -168,9 +167,9 @@ Let's find how the cost changes on average when production increases from 10 to 
 
 3. **Calculate the Average Rate of Change**:
 
-   $$
-   \text{Average Rate of Change} = \frac{150 - 100}{20 - 10} = \frac{50}{10} = 5 \text{ dollars per unit}
-   $$
+$$
+\text{Average Rate of Change} = \frac{150 - 100}{20 - 10} = \frac{50}{10} = 5 \text{ dollars per unit}
+$$
 
 ##### **Understanding the Result**
 
@@ -208,9 +207,9 @@ Let's find out how the accuracy changes on average between 2 hours and 5 hours o
 
 3. **Calculate the Average Rate of Change**:
 
-   $$
-   \text{Average Rate of Change} = \frac{A(5) - A(2)}{5 - 2} = \frac{100 - 82}{3} = \frac{18}{3} = 6\% \text{ per hour}
-   $$
+$$
+\text{Average Rate of Change} = \frac{A(5) - A(2)}{5 - 2} = \frac{100 - 82}{3} = \frac{18}{3} = 6\% \text{ per hour}
+$$
 
 ##### **Understanding the Result**
 
@@ -244,9 +243,9 @@ Let's find out how the loss decreases on average from iteration 0 to iteration 9
 
 3. **Calculate the Average Rate of Change**:
 
-   $$
-   \text{Average Rate of Change} = \frac{L(9) - L(0)}{9 - 0} = \frac{10 - 100}{9} = \frac{-90}{9} = -10 \text{ per iteration}
-   $$
+$$
+\text{Average Rate of Change} = \frac{L(9) - L(0)}{9 - 0} = \frac{10 - 100}{9} = \frac{-90}{9} = -10 \text{ per iteration}
+$$
 
 ##### **Understanding the Result**
 
@@ -267,16 +266,14 @@ $$
 ##### i. Calculate the average rate of change of profit as sales increase from 5 to 15 units.
 ##### ii. Interpret the result in the context of the firm's profit.
 
----
-
-2. An object's height $h$ (in meters) at time $t$ (in seconds) is described by:
+#### Exercise 1An object's height $h$ (in meters) at time $t$ (in seconds) is described by:
 
 $$
 h(t) = -4.9t^2 + 30t + 2
 $$
 
-i. Find the average velocity between $t = 2$ seconds and $t = 4$ seconds.
-ii. Explain the physical meaning of your result.
+##### i. Find the average velocity between $t = 2$ seconds and $t = 4$ seconds.
+##### ii. Explain the physical meaning of your result.
 
 ---
 
@@ -343,17 +340,18 @@ ii. Explain what this means for processing larger datasets.
 
 i. Calculate $P(5)$ and $P(15)$:
    
-   $$
-   \begin{align*}
-   P(5) &= -(5)^2 + 20(5) - 50 = -25 + 100 - 50 = 25 \\
-   P(15) &= -(15)^2 + 20(15) - 50 = -225 + 300 - 50 = 25 \\
-   \end{align*}
-   $$
+$$
+\begin{align*}
+P(5) &= -(5)^2 + 20(5) - 50 = -25 + 100 - 50 = 25 \\
+P(15) &= -(15)^2 + 20(15) - 50 = -225 + 300 - 50 = 25 \\
+\end{align*}
+$$
 
 **Average Rate of Change:**
-   $$
-   \text{Average Rate of Change} = \frac{25 - 25}{15 - 5} = \frac{0}{10} = 0
-   $$
+   
+$$
+\text{Average Rate of Change} = \frac{25 - 25}{15 - 5} = \frac{0}{10} = 0
+$$
 
 ii. The profit remains constant over this interval, indicating the firm has maximized its profit at some point between 5 and 15 units.
 
@@ -368,43 +366,48 @@ ii. The profit remains constant over this interval, indicating the firm has maxi
    $$
 
 2. **Average Velocity:**
-   $$
-   \text{Average Velocity} = \frac{43.6 - 42.4}{4 - 2} = \frac{1.2}{2} = 0.6 \text{ m/s}
-   $$
+   
+$$
+\text{Average Velocity} = \frac{43.6 - 42.4}{4 - 2} = \frac{1.2}{2} = 0.6 \text{ m/s}
+$$
 
 **Interpretation:** The object ascends slowly between 2 and 4 seconds, with an average upward velocity of 0.6 m/s.
 
 ### **Exercise 3 Answer**
 
 1. **Calculate $D(5)$ and $D(10)$:**
-   $$
-   \begin{align*}
-   D(5) &= \frac{500}{5^2} = \frac{500}{25} = 20 \\
-   D(10) &= \frac{500}{10^2} = \frac{500}{100} = 5 \\
-   \end{align*}
-   $$
+   
+$$
+\begin{align*}
+D(5) &= \frac{500}{5^2} = \frac{500}{25} = 20 \\
+D(10) &= \frac{500}{10^2} = \frac{500}{100} = 5 \\
+\end{align*}
+$$
 
 2. **Average Rate of Change:**
-   $$
-   \text{Average Rate of Change} = \frac{5 - 20}{10 - 5} = \frac{-15}{5} = -3 \text{ units per dollar}
-   $$
+   
+$$
+\text{Average Rate of Change} = \frac{5 - 20}{10 - 5} = \frac{-15}{5} = -3 \text{ units per dollar}
+$$
 
 **Discussion:** Demand decreases by 3 units for each dollar increase in price between $5 and $10.
 
 ### **Exercise 4 Answer**
 
 1. **Compute $a(1)$ and $a(5)$:**
-   $$
-   \begin{align*}
-   a(1) &= 6(1) - 4 = 2 \text{ m/s}^2 \\
-   a(5) &= 6(5) - 4 = 26 \text{ m/s}^2 \\
-   \end{align*}
-   $$
+   
+$$
+\begin{align*}
+a(1) &= 6(1) - 4 = 2 \text{ m/s}^2 \\
+a(5) &= 6(5) - 4 = 26 \text{ m/s}^2 \\
+\end{align*}
+$$
 
 2. **Average Acceleration:**
-   $$
-   \text{Average Acceleration} = \frac{26 - 2}{5 - 1} = \frac{24}{4} = 6 \text{ m/s}^2
-   $$
+   
+$$
+\text{Average Acceleration} = \frac{26 - 2}{5 - 1} = \frac{24}{4} = 6 \text{ m/s}^2
+$$
 
 **Interpretation:** The particle's acceleration increases by an average of 6 m/s\(^2\) each second over the interval.
 
@@ -420,9 +423,9 @@ ii. The profit remains constant over this interval, indicating the firm has maxi
 
    Average rate of change:
 
-   $$
-   \frac{88 - 72}{7 - 3} = \frac{16}{4} = 4\% \text{ per hour}
-   $$
+$$
+\frac{88 - 72}{7 - 3} = \frac{16}{4} = 4\% \text{ per hour}
+$$
 
 2. The model's accuracy increases by 4% each hour between the 3rd and 7th hour.
 
@@ -436,9 +439,9 @@ ii. The profit remains constant over this interval, indicating the firm has maxi
 
    Average rate of change:
 
-   $$
-   \frac{50 - 25}{10 - 5} = \frac{25}{5} = 5 \text{ per iteration}
-   $$
+$$
+\frac{50 - 25}{10 - 5} = \frac{25}{5} = 5 \text{ per iteration}
+$$
 
 2. The loss increases by 5 units with each iteration between iterations 5 and 10, indicating that the model might be overfitting or not learning effectively in this range.
 
@@ -454,6 +457,6 @@ ii. The profit remains constant over this interval, indicating the firm has maxi
 
    Average rate of change:
 
-   $$
-   \frac{241 - 71}{20 - 10} = \frac{170}{10} = 17 \text{ seconds per data point}
-   $$
+$$
+\frac{241 - 71}{20 - 10} = \frac{170}{10} = 17 \text{ seconds per data point}
+$$
