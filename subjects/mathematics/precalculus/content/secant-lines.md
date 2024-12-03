@@ -137,7 +137,7 @@ $$
 3. **Calculate the Average Rate of Change:**
    
 $$
-\text{Average Rate of Change} = \frac{R(30) - R(10{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0
+\text{Average Rate of Change} = \frac{R(30) - R(10)}{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0
 $$
 
 ##### **Understanding the Result**
