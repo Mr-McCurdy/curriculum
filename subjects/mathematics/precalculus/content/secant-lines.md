@@ -60,9 +60,9 @@ Let's find the average velocity of the ball between $t = 2$ seconds and $t = 4$ 
 
 3. **Calculate the Average Rate of Change (Velocity)**:
 
-   $$
-   \text{Average Velocity} = \frac{h(4) - h(2)}{4 - 2} = \frac{21.6 - 80.4}{2} = \frac{-58.8}{2} = -29.4 \text{ m/s}
-   $$
+$$
+\text{Average Velocity} = \frac{h(4) - h(2)}{4 - 2} = \frac{21.6 - 80.4}{2} = \frac{-58.8}{2} = -29.4 \text{ m/s}
+$$
 
 ##### **Understanding the Result**
 
@@ -267,7 +267,7 @@ $$
 
 ---
 
-2. An object's height $ h$ (in meters) at time $t$ (in seconds) is described by:
+2. An object's height $h$ (in meters) at time $t$ (in seconds) is described by:
 
 $$
 h(t) = -4.9t^2 + 30t + 2
