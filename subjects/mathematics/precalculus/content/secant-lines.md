@@ -323,7 +323,7 @@ $$
 
 ---
 
-##### Exercise 6 
+#### Exercise 6 
 
 The loss $L$ after $n$ iterations is:
 
@@ -331,11 +331,10 @@ $$
 L(n) = n^2 - 10n + 50
 $$
 
----
-
 ##### i. Find the average rate of change of the loss from $n = 5$ to $n = 10$.
 ##### ii. Interpret the result.
 
+---
 
 #### Exercise 7
 
