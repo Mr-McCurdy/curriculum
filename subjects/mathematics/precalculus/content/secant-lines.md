@@ -87,17 +87,19 @@ Find the average velocity of the object between $t = 2$ seconds and $t = 5$ seco
    - $b = 5$
 
 2. **Compute $s(a)$ and $s(b)$:**
-   $$
-   \begin{align*}
-   s(2) &= 5(2)^2 - 2(2) + 1 = 20 - 4 + 1 = 17 \\
-   s(5) &= 5(5)^2 - 2(5) + 1 = 125 - 10 + 1 = 116 \\
-   \end{align*}
-   $$
+   
+$$
+\begin{align*}
+s(2) &= 5(2)^2 - 2(2) + 1 = 20 - 4 + 1 = 17 \\
+s(5) &= 5(5)^2 - 2(5) + 1 = 125 - 10 + 1 = 116 \\
+\end{align*}
+$$
 
 3. **Calculate the Average Velocity:**
-   $$
-   \text{Average Velocity} = \frac{s(5) - s(2)}{5 - 2} = \frac{116 - 17}{3} = \frac{99}{3} = 33 \text{ m/s}
-   $$
+   
+$$
+\text{Average Velocity} = \frac{s(5) - s(2)}{5 - 2} =\frac{116 - 17}{3} = \frac{99}{3} = 33 \text{ m/s}
+$$
 
 ##### **Understanding the Result**
 
