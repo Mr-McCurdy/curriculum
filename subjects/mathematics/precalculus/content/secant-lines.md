@@ -266,7 +266,11 @@ $$
 ##### i. Calculate the average rate of change of profit as sales increase from 5 to 15 units.
 ##### ii. Interpret the result in the context of the firm's profit.
 
-#### Exercise 1An object's height $h$ (in meters) at time $t$ (in seconds) is described by:
+---
+
+#### Exercise 2
+
+An object's height $h$ (in meters) at time $t$ (in seconds) is described by:
 
 $$
 h(t) = -4.9t^2 + 30t + 2
@@ -277,66 +281,75 @@ $$
 
 ---
 
-3. The demand $D$ for a product at price $p$ (in dollars) is modeled by:
+#### Exercise 3 
+
+The demand $D$ for a product at price $p$ (in dollars) is modeled by:
 
 $$
 D(p) = \frac{500}{p^2}
 $$
 
-i. Determine the average rate of change of demand as price increases from $5 to $10.
-ii. Discuss how demand changes with price based on your calculation.
+##### i. Determine the average rate of change of demand as price increases from $5 to $10.
+##### ii. Discuss how demand changes with price based on your calculation.
 
 ---
 
-4. The acceleration $a$ (in m/s\(^2\)) of a particle at time $t$ (in seconds) is given by:
+#### Exercise 4
+
+The acceleration $a$ (in m/s\(^2\)) of a particle at time $t$ (in seconds) is given by:
 
 $$
 a(t) = 6t - 4
 $$
 
-i. Compute the average acceleration between $t = 1$ second and $t = 5$ seconds.
-ii. Interpret the result in terms of the particle's motion.
+##### i. Compute the average acceleration between $t = 1$ second and $t = 5$ seconds.
+##### ii. Interpret the result in terms of the particle's motion.
 
 ---
 
-5. A machine learning model's accuracy $A$ (in %) after $t$ hours is:
+#### Exercise 5
+
+A machine learning model's accuracy $A$ (in %) after $t$ hours is:
 
 $$
 A(t) = 4t + 60
 $$
 
-i. Calculate the average rate of change of accuracy from $t = 3$ to $t = 7$.
-ii. What does this rate tell you about the model's performance?
-
+##### i. Calculate the average rate of change of accuracy from $t = 3$ to $t = 7$.
+##### ii. What does this rate tell you about the model's performance?
 
 ---
 
-6. The loss $L$ after $n$ iterations is:
+##### Exercise 6 
+
+The loss $L$ after $n$ iterations is:
 
 $$
 L(n) = n^2 - 10n + 50
 $$
 
 
-i. Find the average rate of change of the loss from $n = 5$ to $n = 10$.
-ii. Interpret the result.
+##### i. Find the average rate of change of the loss from $n = 5$ to $n = 10$.
+##### ii. Interpret the result.
 
 
-7. Suppose the time $T$ (in seconds) it takes to process $n$ data points is:
+#### Exercise 7
+
+Suppose the time $T$ (in seconds) it takes to process $n$ data points is:
 
 $$
 T(n) = 0.5n^2 + 2n + 1
 $$
 
 
-i. Calculate the average rate of change of time from $n = 10$ to $n = 20$.
-ii. Explain what this means for processing larger datasets.
+##### i. Calculate the average rate of change of time from $n = 10$ to $n = 20$.
+##### ii. Explain what this means for processing larger datasets.
 
 ---
 
 ## Solutions
 
-1. 
+#### Exercise 1
 
 i. Calculate $P(5)$ and $P(15)$:
    
@@ -355,7 +368,7 @@ $$
 
 ii. The profit remains constant over this interval, indicating the firm has maximized its profit at some point between 5 and 15 units.
 
-2. 
+#### Exercise 2
 
 1. **Compute $h(2)$ and $h(4)$:**
    $$
