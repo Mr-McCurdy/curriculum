@@ -433,13 +433,11 @@ $$
 \text{Average Acceleration} = \frac{26 - 2}{5 - 1} = \frac{24}{4} = 6 \text{ m/s}^2
 $$
 
-ii. The particle's acceleration increases by an average of 6 m/s\(^2\) each second over the interval.
+ii. The particle's acceleration increases by an average of $6 \text{ m/s}^2$ each second over the interval.
 
 ---
 
 #### Exercise 5
-
-**Solution**:
 
 i. $A(3) = 4(3) + 60 = 72\%$, $A(7) = 4(7) + 60 = 88\%$
 
