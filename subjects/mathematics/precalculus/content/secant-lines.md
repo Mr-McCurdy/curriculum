@@ -331,6 +331,7 @@ $$
 L(n) = n^2 - 10n + 50
 $$
 
+---
 
 ##### i. Find the average rate of change of the loss from $n = 5$ to $n = 10$.
 ##### ii. Interpret the result.
@@ -371,6 +372,8 @@ $$
 
 ii. The profit remains constant over this interval, indicating the firm has maximized its profit at some point between 5 and 15 units.
 
+---
+
 #### Exercise 2
 
 i. Compute $h(2)$ and $h(4)$:
@@ -390,6 +393,8 @@ $$
 
 ii. The object ascends slowly between 2 and 4 seconds, with an average upward velocity of 0.6 m/s.
 
+---
+
 #### Exercise 3
 
 i. Calculate $D(5)$ and $D(10)$:
@@ -408,6 +413,8 @@ $$
 $$
 
 ii. Demand decreases by 3 units for each dollar increase in price between $5 and $10.
+
+---
 
 #### Exercise 4 
 
@@ -443,6 +450,8 @@ $$
 $$
 
 ii. The model's accuracy increases by 4% each hour between the 3rd and 7th hour.
+
+---
 
 #### Exercise 6
 
