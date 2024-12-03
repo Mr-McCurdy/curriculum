@@ -135,7 +135,10 @@ R(30) &= -0.5(30)^2 + 20(30) = -450 + 600 = 150 \\
 $$
 
 3. **Calculate the Average Rate of Change:**
-   $$\text{Average Rate of Change} = \frac{R(30) - R(10{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0$$
+   
+$$
+\text{Average Rate of Change} = \frac{R(30) - R(10{30 - 10} = \frac{150 - 150}{20} = \frac{0}{20} = 0
+$$
 
 ##### **Understanding the Result**
 
@@ -360,7 +363,7 @@ P(15) &= -(15)^2 + 20(15) - 50 = -225 + 300 - 50 = 25 \\
 \end{align*}
 $$
 
-**Average Rate of Change:**
+Calculate average rate of change:
    
 $$
 \text{Average Rate of Change} = \frac{25 - 25}{15 - 5} = \frac{0}{10} = 0
@@ -370,25 +373,26 @@ ii. The profit remains constant over this interval, indicating the firm has maxi
 
 #### Exercise 2
 
-1. **Compute $h(2)$ and $h(4)$:**
-   $$
-   \begin{align*}
-   h(2) &= -4.9(2)^2 + 30(2) + 2 = -19.6 + 60 + 2 = 42.4 \\
-   h(4) &= -4.9(4)^2 + 30(4) + 2 = -78.4 + 120 + 2 = 43.6 \\
-   \end{align*}
-   $$
+i. Compute $h(2)$ and $h(4)$:
+   
+$$
+\begin{align*}
+h(2) &= -4.9(2)^2 + 30(2) + 2 = -19.6 + 60 + 2 = 42.4 \\
+h(4) &= -4.9(4)^2 + 30(4) + 2 = -78.4 + 120 + 2 = 43.6 \\
+\end{align*}
+$$
 
-2. **Average Velocity:**
+Calculate average velocity:
    
 $$
 \text{Average Velocity} = \frac{43.6 - 42.4}{4 - 2} = \frac{1.2}{2} = 0.6 \text{ m/s}
 $$
 
-**Interpretation:** The object ascends slowly between 2 and 4 seconds, with an average upward velocity of 0.6 m/s.
+ii. The object ascends slowly between 2 and 4 seconds, with an average upward velocity of 0.6 m/s.
 
-### **Exercise 3 Answer**
+#### Exercise 3
 
-1. **Calculate $D(5)$ and $D(10)$:**
+i. Calculate $D(5)$ and $D(10)$:
    
 $$
 \begin{align*}
@@ -397,17 +401,17 @@ D(10) &= \frac{500}{10^2} = \frac{500}{100} = 5 \\
 \end{align*}
 $$
 
-2. **Average Rate of Change:**
+Calculate average rate of change:
    
 $$
 \text{Average Rate of Change} = \frac{5 - 20}{10 - 5} = \frac{-15}{5} = -3 \text{ units per dollar}
 $$
 
-**Discussion:** Demand decreases by 3 units for each dollar increase in price between $5 and $10.
+ii. Demand decreases by 3 units for each dollar increase in price between $5 and $10.
 
-### **Exercise 4 Answer**
+#### Exercise 4 
 
-1. **Compute $a(1)$ and $a(5)$:**
+i. Compute $a(1)$ and $a(5)$:
    
 $$
 \begin{align*}
@@ -416,59 +420,49 @@ a(5) &= 6(5) - 4 = 26 \text{ m/s}^2 \\
 \end{align*}
 $$
 
-2. **Average Acceleration:**
+Calculate average acceleration:
    
 $$
 \text{Average Acceleration} = \frac{26 - 2}{5 - 1} = \frac{24}{4} = 6 \text{ m/s}^2
 $$
 
-**Interpretation:** The particle's acceleration increases by an average of 6 m/s\(^2\) each second over the interval.
+ii. The particle's acceleration increases by an average of 6 m/s\(^2\) each second over the interval.
 
 ---
 
-### **Exercise 5 Answer**
+#### Exercise 5
 
 **Solution**:
 
-1. $A(3) = 4(3) + 60 = 72\%$
+i. $A(3) = 4(3) + 60 = 72\%$, $A(7) = 4(7) + 60 = 88\%$
 
-   $A(7) = 4(7) + 60 = 88\%$
-
-   Average rate of change:
+Calculate average rate of change:
 
 $$
 \frac{88 - 72}{7 - 3} = \frac{16}{4} = 4\% \text{ per hour}
 $$
 
-2. The model's accuracy increases by 4% each hour between the 3rd and 7th hour.
+ii. The model's accuracy increases by 4% each hour between the 3rd and 7th hour.
 
-### **Exercise 6 Answer**
+#### Exercise 6
 
-**Solution**:
+i. $L(5) = (5)^2 - 10(5) + 50 = 25 - 50 + 50 = 25$, $L(10) = (10)^2 - 10(10) + 50 = 100 - 100 + 50 = 50$
 
-1. $L(5) = (5)^2 - 10(5) + 50 = 25 - 50 + 50 = 25$
-
-   $L(10) = (10)^2 - 10(10) + 50 = 100 - 100 + 50 = 50$
-
-   Average rate of change:
+Average rate of change:
 
 $$
 \frac{50 - 25}{10 - 5} = \frac{25}{5} = 5 \text{ per iteration}
 $$
 
-2. The loss increases by 5 units with each iteration between iterations 5 and 10, indicating that the model might be overfitting or not learning effectively in this range.
+ii. The loss increases by 5 units with each iteration between iterations 5 and 10, indicating that the model might be overfitting or not learning effectively in this range.
 
 ---
 
-### **Exercise 7 Answer**
+#### Exercise 7
 
-**Solution**:
+i. $T(10) = 0.5(10)^2 + 2(10) + 1 = 50 + 20 + 1 = 71$, $T(20) = 0.5(20)^2 + 2(20) + 1 = 200 + 40 + 1 = 241$
 
-1. $T(10) = 0.5(10)^2 + 2(10) + 1 = 50 + 20 + 1 = 71$
-
-   $T(20) = 0.5(20)^2 + 2(20) + 1 = 200 + 40 + 1 = 241$
-
-   Average rate of change:
+Average rate of change:
 
 $$
 \frac{241 - 71}{20 - 10} = \frac{170}{10} = 17 \text{ seconds per data point}
