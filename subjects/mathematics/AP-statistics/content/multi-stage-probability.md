@@ -11,9 +11,9 @@ Solve the following multi-stage probability problems. Some problems may require 
 
 On a university campus, 60%, 30%, and 10% of the computers use Windows, Apple, and Linux operating systems, respectively. A new virus affects 3% of the Windows, 2% of the Apple, and 1% of the Linux operating systems.
 
-### **a.** What is the probability a computer on this campus has the virus?
+a. What is the probability a computer on this campus has the virus?
 
-### **b.** If a randomly chosen computer on this campus has the virus, what is the probability it is a Windows machine? An Apple machine? A Linux machine?
+b. If a randomly chosen computer on this campus has the virus, what is the probability it is a Windows machine? An Apple machine? A Linux machine?
 
 ---
 
@@ -21,9 +21,9 @@ On a university campus, 60%, 30%, and 10% of the computers use Windows, Apple, a
 
 A factory produces three types of gadgets: Type A, Type B, and Type C. The production distribution is 50% Type A, 30% Type B, and 20% Type C. During quality inspection, it is found that 4% of Type A gadgets are defective, 5% of Type B gadgets are defective, and 2% of Type C gadgets are defective.
 
-### **a.** What is the probability that a randomly selected gadget from the production line is defective?
+a. What is the probability that a randomly selected gadget from the production line is defective?
 
-### **b.** If a randomly selected gadget is defective, what is the probability that it is a Type B gadget?
+b. If a randomly selected gadget is defective, what is the probability that it is a Type B gadget?
 
 ---
 
@@ -33,9 +33,9 @@ In a population, 70% of individuals do not have a certain disease, while 30% do.
 - If a person has the disease, the test correctly identifies it 90% of the time (True Positive).
 - If a person does not have the disease, the test correctly identifies it 80% of the time (True Negative).
 
-### **a.** What is the probability that a randomly selected individual tests positive for the disease?
+a. What is the probability that a randomly selected individual tests positive for the disease?
 
-### **b.** If a randomly selected individual tests positive, what is the probability that they actually have the disease?
+b. If a randomly selected individual tests positive, what is the probability that they actually have the disease?
 
 ---
 
@@ -43,9 +43,9 @@ In a population, 70% of individuals do not have a certain disease, while 30% do.
 
 A company has three departments: Research, Development, and Marketing. The distribution of employees is 40% in Research, 35% in Development, and 25% in Marketing. The probability that an employee is highly skilled is 25% in Research, 40% in Development, and 30% in Marketing.
 
-### **a.** What is the probability that a randomly selected employee is highly skilled?
+a. What is the probability that a randomly selected employee is highly skilled?
 
-### **b.** If a randomly selected employee is found to be highly skilled, what is the probability that they work in the Development department?
+b. If a randomly selected employee is found to be highly skilled, what is the probability that they work in the Development department?
 
 ---
 
@@ -53,9 +53,9 @@ A company has three departments: Research, Development, and Marketing. The distr
 
 An online platform has three types of users: Free, Premium, and Enterprise. The user distribution is 70% Free, 20% Premium, and 10% Enterprise. The platform has implemented new security features, and the probability that a user benefits from these features is 10% for Free users, 50% for Premium users, and 90% for Enterprise users.
 
-### **a.** What is the probability that a randomly selected user benefits from the new security features?
+a. What is the probability that a randomly selected user benefits from the new security features?
 
-### **b.** If a randomly selected user benefits from the new security features, what is the probability that they are an Enterprise user?
+b. If a randomly selected user benefits from the new security features, what is the probability that they are an Enterprise user?
 
 ---
 
